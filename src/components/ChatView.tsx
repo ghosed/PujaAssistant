@@ -62,11 +62,6 @@ const SUGGESTED_PROMPTS = [
     icon: "🔱"
   },
   {
-    label: "Houston Tourist Places",
-    query: "What are some general tourist places in Houston to visit?",
-    icon: "🏙️"
-  },
-  {
     label: "Sandhi & Kumari Puja",
     query: "What time is Sandhi Puja and Kumari Puja on Maha Ashtami? Please be concise.",
     icon: "🪔"
@@ -80,11 +75,6 @@ const SUGGESTED_PROMPTS = [
     label: "Sponsorship & Rates",
     query: "What are the 2026 Puja sponsorship packages and registration amounts? Please list them in a table.",
     icon: "💳"
-  },
-  {
-    label: "Event Gallery Flyers",
-    query: "What other festivals and events are on the Durgabari Event Gallery page, and what are their schedules and flyer details?",
-    icon: "🖼️"
   },
   {
     label: "Vishwakarma & Tarpan",

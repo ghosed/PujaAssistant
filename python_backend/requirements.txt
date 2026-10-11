@@ -1,0 +1,14 @@
+# HDBS 2026 Puja Assistant - Python LangChain & Chroma Stack
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.2.0
+chromadb>=0.5.0
+google-genai>=0.1.0
+langchain-google-genai>=2.0.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+pydantic>=2.7.0
+pillow>=10.0.0
+fastapi>=0.110.0
+uvicorn>=0.28.0
+python-dotenv>=1.0.0

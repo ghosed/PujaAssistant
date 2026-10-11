@@ -1,0 +1,6 @@
+{
+  "name": "HDBS 2026 Puja Assistant",
+  "description": "Grounded RAG event assistant with multimodal image flyer processing for the 2026 Houston Durgabari Society Puja.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

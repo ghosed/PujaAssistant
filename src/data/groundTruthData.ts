@@ -18,130 +18,338 @@ Phone: (281) 530-0304. Official Email: pujacommittee@durgabari.org and president
 Official Website: https://durgabari.org/
 HDBS is a registered 501(c)(3) non-profit socio-cultural and religious sanctuary established in 1999.
 The temple sanctum sanctorum houses Maa Durga along with Lakshmi, Saraswati, Ganesha, and Kartikeya, as well as Bhagavan Shiva, Radha-Krishna, and Sri Ram Darbar.
-The 2026 Sharodotsav (Durga Puja) festivities span October 2026, comprising Til Tarpan on Saturday, October 10, Mahalaya & Anandamela on Sunday, October 11, and the main Durga Puja from Friday, October 16 through Sunday, October 18, 2026.`
+Official Puja Schedule Portal: https://durgabari.org/2026-puja/puja-schedule/`
+  },
+  {
+    title: "Official Sharodotsav 2026 Master Puja Schedule (durgabari.org)",
+    sourceType: "web_page",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    section: "Official Master Puja Schedule",
+    content: `Official Sharodotsav 2026 Puja Schedule from Houston Durga Bari Society (https://durgabari.org/2026-puja/puja-schedule/):
+Note: When any discrepancy exists between older flyers and the official website schedule, preference is strictly given to the dates listed on https://durgabari.org/2026-puja/puja-schedule/.
+
+| Date | Day | Event / Ritual | Official Schedule & Highlights |
+|---|---|---|---|
+| October 10, 2026 | Saturday | **Til Tarpan** | 7:00 AM – 9:30 AM: Ancestral Til Tarpan at Temple Water Pavilion. |
+| October 11, 2026 | Sunday | **Mahalaya & Anandamela** | 9:00 AM: Durga Puja; 10:00 AM: Mahishasur Mardini invocations; 12:00 PM: Pushpanjali, Bhog, Arati; 12:00 PM – 2:00 PM: Anandamela Food Fair. |
+| October 15, 2026 | Thursday | **Maha Shashti (Bodhan)** | 6:00 PM: Bodhan & Arati. |
+| October 16, 2026 | Friday | **Maha Shashti** | 10:30 AM: Maha Shashti Puja; 6:00 PM: Amantran & Adhibas; 7:00 PM: Pushpanjali, Bhog, Sandhya Arati & Cultural Journey. |
+| October 17, 2026 | Saturday | **Maha Saptami** | 9:00 AM: Kalabou Snan (Navapatrika Pravesh); 10:00 AM: Maha Saptami Puja; 12:00 PM: Balidaan; 12:30 PM: Pushpanjali, Bhog & Arati; 7:00 PM: Sandhya Arati & Cultural Presentations. |
+| October 18, 2026 | Sunday | **Maha Ashtami & Maha Sandhi** | 10:00 AM: Maha Ashtami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; **8:56 PM: Maha Sandhi Puja** (108 Lotuses & 108 Pradip). |
+| October 19, 2026 | Monday | **Maha Nabami (Tithi)** | 10:30 AM: Maha Nabami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 7:00 PM: Sandhya Arati. |
+| October 20, 2026 | Tuesday | **Maha Dashami (Tithi)** | **11:00 AM: Puja and Dadhikarma (Tithi rituals).** |
+| October 24, 2026 | Saturday | **Dashami (General) & Bijoya Sammiloni** | **3:30 PM: Aparajita Puja; 4:30 PM: Bhasaan, Sindoor Khela & Devi Boran; 6:30 PM: Dhunuchi Nach; 8:30 PM – 9:30 PM: Subho Bijoya Gala Dinner; 10:00 PM: Miss Jojo Musical Extravaganza.** |
+| October 25, 2026 | Sunday | **Kojagori Lokkhi Puja** | Kojagori Lakshmi Puja rituals and evening Prasad distribution. |
+| November 7 & 8, 2026 | Sat & Sun | **Maha Kali Puja (Shyama Puja)** | Kali Puja rituals, Bolidaan, Pushpanjali, Bhog, Arati, and fireworks. |`
   },
   {
     title: "Til Tarpan (Mahalaya Eve) 2026 Schedule & Rituals",
     sourceType: "web_page",
-    sourceUrl: "https://durgabari.org/2026-puja/",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
     section: "Pre-Puja Schedule",
     content: `Date: Saturday, October 10, 2026
 Event: Til Tarpan (Mahalaya Eve ritual honoring ancestors)
-Timings: 8:00 AM – 11:30 AM
+Timings: 7:00 AM – 9:30 AM (also observed through 11:30 AM)
 Location: Temple Water Pavilion & Sacred Grounds at HDBS, 13944 Schiller Rd.
-Ritual Details: Devotees perform Tarpan guided by temple priests to offer gratitude and peace to departed ancestors before welcoming Maa Durga. Devotees offer black sesame seeds (til), sacred kusha grass, white flowers, and Ganga jal.
+Ritual Details: Devotees perform Tarpan guided by temple priests to offer gratitude and peace to departed ancestors before welcoming Devi Durga. Devotees offer black sesame seeds (til), sacred kusha grass, white flowers, and Ganga jal.
 Samagri: The temple provides essential puja samagri on site. Devotees are encouraged to wear clean traditional Indian attire. Registration is free and open to everyone; voluntary donations for the priests are welcome.`
   },
   {
-    title: "Mahalaya Dawn Invocations & Chandi Path 2026",
+    title: "Mahalaya Dawn Invocations & Anandamela 2026",
     sourceType: "web_page",
-    sourceUrl: "https://durgabari.org/2026-puja/",
-    section: "Mahalaya Morning",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    section: "Mahalaya Morning & Anandamela",
     content: `Date: Sunday, October 11, 2026
-Event: Mahalaya Morning Invocations
-Timings: 6:00 AM – 8:30 AM
-Venue: Main Shrine, Houston Durga Bari Society (13944 Schiller Rd).
-Details:
-- 6:00 AM – 8:00 AM: Sacred live broadcast and recitation of Birendra Krishna Bhadra's immortal 'Mahishasuramardini' musical chants in the temple sanctum.
-- 8:00 AM: Chandi Path chanted by HDBS Vedic priests.
-- 8:30 AM: Morning Arati and floral pushpanjali offering by devotees.
-- 9:00 AM: Morning prasad distribution.
-Devotees gather at dawn to herald Devi's descent to Earth (Agomoni).`
+Event: Mahalaya Morning Invocations & Anandamela
+Timings & Highlights:
+- 09:00 AM: Durga Puja commencement
+- 10:00 AM: Mahishasur Mardini sacred recitation & chanting
+- 12:00 PM: Pushpanjali, Bhog & Arati
+- 12:00 PM – 02:00 PM: Anandamela (Traditional food fair and community stalls)
+Venue: Main Shrine & Temple Grounds, Houston Durga Bari Society (13944 Schiller Rd).
+Devotees gather to herald Devi's descent to Earth (Agomoni).`
   },
   {
-    title: "Anandamela 2026: Grand Bengali Food Festival",
-    sourceType: "flyer_ocr",
-    sourceUrl: "https://durgabari.org/2026-puja/",
-    flyerImagePath: "/flyers/hdbs_2026_anandamela.svg",
-    section: "Anandamela Food Festival",
-    content: `Date: Sunday, October 11, 2026
-Event: Anandamela (The Grand Bengali Culinary & Cultural Fair)
-Timings: 4:00 PM – 10:00 PM
-Venue: HDBS Festival Grounds, 13944 Schiller Rd, Houston, TX 77082.
-Admission: Free entry to all community members and guests.
-Culinary Offerings: Over 25 community food stalls featuring authentic homestyle delicacies:
-- Appetizers & Street Food: Kolkata Style Phuchka & Churmur, Bhetki Fish Fry with Kasundi mustard, Vegetable & Mochar Chop, Kolkata Egg/Chicken Rolls, Singara, Bengali Ghugni.
-- Entrees: Kosha Mangsho with hot Luchi, Mughlai Paratha with Aloo Kasha, Dhokar Dalna, and Basanti Pulao.
-- Traditional Sweets: Earthen pot Mishti Doi, fresh hot Rosogolla, Pantua, Kheer Kadam, artisanal Pati Shapta, and Malpua.
-Food Purchase: Purchased through token booths (digital & cash) and booth credit cards.
-Stall Registration: $150 per food booth (includes 6ft table, 2 chairs, power outlet). Health permit compliance required.`
+    title: "Maha Shashti 2026 Schedule (Oct 15 & Oct 16)",
+    sourceType: "web_page",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    section: "Maha Shashti",
+    content: `Official Maha Shashti Schedule (https://durgabari.org/2026-puja/puja-schedule/):
+- Thursday, October 15, 2026:
+  - 06:00 PM: Bodhan & Arati (Awakening under the sacred Bilva tree)
+- Friday, October 16, 2026:
+  - 10:30 AM: Maha Shashti Puja
+  - 06:00 PM: Amantran & Adhibas
+  - 07:00 PM: Pushpanjali, Bhog & Sandhya Arati
+  - Evening: Cultural Presentation: A Musical Journey`
   },
   {
-    title: "Anandamela 2026 Cultural Evening Program",
-    sourceType: "flyer_ocr",
-    sourceUrl: "https://durgabari.org/2026-puja/",
-    flyerImagePath: "/flyers/hdbs_2026_anandamela.svg",
-    section: "Anandamela Cultural Program",
-    content: `Anandamela Cultural Program Schedule at Sur Auditorium (Sunday, Oct 11, 2026):
-- 04:30 PM: Welcome Address by HDBS President and 2026 Puja Convener.
-- 05:15 PM: Houston Youth Orchestra presents 'Melodies of Bengal'.
-- 06:30 PM: Agomoni Dance Drama 'Mahishasura Mardini' performed by students of HDBS Kala Bhavan.
-- 07:45 PM: Community Chorus singing timeless songs of Rabindranath Tagore and D.L. Roy.
-- 08:45 PM: Folk Band 'Baul & Bhatiyali Fusion' live acoustic performance.
-- 10:00 PM: Anandamela Closing Ceremony and Announcement of the Best Food Stall Award.
-Sur Auditorium seating is first-come, first-served. Admission is free.`
+    title: "Maha Saptami 2026 Schedule (Saturday, Oct 17)",
+    sourceType: "web_page",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    section: "Maha Saptami",
+    content: `Official Maha Saptami Schedule (Saturday, October 17, 2026):
+- 09:00 AM: Kalabou Snan (Navapatrika Pravesh & Snan)
+- 10:00 AM: Maha Saptami Puja
+- 12:00 PM: Balidaan
+- 12:30 PM: Pushpanjali, Bhog & Arati
+- 01:00 PM – 03:00 PM: Anna Bhog Prasad Distribution
+- 07:00 PM: Sandhya Arati with resonant Dhaak drums & Dhunuchi dance
+- Evening: Cultural presentation`
   },
   {
-    title: "Maha Sashthi & Maha Saptami Schedule (Friday, Oct 16, 2026)",
+    title: "Maha Ashtami & Maha Sandhi Puja 2026 Schedule (Sunday, Oct 18)",
+    sourceType: "web_page",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    section: "Maha Ashtami & Maha Sandhi Puja",
+    content: `Official Maha Ashtami & Sandhi Puja Schedule (Sunday, October 18, 2026):
+- 10:00 AM: Maha Ashtami Puja
+- 12:00 PM: Bolidaan
+- 12:30 PM: Pushpanjali, Bhog & Arati
+- 01:00 PM – 03:30 PM: Maha Ashtami Anna Bhog Prasad distribution
+- **08:56 PM: MAHA SANDHI PUJA**. This auspicious juncture connects Ashtami and Nabami, commemorating Devi Chamunda defeating Chanda and Munda. HDBS priests offer 108 lotuses and light 108 consecrated ghee pradip (diyas).
+- Evening: Cultural events and musical performances.`
+  },
+  {
+    title: "Maha Nabami (Tithi) 2026 Schedule (Monday, Oct 19)",
+    sourceType: "web_page",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    section: "Maha Nabami (Tithi)",
+    content: `Official Maha Nabami (Tithi) Schedule (Monday, October 19, 2026):
+- 10:30 AM: Maha Nabami Puja
+- 12:00 PM: Bolidaan
+- 12:30 PM: Pushpanjali, Bhog & Arati
+- 07:00 PM: Sandhya Arati accompanied by Dhaak and Kanshi
+- Evening: Devotional songs and cultural presentations`
+  },
+  {
+    title: "Maha Dashami (Tithi) 2026 Schedule (Tuesday, Oct 20)",
+    sourceType: "web_page",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    section: "Maha Dashami (Tithi)",
+    content: `Official Maha Dashami (Tithi) Schedule (Tuesday, October 20, 2026):
+- **11:00 AM: Puja and Dadhikarma (Official Tithi ritual)**
+Note: In accordance with the official schedule at https://durgabari.org/2026-puja/puja-schedule/, the religious tithi Puja and Dadhikarma for Maha Dashami is observed on **Tuesday, October 20, 2026**, while the community-wide Dashami celebration and Bijoya Sammiloni (including Sindoor Khela, Bhasaan, and concert) is held on **Saturday, October 24, 2026**.`
+  },
+  {
+    title: "Dashami (General) & Bijoya Sammiloni 2026 (Saturday, Oct 24)",
+    sourceType: "web_page",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    section: "Dashami & Bijoya Sammiloni",
+    content: `Official Dashami & Bijoya Sammiloni Schedule (Saturday, October 24, 2026):
+- **03:30 PM: Aparajita Puja**
+- **04:30 PM: Bhasaan, Sindoor Khela & Devi Boran** (Married women offer betel leaves, sweets, and vermilion to Maa Durga, followed by joyous Sindoor Khela with live Dhaak rhythm).
+- **06:30 PM: Dhunuchi Nach**
+- **08:30 PM – 09:30 PM: Subho Bijoya Gala Dinner & Feast**
+- **10:00 PM: Miss Jojo Musical Extravaganza** (Live concert at Sur Auditorium).
+Official Source: https://durgabari.org/2026-puja/puja-schedule/`
+  },
+  {
+    title: "Kojagori Lokkhi Puja & Maha Kali Puja 2026",
+    sourceType: "web_page",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    section: "Post-Durga Puja Festivities",
+    content: `Post-Durga Puja Official Schedule (https://durgabari.org/2026-puja/puja-schedule/):
+- **Sunday, October 25, 2026: Kojagori Lokkhi Puja** (Evening Lakshmi Puja, Pushpanjali, and Prasad distribution)
+- **Saturday & Sunday, November 7 & 8, 2026: Maha Kali Puja (Shyama Puja)**
+  - Bolidaan, Pushpanjali, Bhog, Arati, and Deepabali fireworks celebration.`
+  },
+  {
+    title: "Til Tarpan 2026 Event Flyer (durgabari.org/eventgallery)",
     sourceType: "flyer_ocr",
-    sourceUrl: "https://durgabari.org/2026-puja/",
+    sourceUrl: "https://durgabari.org/eventgallery/til-tarpan-2026/",
+    flyerImagePath: "/flyers/gallery/TilTarpan2026.jpeg",
+    section: "Event Gallery: Til Tarpan",
+    content: `HDBS 2026 Til Tarpan Official Event Gallery Flyer (https://durgabari.org/eventgallery/til-tarpan-2026/):
+- **Event**: Til Tarpan (Ancestral Tarpan Ritual)
+- **Date & Time**: Saturday, October 10, 2026 | 7:00 AM – 9:30 AM
+- **Venue**: Houston Durgabari Society Water Pavilion & Temple, 13944 Schiller Rd
+- **Hosted By**: 2026 Puja Committee
+- **Rituals**: Guided ancestral offering with black sesame seeds (til), sacred kusha grass, white flowers, and Ganga jal. Devotees receive sacred priest blessings.`
+  },
+  {
+    title: "Mahalaya & Anandamela 2026 Event Flyer (durgabari.org/eventgallery)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/eventgallery/mahalaya-2026/",
+    flyerImagePath: "/flyers/gallery/Mahalaya2026.jpeg",
+    section: "Event Gallery: Mahalaya & Anandamela",
+    content: `HDBS 2026 Mahalaya & Anandamela Official Event Gallery Flyer (https://durgabari.org/eventgallery/mahalaya-2026/):
+- **Date & Time**: Sunday, October 11, 2026 | 9:00 AM – 5:00 PM
+- **Venue**: Houston Durgabari Society Temple & Sur Auditorium
+- **Hosted By**: 2026 Puja Committee
+- **Detailed Timetable**:
+  | Time | Event | Location |
+  |---|---|---|
+  | 09:00 AM | Durga Puja | Temple |
+  | 10:00 AM | Mahishasur Mardini (Sacred Invocatory Chanting) | Temple |
+  | 12:00 PM | Pushpanjali, Bhog, Arati | Temple |
+  | 12:00 PM – 2:00 PM | Anandamela – Festive Season Food Fair Begins | Auditorium |
+  | 03:00 PM | Ek Je Chhilo Nayak (Uttam Kumar Retro Cultural Musical) | Auditorium |
+  | 04:30 PM | Thakurbarir Ghore Baire (Traditional Fashion Show) | Auditorium |`
+  },
+  {
+    title: "Vishwakarma Puja 2026 Event Flyer (durgabari.org/eventgallery)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/eventgallery/vishwakarma-puja-2026/",
+    flyerImagePath: "/flyers/gallery/Vishwakarma_Puja_flyer_updated.jpg",
+    section: "Event Gallery: Vishwakarma Puja",
+    content: `HDBS 2026 Vishwakarma Puja Official Event Gallery Flyer (https://durgabari.org/eventgallery/vishwakarma-puja-2026/):
+- **Date & Time**: Sunday, September 20, 2026 | Starts 11:00 AM
+- **Venue**: Houston Durga Bari Society Temple & Greenfield
+- **Hosted By**: HDBS
+- **Puja Sankalpa**: $101
+- **Program Schedule**:
+  | Time | Event | Location |
+  |---|---|---|
+  | 11:00 AM | Sankalpa Puja | Temple |
+  | 12:15 PM | Anjali, Bhog & Arati | Temple |
+  | 01:00 PM | Mahaprasad | Temple |
+  | 02:00 PM | Kite Flying Festival | Greenfield |`
+  },
+  {
+    title: "Janmashtami Puja 2026 Event Flyer (durgabari.org/eventgallery)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/eventgallery/janmashtami-puja/",
+    flyerImagePath: "/flyers/gallery/2026JanmasthamiPuja.jpeg",
+    section: "Event Gallery: Janmashtami Puja",
+    content: `HDBS 2026 Janmashtami Puja Official Event Gallery Flyer (https://durgabari.org/eventgallery/janmashtami-puja/):
+- **Date & Time**: Thursday, September 3, 2026 | 6:00 PM – 8:00 PM
+- **Venue**: Houston Durgabari Society Temple
+- **Hosted By**: HDBS
+- **Puja Sankalpa**: $15
+- **Rituals**: Sri Krishna Janmashtami Abhishekam, Krishna Janma kirtan, Bhog, Arati, and sweet Prasad distribution.`
+  },
+  {
+    title: "Puja Curtain Raiser 2026 (durgabari.org/eventgallery)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/eventgallery/puja-curtain-raiser/",
     flyerImagePath: "/flyers/hdbs_2026_main_schedule.svg",
-    section: "Puja Schedule Day 1",
-    content: `Friday, October 16, 2026: Maha Sashthi & Maha Saptami
-Schedule:
-- 08:00 AM: Bodhan, Amantran & Adhivas (Ritual awakening of Maa Durga under the sacred Bilva tree).
-- 09:30 AM: Navapatrika Pravesh & Snan (Kola Bou Snan ritual at temple pond).
-- 10:30 AM: Maha Saptami Puja begins with solemn Sanskrit chants.
-- 12:00 PM: Maha Saptami Pushpanjali for all devotees (Batch 1 at 12:00 PM, Batch 2 at 12:30 PM).
-- 01:00 PM – 03:00 PM: Anna Bhog Prasad Distribution (Authentic Khichuri, Labra, Beguni, Tomato Chutney, Payesh).
-- 05:30 PM: Sandhya Arati with resonant Dhaak drums and joyous Dhunuchi dance.
-- 07:30 PM: Inaugural Cultural Night in Sur Auditorium featuring classical Sitar recital and youth musical drama 'Agomonir Sur'.
-- 10:00 PM: Shanti Paath and late evening prasad.`
+    section: "Event Gallery: Puja Curtain Raiser",
+    content: `HDBS 2026 Puja Curtain Raiser (https://durgabari.org/eventgallery/puja-curtain-raiser/):
+- **Date & Time**: Sunday, August 9, 2026 | 10:00 AM – 1:00 PM
+- **Venue**: Houston Durgabari Society Auditorium
+- **Hosted By**: 2026 Puja Committee
+- **Purpose**: Community kickoff for Sharodotsav 2026, introducing the theme, volunteer leadership, puja committees, and cultural previews.`
   },
   {
-    title: "Maha Ashtami & Kumari Puja Schedule (Saturday, Oct 17, 2026)",
+    title: "Bipattarini Puja 2026 Event Flyer (durgabari.org/eventgallery)",
     sourceType: "flyer_ocr",
-    sourceUrl: "https://durgabari.org/2026-puja/",
-    flyerImagePath: "/flyers/hdbs_2026_main_schedule.svg",
-    section: "Puja Schedule Day 2 - Morning",
-    content: `Saturday, October 17, 2026: Maha Ashtami Schedule
-- 08:30 AM: Maha Ashtami Puja commencement with Chandi Recitation.
-- 10:30 AM: Maha Ashtami Pushpanjali Batch 1.
-- 11:15 AM: Maha Ashtami Pushpanjali Batch 2.
-- 12:00 PM: Maha Ashtami Pushpanjali Batch 3.
-- 12:15 PM: Kumari Puja (Veneration of a young prepubescent girl as the living embodiment of Devi Durga, adorned in red sari, flowers, and ornaments).
-- 01:00 PM – 03:30 PM: Maha Ashtami Anna Bhog Prasad distribution (Basanti Pulao, Paneer/Chhanar Dalna, Tomato-Khejur Chutney, Rosogolla).
-Digital coupons or sponsor wristbands must be shown at the Anna Bhog pavilion.`
+    sourceUrl: "https://durgabari.org/eventgallery/bipattarini-puja-2026/",
+    flyerImagePath: "/flyers/gallery/2026_Bipattarini-Puja-1.jpeg",
+    section: "Event Gallery: Bipattarini Puja",
+    content: `HDBS 2026 Maa Bipattarini Puja Official Event Gallery Flyer (https://durgabari.org/eventgallery/bipattarini-puja-2026/):
+- **Venue**: Houston Durga Bari Society Temple
+- **Rituals**: Bipattarini Vrata Katha recitation, Red sacred thread (dor) tying ceremony, 13 kinds of fruits and sweets offered to Maa Durga / Bipattarini, Bhog & Arati.`
   },
   {
-    title: "Sandhi Puja & Maha Nabami Schedule (Saturday, Oct 17, 2026)",
+    title: "Saptasati Maha Yagna 2026 Event Flyer (durgabari.org/eventgallery)",
     sourceType: "flyer_ocr",
-    sourceUrl: "https://durgabari.org/2026-puja/",
-    flyerImagePath: "/flyers/hdbs_2026_main_schedule.svg",
-    section: "Puja Schedule Day 2 - Evening",
-    content: `Saturday, October 17, 2026: Sandhi Puja & Maha Nabami Schedule
-- 04:45 PM – 05:33 PM: SANDHI PUJA. This auspicious 48-minute juncture connects the last 24 minutes of Ashtami and the first 24 minutes of Nabami, commemorating Chamunda defeating Chanda and Munda. HDBS priests offer exactly 108 blue lotuses and light 108 consecrated ghee pradip (diyas). Strict silence and devotion observed.
-- 06:00 PM: Maha Nabami Puja and Maha Yajna / Homa (Sacred fire sacrifice with bilva leaves and ghee).
-- 07:00 PM: Grand Evening Arati accompanied by thundering Dhaak and Kanshi.
-- 08:00 PM: Annual Dhunuchi Naach Competition (Categories: Youth, Women, Open/Men).
-- 09:00 PM: Star Musical Night in Sur Auditorium featuring a Kolkata Guest Artiste Concert.
-- 11:00 PM: Community Prasad distribution.`
+    sourceUrl: "https://durgabari.org/eventgallery/saptasati-maha-yagna-2026/",
+    flyerImagePath: "/flyers/gallery/2026-SMY.jpeg",
+    section: "Event Gallery: Saptasati Maha Yagna",
+    content: `HDBS 2026 Sri Sri Chandi Saptasati Maha Yagna Official Event Gallery Flyer (https://durgabari.org/eventgallery/saptasati-maha-yagna-2026/):
+- **Date & Time**: Sunday, March 29, 2026 | 9:00 AM – 1:00 PM
+- **Venue**: Houston Durga Bari - Temple & Sacred Tent
+- **Puja Sponsorship**: $101
+- **Program Timetable**:
+  | Time | Event | Location |
+  |---|---|---|
+  | 09:00 AM | Temple Puja | Temple |
+  | 10:00 AM | Saptasati Maha Chandi Yagna & Anjali | Tent |
+  | 12:00 PM | Bhog & Arati | Temple |
+  | 01:00 PM | Prasad Distribution | Kalabhavan |`
   },
   {
-    title: "Vijaya Dashami & Sindoor Khela Schedule (Sunday, Oct 18, 2026)",
+    title: "Annapurna Puja 2026 Event Flyer (durgabari.org/eventgallery)",
     sourceType: "flyer_ocr",
-    sourceUrl: "https://durgabari.org/2026-puja/",
-    flyerImagePath: "/flyers/hdbs_2026_main_schedule.svg",
-    section: "Puja Schedule Day 3",
-    content: `Sunday, October 18, 2026: Vijaya Dashami Schedule
-- 09:00 AM: Vijaya Dashami Puja begins.
-- 10:00 AM: Darpan Visarjan (Immersing Maa Durga's sacred reflection in a brass water vessel via mirror).
-- 10:30 AM: Aparajita Puja & Shanti Paath.
-- 11:30 AM – 02:00 PM: Devi Boran & Sindoor Khela (Married women offer betel leaves, sweets, and vermilion to Maa Durga, followed by exuberant community Sindoor Khela with live Dhaak rhythm).
-- 01:30 PM: Vijaya Bhog & Mishti Mukh (Distribution of sweets, Nimki, Ghugni, and Laddoo).
-- 03:30 PM: Shanti Jal sprinkling on devotees & Kolakoli (Traditional Bengali embrace and warm greetings).
-- 04:30 PM: Bisarjan Procession & Symbolic Ghat Visarjan ceremony at temple grounds.
-- 06:00 PM: Vijaya Sammelani Cultural Wrap-up & Committee appreciation ceremony.`
+    sourceUrl: "https://durgabari.org/eventgallery/annapurna-puja/",
+    flyerImagePath: "/flyers/gallery/2026-AP.jpeg",
+    section: "Event Gallery: Annapurna Puja",
+    content: `HDBS 2026 Annapurna Puja Official Event Gallery Flyer (https://durgabari.org/eventgallery/annapurna-puja/):
+- **Date & Time**: Sunday, March 22, 2026 | 10:30 AM – 12:30 PM
+- **Venue**: Houston Durga Bari Society Temple
+- **Puja Sponsorship**: $101
+- **Program Timetable**:
+  | Time | Event | Location |
+  |---|---|---|
+  | 10:30 AM | Annapurna Puja & Annakoot | Temple |
+  | 11:45 AM | Pushpanjali | Temple |
+  | 12:00 PM | Bhog & Arati | Temple |`
+  },
+  {
+    title: "Maha Shivaratri 2026 Event Flyer (durgabari.org/eventgallery)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/eventgallery/2026-maha-shivaratri/",
+    flyerImagePath: "/flyers/gallery/Shivratri2026.jpeg",
+    section: "Event Gallery: Maha Shivaratri",
+    content: `HDBS 2026 Maha Shivaratri Official Event Gallery Flyer (https://durgabari.org/eventgallery/2026-maha-shivaratri/):
+- **Date & Time**: Sunday, February 15, 2026 | 9:00 AM – 9:00 PM
+- **Venue**: Houston Durgabari Society Temple
+- **Puja Sponsorship**: Sankalpa + Abhishekam $151; Shiva Abhishekam $31
+- **Schedule**:
+  | Time | Event | Location |
+  |---|---|---|
+  | 09:00 AM – 07:30 PM | Continuous Shiva Abhishekam | Temple |
+  | 06:00 PM | Sankalpa & Shiv Puja | Temple |
+  | 07:30 PM | Anjali, Bhog & Arati | Temple |
+  | 08:30 PM | Wrap-up | Temple |`
+  },
+  {
+    title: "Saraswati Puja 2026 Event Flyer (durgabari.org/eventgallery)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/eventgallery/2026-saraswati-puja/",
+    flyerImagePath: "/flyers/gallery/2026_Saraswati_Puja.jpeg",
+    section: "Event Gallery: Saraswati Puja",
+    content: `HDBS 2026 Saraswati Puja Official Event Gallery Flyer (https://durgabari.org/eventgallery/2026-saraswati-puja/):
+- **Date & Time**: Saturday, January 31, 2026 | 10:00 AM – 10:00 PM
+- **Venue**: Houston Durgabari Society Temple & Sur Auditorium
+- **Program Timetable**:
+  | Time | Event | Location |
+  |---|---|---|
+  | 10:00 AM | Haate Khori & Puja Sankalpa | Temple |
+  | 11:00 AM | Saraswati Puja | Temple |
+  | 12:00 PM | Pushpanjali, Bhog & Arati | Temple |
+  | 01:00 PM | Saraswati Bhog Lunch | Food Tent |
+  | 02:00 PM | Tech Q & Youth Quiz | Auditorium |
+  | 04:30 PM | Saraswati Bandana Musical | Auditorium |
+  | 04:45 PM | Bangla School Presentation | Auditorium |
+  | 06:15 PM | Kolkata Nostalgia Musical Multimedia | Auditorium |
+  | 07:00 PM | Community Dinner | Kalabhavan |`
+  },
+  {
+    title: "Kojagori Laxmi Puja Event Flyer (durgabari.org/eventgallery)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/eventgallery/kojagori-laxmi-puja/",
+    flyerImagePath: "/flyers/gallery/MondayKojagoriLakshmiPuja.jpg",
+    section: "Event Gallery: Kojagori Laxmi Puja",
+    content: `HDBS Kojagori Laxmi Puja Official Event Gallery Flyer (https://durgabari.org/eventgallery/kojagori-laxmi-puja/):
+- **Event**: Kojagori Lakshmi Puja (Full Moon Sharad Purnima Celebration)
+- **Venue**: Houston Durgabari Society Temple
+- **Schedule**:
+  | Time | Event | Location |
+  |---|---|---|
+  | 07:00 PM | Kojagori Laxmi Puja | Temple |
+  | 08:00 PM | Anjali, Bhog, Arati & Prasad Distribution | Temple |`
+  },
+  {
+    title: "Maha Kali Puja Event Flyer (durgabari.org/eventgallery)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/eventgallery/kali-puja-2025/",
+    flyerImagePath: "/flyers/gallery/Kali-Puja-poster.jpg",
+    section: "Event Gallery: Maha Kali Puja",
+    content: `HDBS Maha Kali Puja (Shyama Puja & Deepabali) Official Event Gallery Flyer (https://durgabari.org/eventgallery/kali-puja-2025/):
+- **Venue**: Houston Durga Bari Society Temple & Grounds
+- **Schedule**:
+  | Time | Event | Location |
+  |---|---|---|
+  | 05:30 PM | Puja Sankalpa | Temple |
+  | 06:00 PM | Kali Puja Commencement | Temple |
+  | 06:30 PM – 08:30 PM | Evening Snacks & Chai | Outdoors |
+  | 07:00 PM | Deepabali Fireworks Extravaganza | Outdoors |
+  | 07:30 PM | Balidaan, Anjali, Bhog & Arati | Temple |
+  | 08:30 PM – 09:30 PM | Community Kali Puja Dinner | Food Tent |
+  | 09:30 PM | Bangla Drama (Natok) | Auditorium |
+- **Parking & Shuttles**: Free shuttle buses run between West Oaks Mall and HDBS from 5:00 PM to 1:00 AM.`
   },
   {
     title: "Puja Sponsorship & Donor Packages 2026",
@@ -151,7 +359,7 @@ Digital coupons or sponsor wristbands must be shown at the Anna Bhog pavilion.`
     section: "Sponsorship & Donations",
     content: `Houston Durga Bari Society 2026 Puja Sponsorship Packages (501(c)(3) Tax-Deductible):
 1. Grand Patron — $5,000:
-   - Dedicated Family Puja Sankalpa performed on all days (Saptami, Ashtami, Nabami).
+   - Dedicated Family Puja Sankalpa performed on all days.
    - 2 Reserved VIP On-Campus Parking Passes.
    - 8 Priority Bhog Dining Passes.
    - Prominent inscription in Sharodotsav Souvenir and Stage Screen.
@@ -165,7 +373,7 @@ Digital coupons or sponsor wristbands must be shown at the Anna Bhog pavilion.`
    - 4 Complimentary Anna Bhog meal packets per puja day.
    - Souvenir copy.
 4. Daily Anna Bhog Sponsor — $250:
-   - Sponsors Anna Bhog meal for 200+ devotees on Friday, Saturday, or Sunday.
+   - Sponsors Anna Bhog meal for 200+ devotees.
    - Special sanctum-blessed prasad box.
 5. Pushpanjali & Pranam Token — $51:
    - Family floral offering token and name recitation during morning pushpanjali.
@@ -188,9 +396,10 @@ Continuous complimentary shuttle vans and buses run directly between West Oaks M
 
 | Day & Date | Shuttle Operating Hours | Shuttle Frequency | Pickup Location |
 |---|---|---|---|
-| Friday, Oct 16, 2026 (Sashthi & Saptami) | 10:00 AM – 11:00 PM | Every 10 minutes | West Oaks Mall (Tutti Frutti zone) |
-| Saturday, Oct 17, 2026 (Ashtami & Nabami) | 8:00 AM – 12:00 Midnight | Every 10 minutes | West Oaks Mall (Tutti Frutti zone) |
-| Sunday, Oct 18, 2026 (Vijaya Dashami) | 8:30 AM – 9:00 PM | Every 10 minutes | West Oaks Mall (Tutti Frutti zone) |
+| Friday, Oct 16, 2026 (Sashthi) | 10:00 AM – 11:00 PM | Every 10 minutes | West Oaks Mall (Tutti Frutti zone) |
+| Saturday, Oct 17, 2026 (Saptami) | 8:00 AM – 12:00 Midnight | Every 10 minutes | West Oaks Mall (Tutti Frutti zone) |
+| Sunday, Oct 18, 2026 (Ashtami & Sandhi) | 8:00 AM – 12:00 Midnight | Every 10 minutes | West Oaks Mall (Tutti Frutti zone) |
+| Saturday, Oct 24, 2026 (Dashami & Bijoya) | 2:00 PM – 11:30 PM | Every 10 minutes | West Oaks Mall (Tutti Frutti zone) |
 
 ### 🅿️ On-Campus & Overflow Parking Rules:
 - **On-Campus HDBS Parking (13944 Schiller Rd)**: Strictly limited. Reserved exclusively for seniors (65+), registered Grand Patron/Maha Sponsors with official VIP vehicle dashboard placards, and vehicles displaying State ADA disabled tags.
@@ -210,9 +419,9 @@ Continuous complimentary shuttle vans and buses run directly between West Oaks M
     sourceUrl: "https://durgabari.org/2026-puja/",
     section: "Bhog & Dining",
     content: `HDBS 2026 Anna Bhog Distribution Rules:
-- Bhog is served hot in the air-conditioned Bhog Hall on Friday Oct 16 (1:00 PM - 3:00 PM), Saturday Oct 17 (1:00 PM - 3:30 PM), and Sunday Oct 18 (1:30 PM).
+- Bhog is served hot in the air-conditioned Bhog Hall during festival days.
 - Coupon Requirement: To minimize wait times and overcrowding, all attendees must display either a digital QR code from online pre-registration or a paper wristband/token issued at the Helpdesk.
-- Traditional Menu: Pure vegetarian feast including Bengali Bhoger Khichuri, Labra (mixed seasonal vegetable), Beguni, Chutney, and Payesh. Saturday includes Pulao and Chhanar Dalna.
+- Traditional Menu: Pure vegetarian feast including Bengali Bhoger Khichuri, Labra (mixed seasonal vegetable), Beguni, Chutney, and Payesh.
 - Takeout / To-Go Boxes: Designated express pickup counter for pre-ordered takeout packets.`
   },
   {

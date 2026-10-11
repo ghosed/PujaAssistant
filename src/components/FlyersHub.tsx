@@ -18,6 +18,7 @@ import { FlyerAsset } from '../types/index.ts';
 export const FlyersHub: React.FC = () => {
   const [flyers, setFlyers] = useState<FlyerAsset[]>([]);
   const [selectedFlyer, setSelectedFlyer] = useState<FlyerAsset | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<'all' | 'durga' | 'gallery'>('all');
   const [isUploading, setIsUploading] = useState(false);
   const [uploadError, setUploadError] = useState<string | null>(null);
   const [uploadSuccess, setUploadSuccess] = useState<string | null>(null);
@@ -150,24 +151,78 @@ export const FlyersHub: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* Left Column: Flyer Cards */}
         <div className="lg:col-span-5 space-y-4">
-          <h3 className="text-sm font-semibold uppercase tracking-wider text-stone-700 flex items-center gap-2">
-            <Layers className="w-4 h-4 text-amber-600" />
-            <span>Indexed Event Flyers ({flyers.length})</span>
-          </h3>
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-stone-700 flex items-center gap-2">
+              <Layers className="w-4 h-4 text-amber-600" />
+              <span>Event Flyers ({flyers.length})</span>
+            </h3>
+            <a
+              href="https://durgabari.org/eventgallery/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-amber-800 hover:text-amber-950 flex items-center gap-1 font-semibold underline"
+            >
+              durgabari.org/eventgallery <ExternalLink className="w-3 h-3 text-amber-700" />
+            </a>
+          </div>
+
+          {/* Category Filter Pills */}
+          <div className="flex items-center gap-1.5 p-1 bg-stone-100 rounded-lg text-xs font-medium">
+            <button
+              onClick={() => setSelectedCategory('all')}
+              className={`px-2.5 py-1 rounded-md transition ${
+                selectedCategory === 'all'
+                  ? 'bg-white text-stone-900 shadow-xs font-semibold'
+                  : 'text-stone-600 hover:text-stone-900'
+              }`}
+            >
+              All Flyers ({flyers.length})
+            </button>
+            <button
+              onClick={() => setSelectedCategory('durga')}
+              className={`px-2.5 py-1 rounded-md transition ${
+                selectedCategory === 'durga'
+                  ? 'bg-white text-stone-900 shadow-xs font-semibold'
+                  : 'text-stone-600 hover:text-stone-900'
+              }`}
+            >
+              Sharodotsav 2026
+            </button>
+            <button
+              onClick={() => setSelectedCategory('gallery')}
+              className={`px-2.5 py-1 rounded-md transition ${
+                selectedCategory === 'gallery'
+                  ? 'bg-white text-stone-900 shadow-xs font-semibold'
+                  : 'text-stone-600 hover:text-stone-900'
+              }`}
+            >
+              Event Gallery
+            </button>
+          </div>
 
           <div className="space-y-3">
-            {flyers.map((flyer) => {
-              const isSelected = selectedFlyer?.id === flyer.id;
-              return (
-                <div
-                  key={flyer.id}
-                  onClick={() => setSelectedFlyer(flyer)}
-                  className={`cursor-pointer p-4 rounded-xl border transition-all text-left flex gap-3 ${
-                    isSelected
-                      ? 'bg-amber-50/90 border-amber-400 shadow-sm ring-1 ring-amber-400'
-                      : 'bg-white border-stone-200 hover:border-amber-300 hover:bg-stone-50 shadow-xs'
-                  }`}
-                >
+            {flyers
+              .filter((flyer) => {
+                if (selectedCategory === 'durga') {
+                  return flyer.id === 'flyer-1' || flyer.id === 'flyer-2' || flyer.id === 'flyer-3' || flyer.id === 'flyer-4' || flyer.id === 'flyer-5';
+                }
+                if (selectedCategory === 'gallery') {
+                  return flyer.id.startsWith('flyer-') && parseInt(flyer.id.replace('flyer-', ''), 10) >= 4;
+                }
+                return true;
+              })
+              .map((flyer) => {
+                const isSelected = selectedFlyer?.id === flyer.id;
+                return (
+                  <div
+                    key={flyer.id}
+                    onClick={() => setSelectedFlyer(flyer)}
+                    className={`cursor-pointer p-4 rounded-xl border transition-all text-left flex gap-3 ${
+                      isSelected
+                        ? 'bg-amber-50/90 border-amber-400 shadow-sm ring-1 ring-amber-400'
+                        : 'bg-white border-stone-200 hover:border-amber-300 hover:bg-stone-50 shadow-xs'
+                    }`}
+                  >
                   {/* Thumbnail */}
                   <div className="w-20 h-28 flex-shrink-0 bg-stone-100 rounded-lg border border-stone-200 overflow-hidden flex items-center justify-center p-1">
                     <img

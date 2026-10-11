@@ -24,7 +24,21 @@ import { MarkdownRenderer } from './MarkdownRenderer.tsx';
 
 interface ChatViewProps {
   onOpenCitation: (source: CitationSource) => void;
+  resetTrigger?: number;
+  isAdmin?: boolean;
 }
+
+const formatMessageBody = (text: string, isUser: boolean, isAdmin: boolean) => {
+  if (isUser || isAdmin) return text;
+  // Remove "### 📍 Official Source Citation" or "### Official Source Citation" and everything following it
+  return text.replace(/\n*###\s*(?:📍\s*)?Official Source Citation[\s\S]*$/i, '').trim();
+};
+
+const DEFAULT_WELCOME_MESSAGE = `Joy Maa Durga! Namoskar. 🙏
+
+Welcome to the HDBS 2026 Puja Assistant for Houston Durga Bari Society.
+
+I will be your assistant during the Pujas and answer any queries or provide quick information. Since I'm an AI powered tool, my responses may not be always 100% accurate. Please verify it at [HDBS Website](https://durgabari.org/2026-puja/) or [Facebook](https://www.facebook.com/HoustonDurgaBari/).`;
 
 const SUGGESTED_PROMPTS = [
   {
@@ -66,37 +80,25 @@ const SUGGESTED_PROMPTS = [
     label: "Sponsorship & Rates",
     query: "What are the 2026 Puja sponsorship packages and registration amounts? Please list them in a table.",
     icon: "💳"
+  },
+  {
+    label: "Event Gallery Flyers",
+    query: "What other festivals and events are on the Durgabari Event Gallery page, and what are their schedules and flyer details?",
+    icon: "🖼️"
+  },
+  {
+    label: "Vishwakarma & Tarpan",
+    query: "What are the timings and details for Vishwakarma Puja and Til Tarpan from the event gallery flyers?",
+    icon: "🪁"
   }
 ];
 
-export const ChatView: React.FC<ChatViewProps> = ({ onOpenCitation }) => {
+export const ChatView: React.FC<ChatViewProps> = ({ onOpenCitation, resetTrigger, isAdmin = false }) => {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       id: 'welcome-1',
       sender: 'assistant',
-      text: `**Joy Maa Durga! Namaskar.** 🙏
-
-Welcome to the official **HDBS 2026 Puja Assistant** for **Houston Durga Bari Society** (13944 Schiller Rd, Houston, TX 77082).
-
-I am strictly grounded in the official Houston Durgabari website (https://durgabari.org/2026-puja/) and our **multimodal OCR-indexed event flyers & schedules**. All answers are formatted as concise bullet points or structured tables for easy reading.
-
-### 🗓️ Sharodotsav 2026 Schedule at a Glance:
-
-| Event | Date | Timings | Venue |
-|---|---|---|---|
-| **Til Tarpan** | Saturday, Oct 10, 2026 | 8:00 AM – 11:30 AM | Water Pavilion at HDBS |
-| **Mahalaya Dawns** | Sunday, Oct 11, 2026 | 6:00 AM – 8:30 AM | Main Shrine at HDBS |
-| **Anandamela Food Fair** | Sunday, Oct 11, 2026 | 4:00 PM – 10:00 PM | Festival Grounds & Sur Auditorium |
-| **Maha Saptami** | Friday, Oct 16, 2026 | 8:00 AM – 10:00 PM | HDBS Temple & Sur Auditorium |
-| **Maha Ashtami & Nabami** | Saturday, Oct 17, 2026 | 8:30 AM – 11:00 PM | HDBS Temple & Sur Auditorium |
-| **Vijaya Dashami** | Sunday, Oct 18, 2026 | 9:00 AM – 6:00 PM | Temple Grounds & Pavilion |
-
-### 🚗 Official Offsite Parking Note:
-- Free offsite parking is at **West Oaks Mall** (Hwy 6 & Westheimer Rd, near Tutti Frutti).
-- **NOT** at Alief High School.
-- Complimentary continuous air-conditioned shuttles run every 10 minutes.
-
-How may I assist you with ritual timings, pushpanjali batches, parking shuttles, or sponsorship today?`,
+      text: DEFAULT_WELCOME_MESSAGE,
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       isGrounded: true,
       retrievalConfidence: 100,
@@ -142,7 +144,7 @@ How may I assist you with ritual timings, pushpanjali batches, parking shuttles,
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: textToSend.trim() }),
+        body: JSON.stringify({ message: textToSend.trim(), isAdmin: !!isAdmin }),
       });
 
       if (!response.ok) {
@@ -209,39 +211,27 @@ How may I assist you with ritual timings, pushpanjali batches, parking shuttles,
     setSpeakingId(null);
     setMessages([
       {
-        id: 'welcome-reset',
+        id: `welcome-reset-${Date.now()}`,
         sender: 'assistant',
-        text: `**Joy Maa Durga!** Conversation restarted.\n\nAsk me anything about the **2026 Houston Durgabari Puja**, Til Tarpan, Anandamela, Pushpanjali batches, Kumari Puja, Sandhi Puja, or Sponsorship packages.`,
+        text: DEFAULT_WELCOME_MESSAGE,
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
         isGrounded: true,
+        retrievalConfidence: 100,
       },
     ]);
   };
 
+  useEffect(() => {
+    if (resetTrigger && resetTrigger > 0) {
+      handleResetChat();
+    }
+  }, [resetTrigger]);
+
   return (
-    <div className="flex flex-col h-[calc(100vh-125px)] max-w-5xl mx-auto w-full bg-white rounded-2xl border border-stone-200/90 shadow-xl overflow-hidden my-3">
-      {/* Chat Top Sub-Bar */}
-      <div className="px-4 py-2.5 bg-stone-50 border-b border-stone-200 flex items-center justify-between text-xs text-stone-700">
-        <div className="flex items-center gap-2">
-          <ShieldCheck className="w-4 h-4 text-emerald-600" />
-          <span className="font-semibold text-stone-800">Strict Anti-Hallucination &amp; Grounding Active</span>
-          <span className="text-stone-300">•</span>
-          <span className="hidden sm:inline text-stone-500">Target: durgabari.org/2026-puja/ + Multimodal Flyers</span>
-        </div>
-
-        <button
-          onClick={handleResetChat}
-          className="flex items-center gap-1.5 px-2.5 py-1 text-stone-500 hover:text-stone-800 hover:bg-stone-200/60 rounded-lg transition"
-          title="Restart Conversation"
-        >
-          <RefreshCw className="w-3.5 h-3.5" />
-          <span>Reset</span>
-        </button>
-      </div>
-
+    <div className="flex-1 flex flex-col h-[calc(100dvh-135px)] sm:h-[calc(100dvh-175px)] max-w-5xl mx-auto w-full bg-white rounded-xl sm:rounded-2xl border border-stone-200/90 shadow-md sm:shadow-xl overflow-hidden my-1 sm:my-3 min-h-0">
       {/* Suggested Quick Question Chips */}
-      <div className="px-4 py-2.5 bg-stone-50/70 border-b border-stone-200/80 overflow-x-auto scrollbar-none flex items-center gap-2">
-        <span className="text-[11px] font-bold text-amber-800 uppercase tracking-wider flex-shrink-0 flex items-center gap-1">
+      <div className="px-3 sm:px-4 py-2 sm:py-2.5 bg-stone-50/70 border-b border-stone-200/80 overflow-x-auto scrollbar-none flex items-center gap-1.5 sm:gap-2 shrink-0">
+        <span className="text-[10px] sm:text-[11px] font-bold text-amber-800 uppercase tracking-wider flex-shrink-0 flex items-center gap-1">
           <Sparkles className="w-3 h-3 text-amber-600" /> Quick Inquiries:
         </span>
         {SUGGESTED_PROMPTS.map((item, idx) => (
@@ -249,7 +239,7 @@ How may I assist you with ritual timings, pushpanjali batches, parking shuttles,
             key={idx}
             onClick={() => handleSend(item.query)}
             disabled={isLoading}
-            className="flex-shrink-0 px-2.5 py-1 rounded-full text-xs bg-white hover:bg-amber-50 text-stone-700 hover:text-amber-900 border border-stone-200 hover:border-amber-400 transition-all flex items-center gap-1.5 shadow-xs disabled:opacity-50"
+            className="flex-shrink-0 px-2 sm:px-2.5 py-0.5 sm:py-1 rounded-full text-[11px] sm:text-xs bg-white hover:bg-amber-50 text-stone-700 hover:text-amber-900 border border-stone-200 hover:border-amber-400 transition-all flex items-center gap-1 sm:gap-1.5 shadow-xs disabled:opacity-50"
           >
             <span>{item.icon}</span>
             <span>{item.label}</span>
@@ -258,7 +248,7 @@ How may I assist you with ritual timings, pushpanjali batches, parking shuttles,
       </div>
 
       {/* Message Stream */}
-      <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-6 bg-stone-50/40">
+      <div className="flex-1 overflow-y-auto p-3 sm:p-6 space-y-4 sm:space-y-6 bg-stone-50/40">
         {messages.map((msg) => {
           const isUser = msg.sender === 'user';
           return (
@@ -282,7 +272,7 @@ How may I assist you with ritual timings, pushpanjali batches, parking shuttles,
                     {isUser ? 'You (Devotee)' : 'HDBS Puja Assistant'}
                   </span>
                   <span className="text-[10px] text-stone-400">{msg.timestamp}</span>
-                  {!isUser && msg.isGrounded && (
+                  {isAdmin && !isUser && msg.isGrounded && (
                     <span className="text-[10px] bg-emerald-50 text-emerald-700 border border-emerald-200 px-1.5 py-0.2 rounded-full font-medium">
                       Grounded
                     </span>
@@ -298,10 +288,13 @@ How may I assist you with ritual timings, pushpanjali batches, parking shuttles,
                   }`}
                 >
                   {/* Formatted body with MarkdownRenderer for Tables, Bullets, and Citations */}
-                  <MarkdownRenderer content={msg.text} isUser={isUser} />
+                  <MarkdownRenderer
+                    content={formatMessageBody(msg.text, isUser, isAdmin)}
+                    isUser={isUser}
+                  />
 
-                  {/* Source Citations under Assistant Message */}
-                  {!isUser && msg.sources && msg.sources.length > 0 && (
+                  {/* Source Citations under Assistant Message - ONLY FOR ADMIN */}
+                  {isAdmin && !isUser && msg.sources && msg.sources.length > 0 && (
                     <div className="mt-4 pt-3 border-t border-stone-200">
                       <div className="text-[11px] font-semibold uppercase tracking-wider text-amber-800 mb-2 flex items-center gap-1.5">
                         <FileText className="w-3.5 h-3.5 text-amber-600" /> Verified Sources &amp; Flyers:
@@ -402,7 +395,7 @@ How may I assist you with ritual timings, pushpanjali batches, parking shuttles,
       </div>
 
       {/* Input Area */}
-      <div className="p-3 sm:p-4 bg-white border-t border-stone-200">
+      <div className="p-2 sm:p-3 sm:p-4 bg-white border-t border-stone-200 shrink-0">
         <form
           onSubmit={(e) => {
             e.preventDefault();
@@ -416,20 +409,20 @@ How may I assist you with ritual timings, pushpanjali batches, parking shuttles,
             onChange={(e) => setInput(e.target.value)}
             placeholder="Ask about 2026 Puja dates, Mahalaya, Anandamela, Pushpanjali batches, sponsorship..."
             disabled={isLoading}
-            className="w-full px-4 py-3 bg-stone-50 border border-stone-300 focus:bg-white focus:border-amber-600 focus:ring-1 focus:ring-amber-500 rounded-xl text-stone-900 placeholder-stone-400 text-sm outline-none transition pr-12"
+            className="w-full px-3 sm:px-4 py-2 sm:py-3 bg-stone-50 border border-stone-300 focus:bg-white focus:border-amber-600 focus:ring-1 focus:ring-amber-500 rounded-xl text-stone-900 placeholder-stone-400 text-xs sm:text-sm outline-none transition pr-10 sm:pr-12"
           />
 
           <button
             type="submit"
             disabled={!input.trim() || isLoading}
-            className="absolute right-2 px-3 py-2 bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 hover:brightness-110 disabled:opacity-40 disabled:cursor-not-allowed text-white rounded-lg transition-all flex items-center justify-center shadow"
+            className="absolute right-1.5 sm:right-2 px-2.5 sm:px-3 py-1.5 sm:py-2 bg-gradient-to-r from-amber-600 via-orange-600 to-red-600 hover:brightness-110 disabled:opacity-40 disabled:cursor-not-allowed text-white rounded-lg transition-all flex items-center justify-center shadow"
             title="Send query"
           >
-            <Send className="w-4 h-4" />
+            <Send className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
           </button>
         </form>
 
-        <div className="mt-2 flex items-center justify-between text-[11px] text-stone-500 px-1">
+        <div className="mt-1.5 hidden sm:flex items-center justify-between text-[11px] text-stone-500 px-1">
           <span className="flex items-center gap-1">
             <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block" />
             Houston Durgabari Society Official Grounding Active

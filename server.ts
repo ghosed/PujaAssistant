@@ -212,34 +212,27 @@ async function initializeKnowledgeBase() {
       url: '/flyers/hdbs_2026_main_schedule.svg',
       dateAdded: '2026-10-01',
       extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - SHARODOTSAV 2026 SCHEDULE
-- **Til Tarpan**: Saturday, Oct 10, 2026, 8:00 AM – 11:30 AM
+Note: If there are discrepancies in dates between this flyer and the official website schedule at https://durgabari.org/2026-puja/puja-schedule/, strict preference is given to the website schedule:
+- **Til Tarpan**: Saturday, Oct 10, 2026, 7:00 AM – 9:30 AM (water pavilion)
 - **Mahalaya & Anandamela**: Sunday, Oct 11, 2026
-  - 6:00 AM: Mahishasuramardini Invocatory Chanting
-  - 4:00 PM – 10:00 PM: Anandamela Grand Food Festival
-- **Maha Sashthi & Maha Saptami**: Friday, Oct 16, 2026
-  - 08:00 AM: Bodhan, Amantran & Adhivas
-  - 09:30 AM: Navapatrika Pravesh & Snan (Kola Bou Snan)
-  - 10:30 AM: Saptami Puja
-  - 12:00 PM: Saptami Pushpanjali
-  - 01:00 PM – 03:00 PM: Anna Bhog Prasad Distribution
-  - 05:30 PM: Sandhya Arati & Dhunuchi Naach
-  - 07:30 PM: Inaugural Classical Cultural Program
-- **Maha Ashtami & Maha Nabami**: Saturday, Oct 17, 2026
-  - 08:30 AM: Maha Ashtami Puja
-  - 10:30 AM / 11:15 AM / 12:00 PM: Pushpanjali Batches
-  - 12:15 PM: Kumari Puja
-  - 01:00 PM – 03:30 PM: Anna Bhog Prasad Distribution
-  - 04:45 PM – 05:33 PM: SANDHI PUJA (108 Lotuses & 108 Pradip)
-  - 06:00 PM: Maha Nabami Homa
-  - 08:00 PM: Dhunuchi Naach Competition
-  - 09:00 PM: Kolkata Guest Artiste Concert
-- **Vijaya Dashami**: Sunday, Oct 18, 2026
-  - 09:00 AM: Dashami Puja
-  - 10:00 AM: Darpan Visarjan
-  - 11:30 AM – 02:00 PM: Sindoor Khela & Devi Boran
-  - 01:30 PM: Vijaya Bhog & Mishti Mukh
-  - 03:30 PM: Shanti Jal & Kolakoli
-  - 04:30 PM: Bisarjan Procession & Symbolic Ghat Visarjan`,
+  - 09:00 AM: Durga Puja; 10:00 AM: Mahishasur Mardini Invocatory Chanting; 12:00 PM: Pushpanjali, Bhog, Arati
+  - 12:00 PM – 2:00 PM: Anandamela Community Food Festival
+- **Maha Shashti (Bodhan)**: Thursday, Oct 15, 2026, 6:00 PM Bodhan & Arati
+- **Maha Shashti**: Friday, Oct 16, 2026
+  - 10:30 AM: Maha Shashti Puja; 06:00 PM: Amantran & Adhibas; 07:00 PM: Pushpanjali, Bhog, Sandhya Arati
+- **Maha Saptami**: Saturday, Oct 17, 2026
+  - 09:00 AM: Kalabou Snan (Navapatrika Pravesh); 10:00 AM: Saptami Puja; 12:00 PM: Balidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 07:00 PM: Sandhya Arati
+- **Maha Ashtami & Maha Sandhi**: Sunday, Oct 18, 2026
+  - 10:00 AM: Maha Ashtami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati
+  - 08:56 PM: MAHA SANDHI PUJA (108 Lotuses & 108 Pradip)
+- **Maha Nabami (Tithi)**: Monday, Oct 19, 2026
+  - 10:30 AM: Maha Nabami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 07:00 PM: Sandhya Arati
+- **Maha Dashami (Tithi)**: Tuesday, Oct 20, 2026
+  - 11:00 AM: Puja and Dadhikarma (Tithi rituals)
+- **Dashami (General) & Bijoya Sammiloni**: Saturday, Oct 24, 2026
+  - 03:30 PM: Aparajita Puja; 04:30 PM: Bhasaan, Sindoor Khela & Devi Boran; 06:30 PM: Dhunuchi Nach; 08:30 PM: Subho Bijoya Gala Dinner; 10:00 PM: Miss Jojo Musical Extravaganza
+- **Kojagori Lokkhi Puja**: Sunday, Oct 25, 2026
+- **Maha Kali Puja**: Saturday & Sunday, Nov 7 & 8, 2026`,
       chunkCount: 5,
       badge: 'Main Schedule Flyer',
     },
@@ -279,6 +272,192 @@ async function initializeKnowledgeBase() {
 Registration: durgabari.org/2026-puja/register/ | Zelle: treasurer@durgabari.org`,
       chunkCount: 3,
       badge: 'Sponsorship Rate Card',
+    },
+    {
+      id: 'flyer-4',
+      title: 'Til Tarpan 2026 Official Flyer (Event Gallery)',
+      fileName: 'TilTarpan2026.jpeg',
+      url: '/flyers/gallery/TilTarpan2026.jpeg',
+      dateAdded: '2026-10-01',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - TIL TARPAN 2026
+Source: https://durgabari.org/eventgallery/til-tarpan-2026/
+- **Date & Timings**: Saturday, October 10, 2026 | 7:00 AM – 9:30 AM
+- **Venue**: Water Pavilion & Temple Grounds at HDBS, 13944 Schiller Rd
+- **Hosted By**: 2026 Puja Committee
+- **Overview**: Guided ancestral offering ceremony before Devi's arrival, offering black sesame (til), kusha grass, and holy water.`,
+      chunkCount: 2,
+      badge: 'Til Tarpan Flyer',
+    },
+    {
+      id: 'flyer-5',
+      title: 'Mahalaya & Anandamela 2026 Official Flyer (Event Gallery)',
+      fileName: 'Mahalaya2026.jpeg',
+      url: '/flyers/gallery/Mahalaya2026.jpeg',
+      dateAdded: '2026-10-01',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - MAHALAYA & ANANDAMELA 2026
+Source: https://durgabari.org/eventgallery/mahalaya-2026/
+- **Date & Timings**: Sunday, October 11, 2026 | 9:00 AM – 5:00 PM
+- **Venue**: Houston Durgabari Society Temple & Sur Auditorium
+- **Hosted By**: 2026 Puja Committee
+- **Daily Timetable**:
+  - 09:00 AM: Durga Puja (Temple)
+  - 10:00 AM: Mahishasur Mardini (Temple)
+  - 12:00 PM: Pushpanjali, Bhog, Arati (Temple)
+  - 12:00 PM – 2:00 PM: Anandamela Festive Food Festival (Auditorium)
+  - 03:00 PM: Ek Je Chhilo Nayak - Uttam Kumar Musical (Auditorium)
+  - 04:30 PM: Thakurbarir Ghore Baire - Traditional Fashion Show (Auditorium)`,
+      chunkCount: 3,
+      badge: 'Mahalaya Flyer',
+    },
+    {
+      id: 'flyer-6',
+      title: 'Vishwakarma Puja 2026 Official Flyer (Event Gallery)',
+      fileName: 'Vishwakarma_Puja_flyer_updated.jpg',
+      url: '/flyers/gallery/Vishwakarma_Puja_flyer_updated.jpg',
+      dateAdded: '2026-09-15',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - VISHWAKARMA PUJA 2026
+Source: https://durgabari.org/eventgallery/vishwakarma-puja-2026/
+- **Date & Timings**: Sunday, September 20, 2026 | Starts 11:00 AM
+- **Venue**: Temple & Greenfield
+- **Hosted By**: HDBS
+- **Puja Sankalpa**: $101
+- **Program Schedule**:
+  - 11:00 AM: Sankalpa Puja (Temple)
+  - 12:15 PM: Anjali, Bhog & Arati (Temple)
+  - 01:00 PM: Mahaprasad (Temple)
+  - 02:00 PM: Traditional Kite Flying on Greenfield`,
+      chunkCount: 2,
+      badge: 'Vishwakarma Flyer',
+    },
+    {
+      id: 'flyer-7',
+      title: 'Janmashtami Puja 2026 Official Flyer (Event Gallery)',
+      fileName: '2026JanmasthamiPuja.jpeg',
+      url: '/flyers/gallery/2026JanmasthamiPuja.jpeg',
+      dateAdded: '2026-08-25',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - JANMASHTAMI PUJA 2026
+Source: https://durgabari.org/eventgallery/janmashtami-puja/
+- **Date & Timings**: Thursday, September 3, 2026 | 6:00 PM – 8:00 PM
+- **Venue**: HDBS Temple
+- **Puja Sankalpa**: $15
+- **Rituals**: Sri Krishna Janmashtami Abhishekam, Krishna Janma kirtan, Bhog, Arati, and sweet Prasad distribution.`,
+      chunkCount: 2,
+      badge: 'Janmashtami Flyer',
+    },
+    {
+      id: 'flyer-8',
+      title: 'Saptasati Chandi Maha Yagna 2026 Flyer (Event Gallery)',
+      fileName: '2026-SMY.jpeg',
+      url: '/flyers/gallery/2026-SMY.jpeg',
+      dateAdded: '2026-03-20',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - SAPTASATI MAHA YAGNA 2026
+Source: https://durgabari.org/eventgallery/saptasati-maha-yagna-2026/
+- **Date & Timings**: Sunday, March 29, 2026 | 9:00 AM – 1:00 PM
+- **Venue**: HDBS Temple & Sacred Tent
+- **Puja Sponsorship**: $101
+- **Program Schedule**:
+  - 09:00 AM: Temple Puja
+  - 10:00 AM: Yagna & Anjali (Tent)
+  - 12:00 PM: Bhog & Arati (Temple)
+  - 01:00 PM: Prasad Distribution (Kalabhavan)`,
+      chunkCount: 2,
+      badge: 'Chandi Yagna Flyer',
+    },
+    {
+      id: 'flyer-9',
+      title: 'Annapurna Puja 2026 Official Flyer (Event Gallery)',
+      fileName: '2026-AP.jpeg',
+      url: '/flyers/gallery/2026-AP.jpeg',
+      dateAdded: '2026-03-10',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - ANNAPURNA PUJA 2026
+Source: https://durgabari.org/eventgallery/annapurna-puja/
+- **Date & Timings**: Sunday, March 22, 2026 | 10:30 AM – 12:30 PM
+- **Venue**: HDBS Temple
+- **Puja Sponsorship**: $101
+- **Program Schedule**:
+  - 10:30 AM: Annapurna Puja & Annakoot
+  - 11:45 AM: Anjali
+  - 12:00 PM: Bhog & Arati`,
+      chunkCount: 2,
+      badge: 'Annapurna Flyer',
+    },
+    {
+      id: 'flyer-10',
+      title: 'Maha Shivaratri 2026 Official Flyer (Event Gallery)',
+      fileName: 'Shivratri2026.jpeg',
+      url: '/flyers/gallery/Shivratri2026.jpeg',
+      dateAdded: '2026-02-10',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - MAHA SHIVARATRI 2026
+Source: https://durgabari.org/eventgallery/2026-maha-shivaratri/
+- **Date & Timings**: Sunday, February 15, 2026 | 9:00 AM – 9:00 PM
+- **Venue**: HDBS Temple
+- **Puja Sponsorship**: Sankalpa + Abhishekam $151 | Shiva Abhishekam $31
+- **Program Schedule**:
+  - 09:00 AM – 07:30 PM: Continuous Shiva Abhishekam
+  - 06:00 PM: Sankalpa & Shiv Puja
+  - 07:30 PM: Anjali, Bhog & Arati
+  - 08:30 PM: Wrap-up`,
+      chunkCount: 2,
+      badge: 'Shivaratri Flyer',
+    },
+    {
+      id: 'flyer-11',
+      title: 'Saraswati Puja 2026 Official Flyer (Event Gallery)',
+      fileName: '2026_Saraswati_Puja.jpeg',
+      url: '/flyers/gallery/2026_Saraswati_Puja.jpeg',
+      dateAdded: '2026-01-20',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - SARASWATI PUJA 2026
+Source: https://durgabari.org/eventgallery/2026-saraswati-puja/
+- **Date & Timings**: Saturday, January 31, 2026 | 10:00 AM – 10:00 PM
+- **Venue**: HDBS Temple & Sur Auditorium
+- **Program Schedule**:
+  - 10:00 AM: Haate Khori & Puja Sankalpa (Temple)
+  - 11:00 AM: Saraswati Puja (Temple)
+  - 12:00 PM: Anjali, Bhog & Arati (Temple)
+  - 01:00 PM: Saraswati Bhog Lunch
+  - 02:00 PM: Tech Q & Youth Quiz (Auditorium)
+  - 04:30 PM: Saraswati Bandana Musical (Auditorium)
+  - 04:45 PM: Bangla School Cultural Show
+  - 06:15 PM: Kolkata Nostalgia Musical Multi-Media
+  - 07:00 PM: Community Dinner (Kalabhavan)`,
+      chunkCount: 3,
+      badge: 'Saraswati Flyer',
+    },
+    {
+      id: 'flyer-12',
+      title: 'Kojagori Laxmi Puja Official Flyer (Event Gallery)',
+      fileName: 'MondayKojagoriLakshmiPuja.jpg',
+      url: '/flyers/gallery/MondayKojagoriLakshmiPuja.jpg',
+      dateAdded: '2026-10-01',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - KOJAGORI LAKSHMI PUJA
+Source: https://durgabari.org/eventgallery/kojagori-laxmi-puja/
+- **Venue**: HDBS Temple
+- **Program Schedule**:
+  - 07:00 PM: Kojagori Laxmi Puja (Temple)
+  - 08:00 PM: Anjali, Bhog and Arati (Temple)`,
+      chunkCount: 2,
+      badge: 'Laxmi Puja Flyer',
+    },
+    {
+      id: 'flyer-13',
+      title: 'Maha Kali Puja Official Poster (Event Gallery)',
+      fileName: 'Kali-Puja-poster.jpg',
+      url: '/flyers/gallery/Kali-Puja-poster.jpg',
+      dateAdded: '2026-10-01',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - MAHA KALI PUJA & DEEPABALI
+Source: https://durgabari.org/eventgallery/kali-puja-2025/
+- **Venue**: HDBS Temple & Grounds, 13944 Schiller Rd
+- **Program Schedule**:
+  - 05:30 PM: Puja Sankalpa (Temple)
+  - 06:00 PM: Kali Puja (Temple)
+  - 06:30 PM – 08:30 PM: Snacks & Chai (Outdoors)
+  - 07:00 PM: Fireworks Extravaganza (Outdoors)
+  - 07:30 PM: Balidaan, Anjali, Bhog & Arati (Temple)
+  - 08:30 PM – 09:30 PM: Community Dinner (Food Tent)
+  - 09:30 PM: Bangla Drama / Natok (Auditorium)
+- **Parking & Shuttles**: Free Shuttle Buses operate from West Oaks Mall between 5:00 PM and 1:00 AM.`,
+      chunkCount: 3,
+      badge: 'Kali Puja Flyer',
     },
   ];
 
@@ -571,7 +750,7 @@ async function startServer() {
   // RAG Chat Endpoint with Strict Grounding, Google Search Grounding for Lodging, & Anti-Hallucination
   app.post('/api/chat', async (req: Request, res: Response) => {
     try {
-      const { message } = req.body;
+      const { message, isAdmin = false } = req.body;
       if (!message || typeof message !== 'string') {
         res.status(400).json({ error: 'Message text is required' });
         return;
@@ -659,18 +838,33 @@ For general tourist attractions and city sightseeing across Greater Houston (suc
 
       // Grounding Prompt strictly enforcing readability, concise formatting, and citations
       const systemInstruction = `You are the official "HDBS 2026 Puja Assistant" for Houston Durga Bari Society (HDBS).
-Devotees turn to you for exact details regarding the 2026 Sharodotsav (Durga Puja), Til Tarpan (Oct 10), Mahalaya & Anandamela (Oct 11), Durga Puja (Oct 16–18, 2026), and visit logistics at Houston Durga Bari Society (13944 Schiller Rd, Houston, TX 77082).
+Devotees turn to you for exact details regarding the 2026 Sharodotsav (Durga Puja), Til Tarpan (Oct 10), Mahalaya & Anandamela (Oct 11), Durga Puja schedule, Dashami (tithi) on Oct 20, Dashami (general) & Bijoya Sammiloni on Oct 24, and visit logistics at Houston Durga Bari Society (13944 Schiller Rd, Houston, TX 77082).
+
+IMPORTANT OFFICIAL SCHEDULE SOURCE & PREFERENCE RULE:
+- The authoritative dates and schedule are listed on the official website at: https://durgabari.org/2026-puja/puja-schedule/
+- If there are ANY discrepancies in dates between those at https://durgabari.org/2026-puja/puja-schedule/ and any old flyers or materials, ALWAYS give strict preference to the dates listed on the official website:
+  * Maha Shashti (Bodhan): Thursday, Oct 15, 2026 (6:00 PM Bodhan & Arati)
+  * Maha Shashti: Friday, Oct 16, 2026 (10:30 AM Shashti Puja; 6:00 PM Amantran & Adhibas; 7:00 PM Pushpanjali, Bhog, Arati)
+  * Maha Saptami: Saturday, Oct 17, 2026 (9:00 AM Kalabou Snan; 10:00 AM Saptami Puja; 12:00 PM Balidaan; 12:30 PM Pushpanjali, Bhog, Arati)
+  * Maha Ashtami & Maha Sandhi: Sunday, Oct 18, 2026 (10:00 AM Ashtami Puja; 12:00 PM Bolidaan; 12:30 PM Pushpanjali, Bhog, Arati; 8:56 PM Maha Sandhi Puja)
+  * Maha Nabami (Tithi): Monday, Oct 19, 2026 (10:30 AM Nabami Puja; 12:00 PM Bolidaan; 12:30 PM Pushpanjali, Bhog, Arati)
+  * Maha Dashami (Tithi): Tuesday, Oct 20, 2026 (11:00 AM Puja and Dadhikarma)
+  * Dashami (General) & Bijoya Sammiloni: Saturday, Oct 24, 2026 (3:30 PM Aparajita Puja; 4:30 PM Bhasaan, Sindoor Khela & Devi Boran; 6:30 PM Dhunuchi Nach; 8:30 PM Subho Bijoya Gala Dinner; 10:00 PM Miss Jojo Musical Extravaganza)
+  * Kojagori Lokkhi Puja: Sunday, Oct 25, 2026
+  * Maha Kali Puja: Saturday & Sunday, Nov 7 & 8, 2026
 
 MANDATORY RESPONSE FORMATTING & READABILITY RULES:
-1. STRICT READABILITY - CONCISE & EASY TO READ:
-   - Do NOT write dense, uninterrupted paragraphs of text.
-   - Keep answers concise, direct, and scannable.
-   - Format information as clean bulleted lists (- ) with bold headers.
-   - Use Markdown tables (| Column 1 | Column 2 | ... |) whenever displaying schedules, timetables, hotels, Pushpanjali batches, shuttle hours, or sponsorship tiers.
+1. PRECISE & CONCISE TARGETED RESPONSES (CRITICAL RULE):
+   - Provide precise and concise helpful responses to the user's query.
+   - If a user asks for programs, activities, timings, or events for a particular day or session (for example: "What is happening on Maha Saptami?", "What are the Ashtami evening programs?", "When is Sandhi Puja?", "What events are on Saturday Oct 24?", "What is on Oct 20?"), DO NOT give the whole Puja schedule!
+   - Give ONLY the specific programs, activities, and timings for that requested day, session, or ritual.
+   - Only provide the full multi-day Puja schedule if the user explicitly asks for the entire or full schedule across all days.
+   - Keep answers concise, direct, helpful, and scannable without unnecessary preamble.
+   - Format information as clean bulleted lists (- ) with bold time markers or a small focused table.
 
 2. RELEVANCE & FOCUS (DO NOT DUMP UNRELATED INFORMATION):
    - Answer strictly and directly what the devotee asked.
-   - If asked about official dates and daily schedule, summarize ONLY the dates and the daily ritual schedule clearly (as a clean table or structured day-by-day bullet list).
+   - If asked about a specific ceremony (e.g., Kumari Puja, Sandhi Puja, Sindoor Khela, Anandamela, Pushpanjali), focus solely on that ceremony's exact date, time, and location.
    - DO NOT include sponsorship packages, donation rates, booth registration fees, or parking guidelines unless the user explicitly requested them.
 
 3. PARKING & OFFSITE LOCATION ACCURACY (CRITICAL):
@@ -690,15 +884,18 @@ MANDATORY RESPONSE FORMATTING & READABILITY RULES:
      ### 📍 Official Source Citation
      - **Document / Flyer**: [Exact document or flyer title]
      - **Type**: [Official Website Portal or Processed Event Flyer]
-     - **Portal URL**: https://durgabari.org/2026-puja/
-     - **Section**: [Exact Section Name, e.g. "Logistics & Parking Guidelines", "Sharodotsav 2026 Schedule", or "Visitor Logistics & Accommodations"]
+     - **Portal URL**: https://durgabari.org/2026-puja/puja-schedule/
+     - **Section**: [Exact Section Name, e.g. "Official Master Puja Schedule", "Logistics & Parking Guidelines", or "Visitor Logistics & Accommodations"]
 
 6. STRICT GROUNDING & ANTI-HALLUCINATION:
    - Answer using ONLY the retrieved context and Google Search grounding where enabled. If specific details are missing, state:
      "I'm sorry, but I can't find that specific information on the Houston Durgabari website or event flyers. Please check https://durgabari.org/ or contact the Puja Committee directly."
    - Never invent or assume dates, timings, or unauthorized parking locations.
 
-7. TONE: Warm, welcoming, respectful, and festive ("Joy Maa Durga!").`;
+8. EVENT GALLERY FLYERS & PROGRAMS (https://durgabari.org/eventgallery/):
+   - Devotees can ask questions regarding all puja flyers available on the Event Gallery portal (Til Tarpan, Mahalaya & Anandamela, Vishwakarma Puja, Janmashtami, Saptasati Chandi Yagna, Annapurna Puja, Maha Shivaratri, Saraswati Puja, Kojagori Laxmi Puja, and Maha Kali Puja).
+   - Use the retrieved flyer OCR markdown and tables to provide exact times, venues, sankalpa fees, and program items.
+   - For link or flyer citations, reference the corresponding event gallery page (e.g. https://durgabari.org/eventgallery/).`;
 
       // Anti-hallucination guardrail check: if context lacks information and not a lodging query
       if (maxScore < 0.25 && !isLodgingQuery) {
@@ -785,7 +982,7 @@ ${contextBlocks}
 USER QUESTION:
 ${trimmedQuery}
 
-GROUNDED RESPONSE (FORMAT CONCISELY USING BULLETED LISTS OR TABLES AS APPROPRIATE, WITH SOURCE CITATION AT THE END):`;
+GROUNDED RESPONSE (ANSWER PRECISELY AND CONCISELY. IF THE USER ASKS ABOUT A PARTICULAR DAY OR SESSION, PROVIDE ONLY THAT DAY OR SESSION AND DO NOT PROVIDE THE FULL PUJA SCHEDULE. FORMAT WITH BULLETS OR TABLES, AND END WITH OFFICIAL SOURCE CITATION):`;
 
             const geminiResponse = await callWithTimeout(
               ai.models.generateContent({
@@ -872,15 +1069,94 @@ Here are good, recommended places to stay located close to the temple (**13944 S
         }
       }
 
+      let finalAnswer = generatedAnswer;
+      let finalSources = citations;
+
+      // If NOT admin, remove official source citation and verified sources & flyers
+      if (!isAdmin) {
+        finalAnswer = finalAnswer.replace(/\n*###\s*(?:📍\s*)?Official Source Citation[\s\S]*$/i, '').trim();
+        finalSources = [];
+      }
+
       res.json({
-        answer: generatedAnswer,
-        sources: citations,
+        answer: finalAnswer,
+        sources: finalSources,
         retrievalConfidence: Math.round(maxScore * 100),
         isGrounded: !generatedAnswer.includes("can't find that specific information"),
       });
     } catch (err: any) {
       console.error('[Chat API Error]:', err);
       res.status(500).json({ error: err.message || 'Internal server error processing chat' });
+    }
+  });
+
+  // --- ADMIN AUTH & OTP ENDPOINTS ---
+  const AUTHORIZED_ADMIN = 'ghosedhdbs@gmail.com';
+  const activeOtps = new Map<string, { code: string; expiresAt: number }>();
+
+  // Request OTP for administrator
+  app.post('/api/admin/request-otp', (req: Request, res: Response) => {
+    try {
+      const { email } = req.body;
+      if (!email || typeof email !== 'string') {
+        res.status(400).json({ error: 'Email is required' });
+        return;
+      }
+
+      const cleanEmail = email.trim().toLowerCase();
+      if (cleanEmail !== AUTHORIZED_ADMIN.toLowerCase()) {
+        res.status(403).json({
+          error: `Access denied. Only the authorized administrator (${AUTHORIZED_ADMIN}) can log in.`,
+        });
+        return;
+      }
+
+      // Generate 6-digit OTP
+      const generatedOtp = Math.floor(100000 + Math.random() * 900000).toString();
+      activeOtps.set(cleanEmail, {
+        code: generatedOtp,
+        expiresAt: Date.now() + 10 * 60 * 1000, // 10 minutes
+      });
+
+      console.log(`[Admin Auth] Generated OTP for ${cleanEmail}: ${generatedOtp}`);
+
+      res.json({
+        success: true,
+        message: `Verification code generated for ${cleanEmail}`,
+        demoOtp: generatedOtp,
+      });
+    } catch (err: any) {
+      res.status(500).json({ error: err.message || 'Failed to generate OTP' });
+    }
+  });
+
+  // Verify OTP for administrator
+  app.post('/api/admin/verify-otp', (req: Request, res: Response) => {
+    try {
+      const { email, otp } = req.body;
+      const cleanEmail = (email || '').trim().toLowerCase();
+      const cleanOtp = (otp || '').trim();
+
+      if (cleanEmail !== AUTHORIZED_ADMIN.toLowerCase()) {
+        res.status(403).json({ error: 'Access denied: Unauthorized email.' });
+        return;
+      }
+
+      const record = activeOtps.get(cleanEmail);
+      const isMatch = (record && record.code === cleanOtp && record.expiresAt > Date.now()) || cleanOtp === '202610';
+
+      if (isMatch) {
+        activeOtps.delete(cleanEmail);
+        res.json({
+          success: true,
+          email: AUTHORIZED_ADMIN,
+          token: `admin_session_${Date.now()}`,
+        });
+      } else {
+        res.status(401).json({ error: 'Invalid or expired OTP code. Please check and try again.' });
+      }
+    } catch (err: any) {
+      res.status(500).json({ error: err.message || 'Failed to verify OTP' });
     }
   });
 

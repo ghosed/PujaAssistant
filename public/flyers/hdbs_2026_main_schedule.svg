@@ -33,63 +33,63 @@
   <text x="400" y="202" text-anchor="middle" font-family="'Cinzel', serif, Georgia" font-size="26" font-weight="800" fill="#ffffff" letter-spacing="2">SHARODOTSAV 2026 SCHEDULE</text>
 
   <!-- Event Dates Summary -->
-  <text x="400" y="245" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="600" fill="#fde047">Mahalaya &amp; Anandamela: Oct 11, 2026 | Durga Puja: Oct 16 – 18, 2026</text>
+  <text x="400" y="245" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="600" fill="#fde047">Til Tarpan: Oct 10 | Mahalaya: Oct 11 | Shashti–Dashami: Oct 15–20 | Bijoya Sammiloni: Oct 24</text>
 
   <!-- Section 1: Pre-Puja Card -->
   <g transform="translate(60, 265)">
     <rect width="680" height="135" rx="10" fill="url(#cardGrad)" stroke="#d97706" stroke-width="1.5"/>
     <rect width="680" height="32" rx="10" fill="#9a3412"/>
-    <text x="20" y="22" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">PRE-PUJA RITUALS &amp; FESTIVALS</text>
+    <text x="20" y="22" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">PRE-PUJA RITUALS &amp; FESTIVALS (OCTOBER 10 – 11, 2026)</text>
     
     <text x="20" y="55" font-family="sans-serif" font-size="13" font-weight="700" fill="#991b1b">Saturday, Oct 10, 2026 — TIL TARPAN</text>
-    <text x="20" y="73" font-family="sans-serif" font-size="12" fill="#451a03">8:00 AM – 11:30 AM: Ancestral Tarpan ritual at temple water pavilion. Samagri provided.</text>
+    <text x="20" y="73" font-family="sans-serif" font-size="12" fill="#451a03">7:00 AM – 9:30 AM: Ancestral Tarpan ritual at temple water pavilion. Samagri provided.</text>
 
     <text x="20" y="98" font-family="sans-serif" font-size="13" font-weight="700" fill="#991b1b">Sunday, Oct 11, 2026 — MAHALAYA &amp; ANANDAMELA</text>
-    <text x="20" y="116" font-family="sans-serif" font-size="12" fill="#451a03">6:00 AM: Mahishasuramardini Invocatory Chanting • 4:00 PM – 10:00 PM: Anandamela Grand Food Festival</text>
+    <text x="20" y="116" font-family="sans-serif" font-size="12" fill="#451a03">9:00 AM: Durga Puja • 10:00 AM: Mahishasur Mardini Chanting • 12:00 PM: Pushpanjali, Bhog • 12–2 PM: Anandamela</text>
   </g>
 
   <!-- Section 2: Sashthi & Saptami Card -->
   <g transform="translate(60, 420)">
     <rect width="680" height="135" rx="10" fill="url(#cardGrad)" stroke="#d97706" stroke-width="1.5"/>
     <rect width="680" height="32" rx="10" fill="#b91c1c"/>
-    <text x="20" y="22" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">FRIDAY, OCT 16, 2026 — MAHA SASHTHI &amp; MAHA SAPTAMI</text>
+    <text x="20" y="22" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">MAHA SHASHTHI (OCT 15 &amp; 16) &amp; MAHA SAPTAMI (OCT 17)</text>
     
-    <text x="20" y="55" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">08:00 AM:</tspan> Bodhan, Amantran &amp; Adhivas (Bel-tol invocation)</text>
-    <text x="20" y="75" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">09:30 AM:</tspan> Navapatrika Pravesh &amp; Snan (Kola Bou Snan) • <tspan font-weight="700" fill="#991b1b">10:30 AM:</tspan> Saptami Puja</text>
-    <text x="20" y="95" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">12:00 PM:</tspan> Saptami Pushpanjali • <tspan font-weight="700" fill="#991b1b">01:00 PM – 03:00 PM:</tspan> Anna Bhog Prasad Distribution</text>
-    <text x="20" y="115" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">05:30 PM:</tspan> Sandhya Arati &amp; Dhunuchi Naach • <tspan font-weight="700" fill="#991b1b">07:30 PM:</tspan> Inaugural Classical Cultural Program</text>
+    <text x="20" y="55" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Thursday, Oct 15:</tspan> 6:00 PM Bodhan &amp; Arati (Bel-tol invocation)</text>
+    <text x="20" y="75" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Friday, Oct 16 (Shashti):</tspan> 10:30 AM Shashti Puja • 6:00 PM Amantran &amp; Adhibas • 7:00 PM Pushpanjali &amp; Bhog</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Saturday, Oct 17 (Saptami):</tspan> 9:00 AM Kalabou Snan • 10:00 AM Saptami Puja • 12:00 PM Balidaan</text>
+    <text x="20" y="115" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Saturday afternoon/eve:</tspan> 12:30 PM Pushpanjali, Bhog &amp; Arati • 7:00 PM Sandhya Arati &amp; Cultural Programs</text>
   </g>
 
   <!-- Section 3: Ashtami & Nabami Card -->
   <g transform="translate(60, 575)">
     <rect width="680" height="155" rx="10" fill="url(#cardGrad)" stroke="#d97706" stroke-width="1.5"/>
     <rect width="680" height="32" rx="10" fill="#b91c1c"/>
-    <text x="20" y="22" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">SATURDAY, OCT 17, 2026 — MAHA ASHTAMI &amp; MAHA NABAMI</text>
+    <text x="20" y="22" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">MAHA ASHTAMI (OCT 18) &amp; MAHA NABAMI (OCT 19)</text>
     
-    <text x="20" y="55" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">08:30 AM:</tspan> Maha Ashtami Puja • <tspan font-weight="700" fill="#991b1b">10:30 AM / 11:15 AM / 12:00 PM:</tspan> Ashtami Pushpanjali Batches</text>
-    <text x="20" y="75" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">12:15 PM:</tspan> Kumari Puja (Devi manifestation veneration)</text>
-    <text x="20" y="95" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">01:00 PM – 03:30 PM:</tspan> Maha Bhog Distribution (Khichuri, Labra, Payesh)</text>
-    <text x="20" y="115" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">04:45 PM – 05:33 PM:</tspan> SANDHI PUJA (108 Lotus &amp; 108 Pradip offerings)</text>
-    <text x="20" y="135" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">06:00 PM:</tspan> Nabami Homa • <tspan font-weight="700" fill="#991b1b">08:00 PM:</tspan> Dhunuchi Competition • <tspan font-weight="700" fill="#991b1b">09:00 PM:</tspan> Kolkata Star Concert</text>
+    <text x="20" y="55" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Sunday, Oct 18 (Ashtami):</tspan> 10:00 AM Ashtami Puja • 12:00 PM Bolidaan • 12:30 PM Pushpanjali &amp; Bhog</text>
+    <text x="20" y="75" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Sunday, Oct 18 (Sandhi):</tspan> 8:56 PM MAHA SANDHI PUJA (108 Lotuses &amp; 108 Pradip offerings)</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Monday, Oct 19 (Nabami Tithi):</tspan> 10:30 AM Nabami Puja • 12:00 PM Bolidaan</text>
+    <text x="20" y="115" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Monday afternoon/eve:</tspan> 12:30 PM Pushpanjali, Bhog &amp; Arati • 7:00 PM Sandhya Arati</text>
+    <text x="20" y="135" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Official schedule portal:</tspan> https://durgabari.org/2026-puja/puja-schedule/</text>
   </g>
 
   <!-- Section 4: Dashami Card -->
   <g transform="translate(60, 750)">
     <rect width="680" height="135" rx="10" fill="url(#cardGrad)" stroke="#d97706" stroke-width="1.5"/>
     <rect width="680" height="32" rx="10" fill="#78350f"/>
-    <text x="20" y="22" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">SUNDAY, OCT 18, 2026 — VIJAYA DASHAMI</text>
+    <text x="20" y="22" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">DASHAMI TITHI (OCT 20) &amp; BIJOYA SAMMILONI (OCT 24)</text>
     
-    <text x="20" y="55" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">09:00 AM:</tspan> Vijaya Dashami Puja • <tspan font-weight="700" fill="#991b1b">10:00 AM:</tspan> Darpan Visarjan (Mirror immersion)</text>
-    <text x="20" y="75" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">11:30 AM – 02:00 PM:</tspan> Sindoor Khela &amp; Devi Boran (Celebration with Dhaak &amp; Kanshi)</text>
-    <text x="20" y="95" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">01:30 PM:</tspan> Vijaya Bhog &amp; Mishti Mukh • <tspan font-weight="700" fill="#991b1b">03:30 PM:</tspan> Shanti Jal &amp; Kolakoli (Embrace)</text>
-    <text x="20" y="115" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">04:30 PM:</tspan> Bisarjan Procession &amp; Symbolic Ghat Visarjan ceremony</text>
+    <text x="20" y="55" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Tuesday, Oct 20 (Dashami Tithi):</tspan> 11:00 AM Puja and Dadhikarma (Official Tithi ritual)</text>
+    <text x="20" y="75" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Saturday, Oct 24 (Bijoya Festival):</tspan> 3:30 PM Aparajita Puja • 4:30 PM Bhasaan, Sindoor Khela &amp; Boran</text>
+    <text x="20" y="95" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">Saturday Cultural Gala:</tspan> 6:30 PM Dhunuchi Nach • 8:30 PM Subho Bijoya Gala Dinner</text>
+    <text x="20" y="115" font-family="sans-serif" font-size="12" fill="#451a03"><tspan font-weight="700" fill="#991b1b">10:00 PM Concert:</tspan> Miss Jojo Live Musical Extravaganza at Sur Auditorium</text>
   </g>
 
   <!-- Footer Banner -->
   <rect x="60" y="905" width="680" height="120" rx="10" fill="#1c1917" stroke="#ca8a04" stroke-width="1.5"/>
   <text x="400" y="935" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#fef08a">IMPORTANT LOGISTICS &amp; GUIDELINES</text>
   <text x="80" y="960" font-family="sans-serif" font-size="12" fill="#e7e5e4">• PARKING: On-site (seniors/sponsors/ADA) + West Oaks Mall overflow lot with free shuttles every 10 min.</text>
-  <text x="80" y="980" font-family="sans-serif" font-size="12" fill="#e7e5e4">• BHOG PASSES: Online registration required at durgabari.org/2026-puja/ for seating batch tokens.</text>
+  <text x="80" y="980" font-family="sans-serif" font-size="12" fill="#e7e5e4">• OFFICIAL SCHEDULE: durgabari.org/2026-puja/puja-schedule/ (takes precedence over any older flyers).</text>
   <text x="80" y="1000" font-family="sans-serif" font-size="12" fill="#e7e5e4">• CONTACT: Houston Durga Bari Society, 13944 Schiller Rd • pujacommittee@durgabari.org • (281) 530-0304</text>
 
   <text x="400" y="1065" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fde047">Houston Durga Bari Society is a 501(c)(3) Non-Profit Organization. All donations tax-deductible.</text>

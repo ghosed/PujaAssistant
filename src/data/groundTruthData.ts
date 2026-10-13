@@ -14,7 +14,7 @@ export const GROUND_TRUTH_SEEDS: GroundTruthSeed[] = [
     sourceUrl: "https://durgabari.org/",
     section: "General Information",
     content: `Houston Durga Bari Society (HDBS) is located at 13944 Schiller Road, Houston, TX 77082.
-Phone: (281) 530-0304. Official Email: pujacommittee@durgabari.org and president@durgabari.org.
+Phone: (281) 530-0304. Official Email: pc@durgabari.org and president@durgabari.org.
 Official Website: https://durgabari.org/
 HDBS is a registered 501(c)(3) non-profit socio-cultural and religious sanctuary established in 1999.
 The temple sanctum sanctorum houses Maa Durga along with Lakshmi, Saraswati, Ganesha, and Kartikeya, as well as Bhagavan Shiva, Radha-Krishna, and Sri Ram Darbar.

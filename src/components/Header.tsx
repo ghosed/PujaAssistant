@@ -45,7 +45,7 @@ export const Header: React.FC<HeaderProps> = ({
   if (!isAdmin) {
     return (
       <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md text-stone-800 shadow-xs border-b border-stone-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 sm:py-2.5 flex items-center justify-between">
           {/* Exactly matching image */}
           <div className="flex items-center gap-3.5">
             <div className="relative flex-shrink-0 w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-amber-500 via-orange-500 to-red-600 p-0.5 shadow-sm flex items-center justify-center">
@@ -63,8 +63,8 @@ export const Header: React.FC<HeaderProps> = ({
                 HDBS 2026 Puja Assistant
               </h1>
               <p className="text-xs text-stone-600 flex items-center gap-1.5 mt-0.5">
-                <MapPin className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
-                <span>13944 Schiller Rd, Houston, TX</span>
+                <Calendar className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
+                <span>Durga Puja: Oct 16 - 18 & 24, 2026</span>
               </p>
             </div>
           </div>
@@ -140,8 +140,8 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </div>
             <p className="text-[11px] sm:text-xs text-stone-600 flex items-center gap-1.5 mt-0.5">
-              <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-600 flex-shrink-0" />
-              <span>13944 Schiller Rd, Houston, TX</span>
+              <Calendar className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-600 flex-shrink-0" />
+              <span>Durga Puja: Oct 16 - 18 & 24, 2026</span>
             </p>
           </div>
         </div>

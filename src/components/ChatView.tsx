@@ -218,9 +218,9 @@ export const ChatView: React.FC<ChatViewProps> = ({ onOpenCitation, resetTrigger
   }, [resetTrigger]);
 
   return (
-    <div className="flex-1 flex flex-col h-[calc(100dvh-135px)] sm:h-[calc(100dvh-175px)] max-w-5xl mx-auto w-full bg-white rounded-xl sm:rounded-2xl border border-stone-200/90 shadow-md sm:shadow-xl overflow-hidden my-1 sm:my-3 min-h-0">
+    <div className="flex-1 flex flex-col h-[calc(100dvh-125px)] sm:h-[calc(100dvh-155px)] max-w-5xl mx-auto w-full bg-white rounded-xl sm:rounded-2xl border border-stone-200/90 shadow-md sm:shadow-xl overflow-hidden my-1 sm:my-1.5 min-h-0">
       {/* Suggested Quick Question Chips */}
-      <div className="px-3 sm:px-4 py-2 sm:py-2.5 bg-stone-50/70 border-b border-stone-200/80 overflow-x-auto scrollbar-none flex items-center gap-1.5 sm:gap-2 shrink-0">
+      <div className="px-3 sm:px-4 py-1.5 sm:py-2 bg-stone-50/70 border-b border-stone-200/80 overflow-x-auto scrollbar-none flex items-center gap-1.5 sm:gap-2 shrink-0">
         <span className="text-[10px] sm:text-[11px] font-bold text-amber-800 uppercase tracking-wider flex-shrink-0 flex items-center gap-1">
           <Sparkles className="w-3 h-3 text-amber-600" /> Quick Inquiries:
         </span>
@@ -238,7 +238,7 @@ export const ChatView: React.FC<ChatViewProps> = ({ onOpenCitation, resetTrigger
       </div>
 
       {/* Message Stream */}
-      <div className="flex-1 overflow-y-auto p-3 sm:p-6 space-y-4 sm:space-y-6 bg-stone-50/40">
+      <div className="flex-1 overflow-y-auto p-2.5 sm:p-4 space-y-3 sm:space-y-4 bg-stone-50/40">
         {messages.map((msg) => {
           const isUser = msg.sender === 'user';
           return (

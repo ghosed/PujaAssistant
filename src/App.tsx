@@ -120,7 +120,7 @@ export default function App() {
               Houston Durga Bari Society (HDBS) • 13944 Schiller Rd, Houston, TX 77082
             </p>
             <p className="text-stone-500 text-[11px]">
-              HDBS is a 501(c)(3) religious non-profit organization. General inquiries: (281) 530-0304 • pujacommittee@durgabari.org
+              HDBS is a 501(c)(3) religious non-profit organization. General inquiries: <a href="mailto:pc@durgabari.org" className="hover:underline text-stone-600 font-medium">pc@durgabari.org</a>
             </p>
           </div>
 

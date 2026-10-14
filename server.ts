@@ -212,27 +212,50 @@ async function initializeKnowledgeBase() {
       url: '/flyers/hdbs_2026_main_schedule.svg',
       dateAdded: '2026-10-01',
       extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - SHARODOTSAV 2026 SCHEDULE
-Note: If there are discrepancies in dates between this flyer and the official website schedule at https://durgabari.org/2026-puja/puja-schedule/, strict preference is given to the website schedule:
-- **Til Tarpan**: Saturday, Oct 10, 2026, 7:00 AM – 9:30 AM (water pavilion)
-- **Mahalaya & Anandamela**: Sunday, Oct 11, 2026
-  - 09:00 AM: Durga Puja; 10:00 AM: Mahishasur Mardini Invocatory Chanting; 12:00 PM: Pushpanjali, Bhog, Arati
-  - 12:00 PM – 2:00 PM: Anandamela Community Food Festival
-- **Maha Shashti (Bodhan)**: Thursday, Oct 15, 2026, 6:00 PM Bodhan & Arati
-- **Maha Shashti**: Friday, Oct 16, 2026
-  - 10:30 AM: Maha Shashti Puja; 06:00 PM: Amantran & Adhibas; 07:00 PM: Pushpanjali, Bhog, Sandhya Arati
-- **Maha Saptami**: Saturday, Oct 17, 2026
-  - 09:00 AM: Kalabou Snan (Navapatrika Pravesh); 10:00 AM: Saptami Puja; 12:00 PM: Balidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 07:00 PM: Sandhya Arati
-- **Maha Ashtami & Maha Sandhi**: Sunday, Oct 18, 2026
-  - 10:00 AM: Maha Ashtami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati
-  - 08:56 PM: MAHA SANDHI PUJA (108 Lotuses & 108 Pradip)
-- **Maha Nabami (Tithi)**: Monday, Oct 19, 2026
-  - 10:30 AM: Maha Nabami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 07:00 PM: Sandhya Arati
-- **Maha Dashami (Tithi)**: Tuesday, Oct 20, 2026
-  - 11:00 AM: Puja and Dadhikarma (Tithi rituals)
-- **Dashami (General) & Bijoya Sammiloni**: Saturday, Oct 24, 2026
-  - 03:30 PM: Aparajita Puja; 04:30 PM: Bhasaan, Sindoor Khela & Devi Boran; 06:30 PM: Dhunuchi Nach; 08:30 PM: Subho Bijoya Gala Dinner; 10:00 PM: Miss Jojo Musical Extravaganza
-- **Kojagori Lokkhi Puja**: Sunday, Oct 25, 2026
-- **Maha Kali Puja**: Saturday & Sunday, Nov 7 & 8, 2026`,
+Source: Official Schedule Portal at https://durgabari.org/2026-puja/puja-schedule/
+
+Table has two distinct columns: "Puja Timings" (rituals, Pushpanjali, Bhog, Arati) and "Program Details" (cultural events, community programs, Lunch & Dinner):
+
+- **Til Tarpan**: Saturday, Oct 10, 2026:
+  - Puja Timings: 7:00 AM – 9:30 AM: Til Tarpan (water pavilion)
+  - Program Details: —
+- **Mahalaya & Anandamela**: Sunday, Oct 11, 2026:
+  - Puja Timings: 09:00 AM: Durga Puja; 10:00 AM: Mahishasur Mardini; 12:00 PM: Pushpanjali, Bhog, Arati
+  - Program Details: 12:00 PM – 2:00 PM: Food Fest; 3:00 PM: Ek Je Chhilo Nayak; 4:30 PM: Thakurbarir Ghore Baire (Fashion Show)
+- **Maha Shashti (Bodhan)**: Thursday, Oct 15, 2026:
+  - Puja Timings: 6:00 PM: Bodhan & Arati
+  - Program Details: —
+- **Maha Shashti**: Friday, Oct 16, 2026:
+  - Puja Timings: 10:30 AM: Maha Shashti Puja; 06:00 PM: Amantran & Adhibas; 07:00 PM: Pushpanjali, Bhog, Sandhya Arati
+  - Program Details: 6:30 PM: Musical journey along Silk Route; 7:30 PM: Udbodhan / Parikrama; **8:30 PM – 9:30 PM: Dinner – Culinary Celebration**; 10:00 PM: Musical nite
+  - *Lunch*: No lunch scheduled in Program Details
+- **Maha Saptami**: Saturday, Oct 17, 2026:
+  - Puja Timings: 09:00 AM: Kalabou Snan; 10:00 AM: Saptami Puja; 12:00 PM: Balidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 07:00 PM: Sandhya Arati
+  - Program Details: **1:00 PM – 2:00 PM: Lunch: Bengali cuisine treat**; 6:30 PM: Wedding traditions show; **8:30 PM – 9:30 PM: Dinner: Gastronomic experience**; 10:00 PM: Musical melodies
+- **Maha Ashtami & Maha Sandhi**: Sunday, Oct 18, 2026:
+  - Puja Timings: 10:00 AM: Maha Ashtami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 6:00 PM: Sandhya Arati; **8:56 PM: MAHA SANDHI PUJA** (108 Lotuses & 108 Pradip)
+  - Program Details: **1:00 PM – 2:00 PM: Lunch: Maha Ashtami traditions on your plate**; 2:45 PM: Youth Orchestra; 3:30 PM: Homage to 5 Bards; 4:30 PM: Seniors' Reminiscence; **8:30 PM – 9:30 PM: Dinner: Puja feast continues next weekend**
+- **Maha Nabami (Tithi)**: Monday, Oct 19, 2026:
+  - Puja Timings: 10:30 AM: Maha Nabami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 07:00 PM: Sandhya Arati
+  - Program Details: —
+- **Maha Dashami (Tithi)**: Tuesday, Oct 20, 2026:
+  - Puja Timings: 11:00 AM: Puja and Dadhikarma (Tithi rituals)
+  - Program Details: —
+- **Dashami (General) & Bijoya Sammiloni**: Saturday, Oct 24, 2026:
+  - Puja Timings: 03:30 PM: Aparajita Puja; 04:30 PM: Bhasaan, Sindoor Khela & Devi Boran
+  - Program Details: 6:30 PM: Dhunuchi Nach; **8:30 PM – 9:30 PM: Dinner: Subho Bijoya gala dinner**; 10:00 PM: Miss Jojo Musical Extravaganza
+  - *Lunch*: No lunch scheduled in Program Details
+- **Kojagori Lokkhi Puja**: Sunday, Oct 25, 2026:
+  - Puja Timings: 6:00 PM: Kojagari Lokkhi Puja, Pushpanjali, Bhog, Arati; 7:30 PM: Prasad
+- **Pre Kali Puja**: Saturday, Nov 7, 2026:
+  - Puja Timings: 7:00 PM: Sandhya Arati; 7:30 PM: Fireworks
+  - Program Details: 6:00 PM: Muktomela; **8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj**; 9:30 PM: Drama
+- **Kali (Shyama) Puja**: Sunday, Nov 8, 2026:
+  - Puja Timings: 6:30 PM: Kali Puja, Bolidaan; 7:30 PM: Pushpanjali, Bhog, Arati
+  - Program Details: **8:30 PM – 9:30 PM: Dinner: Puja Savory**
+- **Saraswati Puja**: Saturday, Feb 13, 2027:
+  - Puja Timings: 10:00 AM: Haate Khori; 11:00 AM: Puja; 12:30 PM: Pushpanjali, Bhog, Arati; 6:30 PM: Sandhya Arati
+  - Program Details: **1:00 PM: Lunch – Traditional Puja Lunch**; **8:00 PM – 9:00 PM: Dinner**`,
       chunkCount: 5,
       badge: 'Main Schedule Flyer',
     },
@@ -258,20 +281,92 @@ Note: If there are discrepancies in dates between this flyer and the official we
     },
     {
       id: 'flyer-3',
-      title: 'HDBS 2026 Puja Sponsorship & Registration Rate Card',
-      fileName: 'hdbs_2026_sponsorship.svg',
-      url: '/flyers/hdbs_2026_sponsorship.svg',
-      dateAdded: '2026-10-01',
-      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - 2026 PUJA SPONSORSHIP PACKAGES
-501(c)(3) Tax-Exempt Non-Profit Organization.
-- **Grand Patron ($5,000)**: Family Sankalpa all 5 days, 2 VIP Parking Passes, 8 Priority Bhog Dining Passes, Souvenir acknowledgment.
-- **Maha Sponsor ($2,500)**: Family Sankalpa for Ashtami & Sandhi Puja, 1 VIP Parking Pass, 6 Priority Bhog Passes, full-page souvenir ad.
-- **Family Puja Sponsor ($500)**: Pushpanjali Sankalpa with gotra, 4 daily Anna Bhog packets, souvenir copy.
-- **Daily Anna Bhog Sponsor ($250)**: Sponsors Bhog for 200+ devotees, blessed sanctum prasad packet.
-- **Pushpanjali & Pranam ($51)**: Individual & Family floral offering token.
-Registration: durgabari.org/2026-puja/register/ | Zelle: treasurer@durgabari.org`,
+      title: 'HDBS 2026 Puja Passes & Day Passes Official Flyer',
+      fileName: 'PujaPasses2026.jpeg',
+      url: '/flyers/PujaPasses2026.jpeg',
+      dateAdded: '2026-10-10',
+      extractedMarkdown: `### HDBS 2026 PUJA PASSES & DAY PASSES POLICY
+Source: Official Registration Portal at https://durgabari.org/2026-puja/registration/ (Flyer: PujaPasses2026.jpeg)
+
+LIMITED PASSES AVAILABLE.
+To apply, visit: Puja Registration & Donation > Special Processing > Day Passes
+
+Rate Table (Family / Individual Rates):
+- Greater Houston Residents:
+  * Fri Oct 16 (Evening): NOT OFFERED
+  * Sat Oct 17 (Full Day): NOT OFFERED
+  * Sat Oct 17 (Evening): NOT OFFERED
+  * Sun Oct 18 (Full Day): $130 / $65
+  * Sat Oct 24 (Evening): NOT OFFERED
+- Out of Towners (Online address validation required):
+  * Fri Oct 16 (Evening): $200 / $100
+  * Sat Oct 17 (Full Day): $260 / $130
+  * Sat Oct 17 (Evening): $240 / $120
+  * Sun Oct 18 (Full Day): $130 / $65
+  * Sat Oct 24 (Evening): $260 / $130
+
+Notes & Guidelines:
+- Passes provide access to all cultural programs including external artists.
+- Day Pass includes lunch and dinner. For Evening Pass, dinner only.
+- No onsite parking available for Day/Evening Pass holders. Registrants can use the free shuttle bus service from West Oaks Mall or Uber/Lyft.
+- Visiting temple sanctuary for Maa Durga's darshan, floral Pushpanjali, and witnessing Arati is completely FREE and open to all devotees without passes or tickets.
+- Full Registration continues both Onsite and Online.
+- Email: registration@durgabari.org | Phone: 713-808-5286 (Anindita), 346-257-1068 (Sampurna)`,
       chunkCount: 3,
-      badge: 'Sponsorship Rate Card',
+      badge: 'Day & Evening Passes Flyer',
+    },
+    {
+      id: 'flyer-3b',
+      title: 'HDBS 2026 Onsite Puja Registration, Decals & Badges Guide',
+      fileName: 'PujaReg2026_2.jpeg',
+      url: '/flyers/PujaReg2026_2.jpeg',
+      dateAdded: '2026-10-10',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - YOUR GUIDE TO ONSITE PUJA REGISTRATION
+Source: https://durgabari.org/2026-puja/registration/ (Flyer: PujaReg2026_2.jpeg)
+
+Schedule & Details:
+- October 11 (12:30 – 3:00 PM): Parking Decals Distribution Session #3; Registration Badges Distribution Session #1 (Badges & Magazine - Collect lanyards & badge holders)
+- October 14 (7:30 – 9:00 PM): Last pre-Puja distribution for Parking Decals and Registration Badges & Magazine
+- During Puja Dates (Oct 16, 6:30 PM | Oct 17, 10:30 AM & 7:00 PM | Oct 18, 11:00 AM & 7:30 PM | Oct 24, 7:30 PM):
+  * If you have not picked up your decal: Please use the shuttle from West Oaks Mall or use Uber/Lyft to come to DB and collect your decal.
+  * Badge distribution, Onsite Registration & Donation.
+
+Parking Decals Notes:
+- Reserved parking continues to Kali Puja. Preserve your decals.
+- Parking decals are not transferable. Must be affixed to car windshields for admission to the premises.
+- E-authorization necessary if someone else is picking up.
+
+Registration Badges Notes:
+- Integrated badge covering both Durga Puja & Kali Puja.
+- If you have registered for All 3 Pujas, preserve your badges for Kali Puja.
+- E-authorization necessary if someone else is picking up.
+- Email: registration@durgabari.org`,
+      chunkCount: 3,
+      badge: 'Onsite Registration Guide',
+    },
+    {
+      id: 'flyer-3c',
+      title: 'HDBS 2026 Puja Sponsorship Tiers & Benefits Flyer',
+      fileName: '2026PujaSposorship.jpeg',
+      url: '/flyers/2026PujaSposorship.jpeg',
+      dateAdded: '2026-10-10',
+      extractedMarkdown: `### HDBS 2026 PUJA SPONSORSHIP TIERS & BENEFITS
+Source: https://durgabari.org/2026-puja/registration/ (Flyer: 2026PujaSposorship.jpeg)
+
+Sponsorship Tiers & Benefits (501(c)(3) Tax-Deductible):
+- Diamond ($5,000+): Main Parking (Named slots for $10K+), Separate lanes for food and registration, Parents courtesy registration, Auditorium front rows, Priority access to snacks stall, Reserved table at food tent (close family members can join; eligibility applies, registration mandatory, special badges), Puja Sankalpa, Event sponsorship & special recognition.
+- Emerald ($2,200 – $4,999): Main Parking, Separate lanes for food & registration, Parents courtesy registration, Auditorium front rows, Priority access to snacks stall, Reserved table at food tent (sponsors only), Puja Sankalpa.
+- Platinum ($1,500 – $2,199): Main or Kala Bhavan (KB) Parking (in order of date of sponsorship), Separate lanes for food & registration, Parents courtesy registration, Auditorium front rows, Puja Sankalpa.
+- Gold ($1,000 – $1,499): Green Field Parking (KB Parking for CT Gold), Separate lanes for food & registration, Parents courtesy registration, Auditorium front rows, Puja Sankalpa.
+- Silver ($750 – $999): Green Field Parking (KB Parking for Senior CT Silver), Separate lanes for food & registration, Parents courtesy registration.
+
+Recurring Donations:
+- Prefer to spread donation over time? Recurring ACH donations directly through your bank's online portal. Contact registration@durgabari.org or treasurer@durgabari.org for account/routing info.
+- Sponsorship level based on total donation actually received.
+- Registration mandatory for sponsorship (optional for Diamond). Auditorium seating subject to allocated capacity. Parking subject to availability.
+- Calls: Subhas (832-677-0860), Swapan (713-254-1231), Souvik (419-709-5527).`,
+      chunkCount: 3,
+      badge: 'Sponsorship Tiers',
     },
     {
       id: 'flyer-4',
@@ -459,6 +554,42 @@ Source: https://durgabari.org/eventgallery/kali-puja-2025/
       chunkCount: 3,
       badge: 'Kali Puja Flyer',
     },
+    {
+      id: 'flyer-14',
+      title: 'HDBS 2026 Puja Parking & Free Bus Shuttle Schedule Flyer',
+      fileName: 'hdbs_2026_parking_bus_schedule.jpeg',
+      url: '/flyers/hdbs_2026_parking_bus_schedule.jpeg',
+      dateAdded: '2026-10-14',
+      extractedMarkdown: `### HDBS 2026 PUJA PARKING & BUS SHUTTLE SCHEDULE (OFFICIAL FLYER)
+Source: https://durgabari.org/2026-puja/parking-bus-schedule/
+
+#### 1. Off-Site Parking & Shuttle Transportation:
+- **Location**: WEST OAKS MALL
+- **Address**: 1000 West Oaks Mall #800, Houston, TX 77082
+- **Landmark**: Near Dillard's Clearance Center
+- **Features**: FREE Parking, On-site security, Shuttle bus transportation to/from Durga Bari
+
+#### 2. Shuttle Bus Timetable:
+- **Durga Puja Schedule**:
+  - Friday, Oct 16: 5:00 pm – 12:30 am
+  - Saturday, Oct 17: 9:00 am – 12:30 am
+  - Sunday, Oct 18: 9:00 am – 10:30 pm
+  - Saturday, Oct 24: 2:00 pm – 12:30 am
+- **Kali Puja Schedule**:
+  - Saturday, Nov 7: 5:00 pm – 12:30 am
+  - Sunday, Nov 8: 5:00 pm – 10:30 pm
+
+#### 3. On-Premises Parking & Decal Rules:
+- "To park on the premises, all cars must have the approved DECAL clearly affixed to the windshield."
+- Reserved exclusively for authorized permit holders, seniors, and VIP sponsors.
+
+#### 4. Traffic, Rideshare & City Parking Advisory:
+- **Uber / Rideshare**: Pick-up and drop-off allowed (no waiting) via Schiller Rd.
+- **City Parking**: NOT managed by HDBS / Security team. Avoid parking over 1 hour. HDBS is not answerable to HPD queries.
+- **Disabled Parking**: Limited state-law spots on First-Come First-Served basis. Once full, drop-offs only. Vehicles with Green Field decals proceed to Green Field.`,
+      chunkCount: 3,
+      badge: 'Parking & Shuttle Flyer',
+    },
   ];
 
   let chunkIdCounter = 1;
@@ -564,6 +695,11 @@ async function retrieveContextChunks(query: string, topK: number = 5): Promise<{
     /\b(dates?|daily|schedule|timings?|when is|calendar|day[- ]by[- ]day|program|hours?)\b/i.test(lowerQuery) &&
     /\b(puja|durga|sharodotsav|festiv|2026|anandamela|tarpan|ashtami|nabami|saptami|dashami|sandhi)\b/i.test(lowerQuery);
 
+  const isFoodOrMealQuery = /\b(lunch|dinner|meals?|food|eating|dining|bhoj)\b/i.test(lowerQuery);
+  const isBhogOrAratiQuery = /\b(bhog|pushpanjali|arati|aarti|anjali|sandhi|darpan|visarjan|bodhan)\b/i.test(lowerQuery);
+  const isPassOrRegistrationQuery =
+    /\b(pass|passes|daypass|day[- ]pass|evening[- ]pass|daily|tickets?|per[- ]day|registration|badges?|decals?|sponsor|sponsorship)\b/i.test(lowerQuery);
+
   const totalDocs = vectorStore.chunks.length;
   // Calculate IDF for meaningful tokens across collection
   const tokenWeights: Record<string, number> = {};
@@ -637,8 +773,34 @@ async function retrieveContextChunks(query: string, topK: number = 5): Promise<{
     } else {
       combinedScore = sim * 0.55 + keywordScore * 0.35 + highIdfBoost * 0.10;
 
-      // Intent-specific boost: if user asks for dates/schedule, give high relevance to official schedule documents
-      if (isScheduleQuery) {
+      // Intent-specific boosts
+      if (isPassOrRegistrationQuery) {
+        if (lowerTitle.includes('day passes') || lowerSection.includes('day passes') || lowerText.includes('special processing > day passes')) {
+          combinedScore += 0.45;
+        } else if (lowerTitle.includes('puja passes') || lowerSection.includes('puja passes')) {
+          combinedScore += 0.40;
+        } else if (lowerTitle.includes('onsite puja registration') || lowerSection.includes('onsite registration')) {
+          combinedScore += 0.30;
+        } else if (lowerTitle.includes('sponsorship') || lowerSection.includes('sponsorship')) {
+          combinedScore += 0.25;
+        } else if (lowerTitle.includes('registration')) {
+          combinedScore += 0.20;
+        }
+      } else if (isFoodOrMealQuery) {
+        if (lowerTitle.includes('lunch and dinner schedules') || lowerSection.includes('lunch & dinner schedules')) {
+          combinedScore += 0.40;
+        } else if (lowerTitle.includes('dining, lunch & dinner') || lowerSection.includes('bhog & dining logistics')) {
+          combinedScore += 0.25;
+        } else if (lowerTitle.includes('master puja schedule')) {
+          combinedScore += 0.20;
+        }
+      } else if (isBhogOrAratiQuery) {
+        if (lowerTitle.includes('puja timings (bhog') || lowerSection.includes('puja timings: bhog')) {
+          combinedScore += 0.35;
+        } else if (lowerTitle.includes('master puja schedule')) {
+          combinedScore += 0.20;
+        }
+      } else if (isScheduleQuery) {
         if (lowerTitle.includes('schedule flyer') || lowerSection.includes('main schedule flyer')) {
           combinedScore += 0.25;
         } else if (lowerTitle.includes('schedule') || lowerSection.includes('schedule')) {
@@ -867,19 +1029,83 @@ MANDATORY RESPONSE FORMATTING & READABILITY RULES:
    - If asked about a specific ceremony (e.g., Kumari Puja, Sandhi Puja, Sindoor Khela, Anandamela, Pushpanjali), focus solely on that ceremony's exact date, time, and location.
    - DO NOT include sponsorship packages, donation rates, booth registration fees, or parking guidelines unless the user explicitly requested them.
 
-3. PARKING & OFFSITE LOCATION ACCURACY (CRITICAL):
+3. PARKING & OFFSITE SHUTTLE BUS SCHEDULE ACCURACY (CRITICAL):
    - Offsite parking is strictly NOT at Alief High School (or any Alief ISD school). Alief High School is not an authorized parking lot for HDBS Puja.
-   - If asked about parking, shuttles, or Alief High School, explicitly state that parking is NOT at Alief High School.
-   - State clearly that the official free overflow parking is located at West Oaks Mall (Hwy 6 & Westheimer Rd, Houston, TX 77082 - near Tutti Frutti).
-   - Display the free continuous shuttle bus timetable (every 10 minutes) as a clean Markdown table.
-   - Note on-campus parking rules (13944 Schiller Rd is reserved for seniors 65+, ADA disabled placards, and VIP sponsors).
+   - If asked about parking, shuttles, or bus schedule, explicitly follow the official HDBS Puja Parking & Bus Schedule flyer (https://durgabari.org/2026-puja/parking-bus-schedule/):
+     * Official Off-Site Parking Location: West Oaks Mall (1000 West Oaks Mall #800, Houston, TX 77082 - near Dillard's Clearance Center). FREE parking with on-site security and free continuous shuttle buses to/from Durga Bari.
+     * Free Shuttle Bus Operating Timetable:
+       | Date | Day | Shuttle Operating Hours | Location / Pickup Point |
+       |---|---|---|---|
+       | Friday, Oct 16, 2026 | Friday | 5:00 pm – 12:30 am | West Oaks Mall (Near Dillard's Clearance Center) |
+       | Saturday, Oct 17, 2026 | Saturday | 9:00 am – 12:30 am | West Oaks Mall (Near Dillard's Clearance Center) |
+       | Sunday, Oct 18, 2026 | Sunday | 9:00 am – 10:30 pm | West Oaks Mall (Near Dillard's Clearance Center) |
+       | Saturday, Oct 24, 2026 | Saturday | 2:00 pm – 12:30 am | West Oaks Mall (Near Dillard's Clearance Center) |
+     * Kali Puja Shuttle Hours: Saturday, Nov 7 (5:00 pm – 12:30 am) & Sunday, Nov 8 (5:00 pm – 10:30 pm).
+     * On-Premises Parking Rule: "To park on the premises, all cars must have the approved DECAL clearly affixed to the windshield."
+     * Accessible / Disabled Parking: Limited per state law on First-Come First-Served basis; once full, drop-offs only. Vehicles with Green Field decals proceed to Green Field.
+     * Uber / Rideshare: Pick-up and drop-off allowed (no waiting) via Schiller Road.
+     * City Parking Advisory: City parking on Schiller Rd is NOT managed by HDBS; avoid parking over 1 hour.
 
-4. OUT-OF-TOWNER LODGING & NEARBY PLACES TO STAY:
+4. LUNCH AND DINNER SCHEDULES vs. PUJA TIMINGS (BHOG, PUSHPANJALI, SANDHYA ARATI) - CRITICAL RULE:
+   - When asked about the lunch and dinner schedules (e.g., "What are the lunch and dinner schedules during the Durga Puja this year?"):
+     * You MUST refer strictly to the "Program Details" column shown in https://durgabari.org/2026-puja/puja-schedule/.
+     * DO NOT substitute or confuse Lunch and Dinner with Bhog, Pushpanjali, or Sandhya Arati timings!
+     * State the exact lunch and dinner schedules from Program Details:
+       - **Friday, Oct 16, 2026 (Maha Shashti)**:
+         * Lunch: No lunch scheduled in Program Details
+         * Dinner: **8:30 PM – 9:30 PM: Dinner – Culinary Celebration**
+       - **Saturday, Oct 17, 2026 (Maha Saptami)**:
+         * Lunch: **1:00 PM – 2:00 PM: Lunch: Bengali cuisine treat**
+         * Dinner: **8:30 PM – 9:30 PM: Dinner: Gastronomic experience**
+       - **Sunday, Oct 18, 2026 (Maha Ashtami)**:
+         * Lunch: **1:00 PM – 2:00 PM: Lunch: Maha Ashtami traditions on your plate**
+         * Dinner: **8:30 PM – 9:30 PM: Dinner: Puja feast continues next weekend**
+       - **Saturday, Oct 24, 2026 (Dashami & Bijoya Sammiloni)**:
+         * Lunch: No lunch scheduled in Program Details
+         * Dinner: **8:30 PM – 9:30 PM: Dinner: Subho Bijoya gala dinner**
+     * You may mention additional festive dining events if relevant:
+       - Sunday, Oct 11 (Mahalaya/Anandamela): 12:00 PM – 2:00 PM: Food Fest
+       - Saturday, Nov 7 (Pre Kali Puja): 8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj
+       - Sunday, Nov 8 (Kali Puja): 8:30 PM – 9:30 PM: Dinner: Puja Savory
+       - Saturday, Feb 13, 2027 (Saraswati Puja): 1:00 PM: Lunch – Traditional Puja Lunch | 8:00 PM – 9:00 PM: Dinner
+   - When asked about Bhog, Pushpanjali, or Sandhya Arati timings:
+     * You MUST refer strictly to the "Puja Timings" column:
+       - Friday, Oct 16 (Maha Shashti): 10:30 AM: Maha Shashti Puja; 6:00 PM: Amantran & Adhibas; 7:00 PM: Pushpanjali, Bhog, Sandhya Arati
+       - Saturday, Oct 17 (Maha Saptami): 9:00 AM: Kalabou Snan; 10:00 AM: Maha Saptami Puja; 12:00 PM: Balidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 7:00 PM: Sandhya Arati
+       - Sunday, Oct 18 (Maha Ashtami): 10:00 AM: Maha Ashtami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 6:00 PM: Sandhya Arati; 8:56 PM: Maha Sandhi Puja
+       - Monday, Oct 19 (Maha Nabami Tithi): 10:30 AM: Maha Nabami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 7:00 PM: Sandhya Arati
+       - Tuesday, Oct 20 (Maha Dashami Tithi): 11:00 AM: Puja and Dadhikarma
+       - Saturday, Oct 24 (Dashami & Bijoya): 3:30 PM: Aparajita Puja; 4:30 PM: Bhasaan, Sindoor Khela
+
+5. DAY PASSES & REGISTRATION GROUNDING (CRITICAL - OFFICIAL FROM https://durgabari.org/2026-puja/registration/):
+   - When asked about Day Passes (e.g., "Are day passes available?", "Can I get a day pass?", "How much are day passes?", "What are day pass rates and privileges?"):
+     * DO NOT hallucinate that day passes are not sold!
+     * State clearly that **LIMITED PASSES ARE AVAILABLE**.
+     * Where to apply: Go to the official registration portal at https://durgabari.org/2026-puja/registration/ -> navigate to **Puja Registration & Donation > Special Processing > Day Passes**.
+     * Present the exact official Rate Table (Family / Individual):
+       | Residency / Category | Fri Oct 16 Evening | Sat Oct 17 Full Day | Sat Oct 17 Evening | Sun Oct 18 Full Day | Sat Oct 24 Evening |
+       |---|---|---|---|---|---|
+       | **Greater Houston Residents** | NOT OFFERED | NOT OFFERED | NOT OFFERED | **$130 / $65** | NOT OFFERED |
+       | **Out of Towners** *(Online address validation)* | **$200 / $100** | **$260 / $130** | **$240 / $120** | **$130 / $65** | **$260 / $130** |
+     * Key Guidelines & Privileges for Pass Holders:
+       - **Cultural Programs Access**: Passes provide full access to all cultural programs in Sur Auditorium, including external invited artists.
+       - **Meals Included**: **Day Pass includes both Lunch and Dinner**. **Evening Pass includes Dinner only**.
+       - **Parking Policy for Pass Holders**: **NO onsite parking available** for Day or Evening Pass holders. Pass holders must use the free shuttle bus service from West Oaks Mall (near Dillard's Clearance Center) or Uber/Lyft.
+       - **Temple Entry & Darshan**: Visiting the temple sanctuary for Maa Durga's darshan, offering floral Pushpanjali, and witnessing sacred Arati is always **completely free and open to all devotees** without purchasing any passes or tickets.
+     * Contacts for Day Passes:
+       - Email: registration@durgabari.org
+       - Phone: Anindita (713-808-5286), Sampurna (346-257-1068)
+     * Full Registration continues both Onsite and Online.
+   - When asked about Onsite Registration and Parking Decals distribution:
+     * Pre-Puja Decal & Badge pick-up sessions: Oct 11 (12:30–3:00 PM) and Oct 14 (7:30–9:00 PM).
+     * During Puja: Oct 16 (6:30 PM), Oct 17 (10:30 AM & 7:00 PM), Oct 18 (11:00 AM & 7:30 PM), Oct 24 (7:30 PM). If decals not picked up, use West Oaks Mall shuttle or Uber/Lyft to come collect decal.
+
+6. OUT-OF-TOWNER LODGING & NEARBY PLACES TO STAY:
    - When devotees ask where to stay, suggest good hotels near Houston Durga Bari Society (Westchase, Energy Corridor, and Westheimer corridors within 3–6 miles).
    - Present hotels in a concise Markdown table (Hotel Name, Area, Distance to HDBS, Features).
-   - Include out-of-towner tips: West Oaks Mall free shuttle bus every 10 mins, Uber/Lyft at Gate 2 on Schiller Rd, Temple Address (13944 Schiller Rd, Houston, TX 77082).
+   - Include out-of-towner tips: West Oaks Mall free shuttle bus (near Dillard's Clearance Center; Friday 5pm-12:30am, Saturday 9am-12:30am, Sunday 9am-10:30pm, Saturday Oct 24 2pm-12:30am), Uber/Lyft at Gate 2 on Schiller Rd, Temple Address (13944 Schiller Rd, Houston, TX 77082).
 
-5. MANDATORY CITATIONS & SOURCES:
+7. MANDATORY CITATIONS & SOURCES:
    - Every answer MUST conclude with an explicit citation section:
      ### 📍 Official Source Citation
      - **Document / Flyer**: [Exact document or flyer title]
@@ -937,7 +1163,7 @@ FORMAT CONCISELY:
    | Hotel Name | Neighborhood / Area | Approx. Distance to HDBS | Notable Features |
    Include top choices like Omni Houston Hotel at Westside, Hyatt Regency Houston West, Hilton Houston Westchase, Home2 Suites by Hilton Energy Corridor, and Best Western Plus Westchase.
 3. Bulleted out-of-towner tips:
-   - **Shuttle Access**: Devotees can drive ~5 minutes to official free overflow parking at West Oaks Mall (Hwy 6 & Westheimer Rd) and ride the free continuous air-conditioned HDBS shuttle bus every 10 minutes directly to the temple gates.
+   - **Shuttle Access**: Devotees can park at the official free overflow parking at West Oaks Mall (1000 West Oaks Mall #800, near Dillard's Clearance Center) and ride the free HDBS shuttle bus directly to the temple gates (Hours: Friday Oct 16: 5pm–12:30am, Saturday Oct 17: 9am–12:30am, Sunday Oct 18: 9am–10:30pm, Saturday Oct 24: 2pm–12:30am).
    - **Rideshare**: Uber/Lyft pickup & drop-off is designated at Gate 2 on Schiller Road.
    - **Temple Address**: 13944 Schiller Rd, Houston, TX 77082.
 4. Conclude with ### 📍 Official Source Citation`;
@@ -1021,8 +1247,8 @@ Here are good, recommended places to stay located close to the temple (**13944 S
 | **Courtyard by Marriott Houston West** | Energy Corridor | ~5.0 miles (11–13 min drive) | Modern workspace, Bistro breakfast, outdoor terrace |
 
 ### 🚗 Essential Travel & Shuttle Tips for Out-of-Towners
-- **Free Park-and-Ride Shuttle**: Devotees staying along Westheimer Rd or Hwy 6 can drive 5 minutes to the official overflow parking at **West Oaks Mall** (Hwy 6 & Westheimer Rd) and take the complimentary air-conditioned HDBS shuttle bus straight to the temple gates every 10 minutes.
-- **Rideshare Drop-off (Uber / Lyft)**: Drop-off and pick-up is designated at **Gate 2 on Schiller Road**.
+- **Free Park-and-Ride Shuttle**: Devotees staying along Westheimer Rd or Hwy 6 can park at the official overflow parking at **West Oaks Mall** (1000 West Oaks Mall #800, near Dillard's Clearance Center) and take the complimentary HDBS shuttle bus straight to the temple gates. Shuttle Hours: Friday Oct 16 (5:00 pm – 12:30 am), Saturday Oct 17 (9:00 am – 12:30 am), Sunday Oct 18 (9:00 am – 10:30 pm), Saturday Oct 24 (2:00 pm – 12:30 am).
+- **Rideshare Drop-off (Uber / Lyft)**: Drop-off and pick-up is designated at **Gate 2 on Schiller Road** (UBER pick-up and drop-off allowed, no waiting).
 - **Temple Address**: Houston Durga Bari Society, 13944 Schiller Rd, Houston, TX 77082.
 
 ### 📍 Official Source Citation

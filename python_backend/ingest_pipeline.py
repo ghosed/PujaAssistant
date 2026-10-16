@@ -324,6 +324,34 @@ RECURRING DONATIONS INFORMATION:
 - City Parking: City parking on Schiller Rd is NOT managed by HDBS; avoid parking over 1 hour.
 - Bhog Dining System: Seating tokens are issued via digital QR coupon from online registration or on-site helpdesks to ensure prompt dining service.
 - Dress Code & Etiquette: Traditional festive attire encouraged. Footwear must be deposited at the designated shoe pavilion. Photography is prohibited during Sandhi Puja sacred aarti."""
+        },
+        {
+            "title": "Official HDBS 2026 Puja Committee Leadership Directory & Leads",
+            "source_type": "web_page",
+            "source_url": "https://durgabari.org/2026-puja/2026-puja-committee/",
+            "content": """HDBS 2026 PUJA COMMITTEE & LEADERSHIP DIRECTORY
+Official Source: https://durgabari.org/2026-puja/2026-puja-committee/
+
+CORE PUJA LEADERSHIP:
+- Puja Chair (Chairman): Souvik Ghose
+- Secretaries: Piyali Chatterjee, Raj Sen
+- Treasurer: Dhruba Ghose, Sujay Kahali (EB representative)
+- Procurement Planner: Puja Committee (Souvik Ghose, Piyali Chatterjee, Raj Sen, Dhruba Ghose)
+
+COMMITTEE LEADS & TEAMS:
+- Cultural: Sayoni Rakshit, Shiladitya Sengupta, Arpita Mukhopadhayay (Advisor)
+- Anandamela: Suchitra Roy (advisor), Poulami Bhattacharya, Ujjayini Bhaduri
+- Mahalaya (Mahishasuramardini): Mita Shome
+- Temple: Paromita Nag, Poulami Bhattacharya (associate)
+- Dhakis: Devangshu Goswami, Rishiprotim Nag (associate)
+- Priest Panel: Buddhadev Bhattachariya, Amrit Achari, Jaidev Goswami, Partha Sarathi Chatterjee, Subhashis Mallick, Ranadip Ganguly
+- Parking & Security & Transportation: Dip Kumar Das, Tanmoy Chatterjee, Sandip Dasgupta-Katy, Samrat, Partha Ghosal
+- Registration: Subhas Das, Amit Bhaduri
+- Kitchen: Pradip Saha, Rajib Datta
+- Food Distribution: Sukhen Ghosh, Nilotpal Chatterjee
+- Snacks: Santanu Mukhopadhyay
+- Website & Communication: Arup Karmakar
+- General inquiries email: pc@durgabari.org | feedback@durgabari.org"""
         }
     ]
 

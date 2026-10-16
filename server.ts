@@ -679,6 +679,7 @@ function matchesToken(text: string, token: string): boolean {
   if (stemmed !== token && text.includes(stemmed)) return true;
   if (token === 'daily' && (text.includes('day') || text.includes('schedule') || text.includes('october') || text.includes('oct'))) return true;
   if (token === 'dates' && (text.includes('date') || text.includes('october') || text.includes('oct'))) return true;
+  if ((token === 'chairman' || token === 'chairperson' || token === 'chair') && (text.includes('chair') || text.includes('chairman') || text.includes('chairperson'))) return true;
   return false;
 }
 
@@ -699,6 +700,8 @@ async function retrieveContextChunks(query: string, topK: number = 5): Promise<{
   const isBhogOrAratiQuery = /\b(bhog|pushpanjali|arati|aarti|anjali|sandhi|darpan|visarjan|bodhan)\b/i.test(lowerQuery);
   const isPassOrRegistrationQuery =
     /\b(pass|passes|daypass|day[- ]pass|evening[- ]pass|daily|tickets?|per[- ]day|registration|badges?|decals?|sponsor|sponsorship)\b/i.test(lowerQuery);
+  const isCommitteeQuery =
+    /\b(chair|chairman|chairperson|committee|leadership|secretar|treasurer|convener|organizer|leads?|director|head)\b/i.test(lowerQuery);
 
   const totalDocs = vectorStore.chunks.length;
   // Calculate IDF for meaningful tokens across collection
@@ -774,7 +777,13 @@ async function retrieveContextChunks(query: string, topK: number = 5): Promise<{
       combinedScore = sim * 0.55 + keywordScore * 0.35 + highIdfBoost * 0.10;
 
       // Intent-specific boosts
-      if (isPassOrRegistrationQuery) {
+      if (isCommitteeQuery) {
+        if (lowerTitle.includes('puja committee') || lowerSection.includes('puja committee') || lowerText.includes('puja chair')) {
+          combinedScore += 0.55;
+        } else if (lowerText.includes('souvik ghose') || lowerTitle.includes('leadership')) {
+          combinedScore += 0.45;
+        }
+      } else if (isPassOrRegistrationQuery) {
         if (lowerTitle.includes('day passes') || lowerSection.includes('day passes') || lowerText.includes('special processing > day passes')) {
           combinedScore += 0.45;
         } else if (lowerTitle.includes('puja passes') || lowerSection.includes('puja passes')) {
@@ -1100,25 +1109,37 @@ MANDATORY RESPONSE FORMATTING & READABILITY RULES:
      * Pre-Puja Decal & Badge pick-up sessions: Oct 11 (12:30–3:00 PM) and Oct 14 (7:30–9:00 PM).
      * During Puja: Oct 16 (6:30 PM), Oct 17 (10:30 AM & 7:00 PM), Oct 18 (11:00 AM & 7:30 PM), Oct 24 (7:30 PM). If decals not picked up, use West Oaks Mall shuttle or Uber/Lyft to come collect decal.
 
-6. OUT-OF-TOWNER LODGING & NEARBY PLACES TO STAY:
+6. PUJA COMMITTEE LEADERSHIP & PUJA CHAIR (CHAIRMAN) - OFFICIAL DIRECTORY (https://durgabari.org/2026-puja/2026-puja-committee/):
+   - When asked "who is the puja chairman", "who is the puja chair", or about HDBS 2026 Puja Committee leadership:
+     * State clearly, directly, and authoritatively that the **Puja Chair (Chairman)** for Houston Durga Bari Society (HDBS) 2026 Puja is **Souvik Ghose**.
+     * Mention the key core leadership team:
+       - **Puja Chair (Chairman)**: **Souvik Ghose**
+       - **Secretaries**: Piyali Chatterjee, Raj Sen
+       - **Treasurer**: Dhruba Ghose, Sujay Kahali (EB representative)
+       - **Procurement Planner**: Puja Committee (Souvik Ghose, Piyali Chatterjee, Raj Sen, Dhruba Ghose)
+     * If the devotee asks for other committee leads or teams, reference key leads from the official directory (e.g., Cultural: Sayoni Rakshit & Shiladitya Sengupta; Anandamela: Suchitra Roy, Poulami Bhattacharya, Ujjayini Bhaduri; Food Distribution: Sukhen Ghosh & Nilotpal Chatterjee; Registration: Subhas Das & Amit Bhaduri; Parking, Security & Transportation: Dip Kumar Das & Tanmoy Chatterjee; Priest Panel: Buddhadev Bhattachariya, Amrit Achari, Jaidev Goswami, Partha Sarathi Chatterjee, Subhashis Mallick, Ranadip Ganguly).
+     * Official Source Portal: https://durgabari.org/2026-puja/2026-puja-committee/
+     * Inquiries Email: pc@durgabari.org | General inquiries: (281) 589-7700 / feedback@durgabari.org
+
+7. OUT-OF-TOWNER LODGING & NEARBY PLACES TO STAY:
    - When devotees ask where to stay, suggest good hotels near Houston Durga Bari Society (Westchase, Energy Corridor, and Westheimer corridors within 3–6 miles).
    - Present hotels in a concise Markdown table (Hotel Name, Area, Distance to HDBS, Features).
    - Include out-of-towner tips: West Oaks Mall free shuttle bus (near Dillard's Clearance Center; Friday 5pm-12:30am, Saturday 9am-12:30am, Sunday 9am-10:30pm, Saturday Oct 24 2pm-12:30am), Uber/Lyft at Gate 2 on Schiller Rd, Temple Address (13944 Schiller Rd, Houston, TX 77082).
 
-7. MANDATORY CITATIONS & SOURCES:
+8. MANDATORY CITATIONS & SOURCES:
    - Every answer MUST conclude with an explicit citation section:
      ### 📍 Official Source Citation
      - **Document / Flyer**: [Exact document or flyer title]
      - **Type**: [Official Website Portal or Processed Event Flyer]
-     - **Portal URL**: https://durgabari.org/2026-puja/puja-schedule/
-     - **Section**: [Exact Section Name, e.g. "Official Master Puja Schedule", "Logistics & Parking Guidelines", or "Visitor Logistics & Accommodations"]
+     - **Portal URL**: [Exact source URL, e.g. https://durgabari.org/2026-puja/2026-puja-committee/, https://durgabari.org/2026-puja/registration/, or https://durgabari.org/2026-puja/puja-schedule/]
+     - **Section**: [Exact Section Name, e.g. "Puja Committee Leadership", "Official Master Puja Schedule", "Logistics & Parking Guidelines", or "Visitor Logistics & Accommodations"]
 
-6. STRICT GROUNDING & ANTI-HALLUCINATION:
+9. STRICT GROUNDING & ANTI-HALLUCINATION:
    - Answer using ONLY the retrieved context and Google Search grounding where enabled. If specific details are missing, state:
      "I'm sorry, but I can't find that specific information on the Houston Durgabari website or event flyers. Please check https://durgabari.org/ or contact the Puja Committee directly."
    - Never invent or assume dates, timings, or unauthorized parking locations.
 
-8. EVENT GALLERY FLYERS & PROGRAMS (https://durgabari.org/eventgallery/):
+10. EVENT GALLERY FLYERS & PROGRAMS (https://durgabari.org/eventgallery/):
    - Devotees can ask questions regarding all puja flyers available on the Event Gallery portal (Til Tarpan, Mahalaya & Anandamela, Vishwakarma Puja, Janmashtami, Saptasati Chandi Yagna, Annapurna Puja, Maha Shivaratri, Saraswati Puja, Kojagori Laxmi Puja, and Maha Kali Puja).
    - Use the retrieved flyer OCR markdown and tables to provide exact times, venues, sankalpa fees, and program items.
    - For link or flyer citations, reference the corresponding event gallery page (e.g. https://durgabari.org/eventgallery/).`;

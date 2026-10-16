@@ -668,16 +668,80 @@ Shuttle bus transportation is provided FREE to/from Houston Durga Bari Society (
 - Takeout / To-Go Boxes: Designated express pickup counter for pre-ordered takeout packets.`
   },
   {
-    title: "Volunteer Opportunities & Puja Committee Contacts",
+    title: "Official HDBS 2026 Puja Committee Leadership Directory & Leads",
     sourceType: "web_page",
-    sourceUrl: "https://durgabari.org/2026-puja/",
-    section: "Volunteers & Contacts",
-    content: `HDBS 2026 Puja Committee Contacts & Volunteer Information:
-- Puja Convener: convener2026@durgabari.org
-- HDBS President: president@durgabari.org
-- General Inquiries & Temple Office: (281) 530-0304
-- Volunteer Registration: Over 150 volunteers are needed for Anna Bhog service, parking direction, shoe stall, Pushpanjali queue management, and stage audio/visual.
-- Volunteer signups: Email volunteers@durgabari.org or visit the Volunteer Desk at Sur Auditorium lobby.`
+    sourceUrl: "https://durgabari.org/2026-puja/2026-puja-committee/",
+    section: "Puja Committee Leadership",
+    content: `HDBS 2026 PUJA COMMITTEE & LEADERSHIP DIRECTORY
+Official Source: https://durgabari.org/2026-puja/2026-puja-committee/
+
+### 🏛️ CORE PUJA LEADERSHIP:
+- **Puja Chair / Chairman**: **Souvik Ghose**
+- **Secretaries**: Piyali Chatterjee, Raj Sen
+- **Treasurer**: Dhruba Ghose, Sujay Kahali (EB representative)
+- **Procurement Planner**: Puja Committee (Souvik Ghose, Piyali Chatterjee, Raj Sen, Dhruba Ghose)
+
+### 📋 COMPLETE COMMITTEE DIRECTORY (ROLES, LEADS & ASSOCIATES):
+| Role / Committee | Leads & Associates |
+|---|---|
+| **Puja Chair (Chairman)** | **Souvik Ghose** |
+| **Secretaries** | Piyali Chatterjee, Raj Sen |
+| **Treasurer** | Dhruba Ghose, Sujay Kahali (EB representative) |
+| **Priest Panel** | Buddhadev Bhattachariya, Amrit Achari, Jaidev Goswami, Partha Sarathi Chatterjee, Subhashis Mallick, Ranadip Ganguly |
+| **Temple** | Paromita Nag, Poulami Bhattacharya (associate) |
+| **Dhakis** | Devangshu Goswami, Rishiprotim Nag (associate) |
+| **Mahalaya (Mahishasuramardini)** | Mita Shome |
+| **Anandamela** | Suchitra Roy (advisor), Poulami Bhattacharya, Ujjayini Bhaduri |
+| **Cultural** | Sayoni Rakshit, Shiladitya Sengupta, Arpita Mukhopadhayay (Advisor) |
+| **SLAM Temple** | Sayontan Sinha |
+| **SLAM (Non-Temple)** | Palas Chanda, Subhransu Sinha |
+| **Parking & Security & Transportation** | Dip Kumar Das, Tanmoy Chatterjee, Sandip Dasgupta-Katy (associate), Samrat (associate), Partha Ghosal (advisor) |
+| **Facility Management & Safety** | Shilpi Saha, Biren Das Biswas (associate) |
+| **Resource Mgt (Paid Helpers - non-Kitchen, non-Temple)** | Swati Ghoshal, Shilp Saha (associate) |
+| **Fundraising** | Ranadip Ganguly, Nirmalya Roy, Swapan Das (Advisor), Raj Sen, Souvik Ghose |
+| **Tent Management** | Amal Ray, Arup Karmakar (associate) |
+| **Registration** | Subhas Das, Amit Bhaduri (associate) |
+| **Procurement Planner** | Puja Committee (Souvik Ghose, Piyali Chatterjee, Raj Sen, Dhruba Ghose) |
+| **Kitchen (KFC, Food in-house, outsource)** | Pradip Saha, Rajib Datta |
+| **Food Distribution (from Main Tent)** | Sukhen Ghosh, Nilotpal Chatterjee |
+| **Snacks** | Santanu Mukhopadhyay |
+| **Commercials, Advertisement** | Debasish Bose, Dipankar Sinha Roy |
+| **Commercials Corp Advertisement** | Arijeet Majumdar |
+| **Website & Communication** | Arup Karmakar |
+| **IT Systems** | Shibir Chowdhury |
+| **Communication Lead** | Madhumita Sengupta |
+| **Social Channel** | Partha Sarathi Chatterjee |
+| **EB Co-ordination** | Sandip Bhattacharya, Arnendu Bose |
+| **Puja Vibes (Reel, Feed to Insta, pep-talk)** | Debarpita Ghosh, Baidurya Banerjee |
+| **Decoration – Outdoor / Non-Temple area** | Sayoni Bhattacharya, Sourav Ghosh |
+| **Foyer, Photo Booth, Street Alpona (retouch)** | Sayoni Bhattacharya, Sourav Ghosh |
+| **Auditorium Entrance Alpona (retouch)** | Sreejita Chakraborty (associate) |
+| **Snacks Area** | Arpita Mukhopadhya & Soma Saha |
+| **Big Tent, Registration Tent, Infotainment Tent** | Sailaja Bandhopadhyay, Ujjawani Bhaduri (associate), Malobika Das (associate) |
+| **Decoration – Temple (+Anjali Tent, Temple Entrance)** | Nivedita Hatty and team (associates) |
+| **Electrical & Lightings** | Abhishek Banerjee, Suprakash Biswas (associates), Soubhik Sarkar (associate), Deb (Dibyendu) Ghosh (advisor) |
+| **Digital Design (Poster, eCard, Invitation Card)** | Malobika Das, Manas Saha (associate) |
+| **Infotainment** | Soovo Sen, Rajiv Saha |
+| **Hospitality (External Artists)** | Sanjib Chouwdhary, Partha Sarkar, Debarpita Ghosh (associate), Samrat (associate) |
+| **Magazine Lead** | Abhijit Bhattacharyya (Lead), Sumita Basu (advisor) |
+| **Bengali Section** | Sumita Basu (associate), Partha Sen (associate), Shyamali Mitra (associate), Abhijit Mitra (associate), Debabrata Bhattacharya (associate) |
+| **English Section** | Anushree Mukherjee (associate), Binita Roy (associate) |
+| **Kids Section** | Debleena Banga (associate), Monalisa Sarkar (associate) |
+| **Graduation Section** | Mithu Ghosh (associate), Soma Saha (associate) |
+| **Digital Arts** | Piyal Sengupta (associate), Malobika Das (associate) |
+| **Next Gen** | Jhilmil Hatty, Atom Sarkar |
+| **Onsite Collection** | Shibir Chowdhury, Aruni Chakrabarti, Gargi Ghose |
+| **Kids Corner** | Ankita Siddhanta, Aarti Roy, Rahul Chakraborty, Atom Sarkar (associate) |
+| **Photography** | Samar Adhikari |
+| **Safety & Crowd** | Anirban Mukherjee |
+| **Vendor Management** | Suchetana Mukherjee, Jayati Roychoudhury, Sujay Kahali (advisor) |
+| **Videography** | Julie Lara, Arijeet Majumdar |
+| **Signage Planner** | Sandip Dasgupta (Sugarland), Piyush Prakash (associate), Ashok Biswas (associate) |
+
+### 🤝 VOLUNTEER & GENERAL CONTACTS:
+- General Inquiries & Temple Office: (281) 589-7700 / feedback@durgabari.org
+- General inquiries email: pc@durgabari.org
+- Volunteer Signups: volunteers@durgabari.org`
   },
   {
     title: "Out-of-Towner Lodging & Nearby Accommodations Guide",

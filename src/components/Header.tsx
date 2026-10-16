@@ -60,11 +60,30 @@ export const Header: React.FC<HeaderProps> = ({
 
             <div>
               <h1 className="text-xl sm:text-2xl font-serif font-bold tracking-wide text-stone-900 leading-tight">
-                HDBS 2026 Puja Assistant
+                HDBS 2026 Puja Assistant (Beta)
               </h1>
               <p className="text-xs text-stone-600 flex items-center gap-1.5 mt-0.5">
                 <Calendar className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
                 <span>Durga Puja: Oct 16 - 18 & 24, 2026</span>
+              </p>
+              <p className="text-[11px] sm:text-xs text-red-600 italic mt-0.5 font-medium leading-snug">
+                (Note: This is an AI tool and responses maybe inaccurate or outdated. If required, please verify at{' '}
+                <a
+                  href="https://durgabari.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-red-700"
+                >
+                  https://durgabari.org/
+                </a>{' '}
+                or emailing at{' '}
+                <a
+                  href="mailto:pc@durgabari.org"
+                  className="underline hover:text-red-700"
+                >
+                  pc@durgabari.org
+                </a>
+                )
               </p>
             </div>
           </div>
@@ -133,7 +152,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div>
             <div className="flex items-center gap-2">
               <h1 className="text-base sm:text-2xl font-serif font-bold tracking-wide text-stone-900 flex items-center gap-2">
-                HDBS 2026 Puja Assistant
+                HDBS 2026 Puja Assistant (Beta)
               </h1>
               <span className="px-2 py-0.5 text-[10px] uppercase tracking-wider font-bold bg-amber-100 text-amber-900 border border-amber-300 rounded-full">
                 Admin Portal
@@ -142,6 +161,25 @@ export const Header: React.FC<HeaderProps> = ({
             <p className="text-[11px] sm:text-xs text-stone-600 flex items-center gap-1.5 mt-0.5">
               <Calendar className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-600 flex-shrink-0" />
               <span>Durga Puja: Oct 16 - 18 & 24, 2026</span>
+            </p>
+            <p className="text-[11px] sm:text-xs text-red-600 italic mt-0.5 font-medium leading-snug">
+              (Note: This is an AI tool and responses maybe inaccurate or outdated. If required, please verify at{' '}
+              <a
+                href="https://durgabari.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-red-700"
+              >
+                https://durgabari.org/
+              </a>{' '}
+              or emailing at{' '}
+              <a
+                href="mailto:pc@durgabari.org"
+                className="underline hover:text-red-700"
+              >
+                pc@durgabari.org
+              </a>
+              )
             </p>
           </div>
         </div>

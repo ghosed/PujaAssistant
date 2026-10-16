@@ -36,9 +36,9 @@ const formatMessageBody = (text: string, isUser: boolean, isAdmin: boolean) => {
 
 const DEFAULT_WELCOME_MESSAGE = `Joy Maa Durga! Namoskar. 🙏
 
-Welcome to the HDBS 2026 Puja Assistant for Houston Durga Bari Society.
+Welcome to the HDBS 2026 Puja Assistant (Beta) for Houston Durga Bari Society.
 
-I will be your assistant during the Pujas and answer any queries or provide quick information. Since I'm an AI powered tool, my responses may not be always 100% accurate. Please verify it at [HDBS Website](https://durgabari.org/2026-puja/) or [Facebook](https://www.facebook.com/HoustonDurgaBari/).`;
+I will be your assistant during the Pujas and answer any queries or provide quick information.`;
 
 const SUGGESTED_PROMPTS = [
   {

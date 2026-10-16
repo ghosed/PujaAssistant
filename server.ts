@@ -198,6 +198,31 @@ function splitTextIntoChunks(
   return chunks.filter((c) => c.length > 50);
 }
 
+// Fast load cached Chroma vector store from disk (<5ms, instant zero-network startup)
+function loadKnowledgeBaseFromDisk(): boolean {
+  try {
+    if (fs.existsSync(CHROMA_STORE_FILE)) {
+      const data = fs.readFileSync(CHROMA_STORE_FILE, 'utf-8');
+      const parsed = JSON.parse(data);
+      if (parsed && Array.isArray(parsed.chunks) && parsed.chunks.length > 0) {
+        vectorStore = parsed;
+        if (fs.existsSync(FLYERS_METADATA_FILE)) {
+          try {
+            flyerAssets = JSON.parse(fs.readFileSync(FLYERS_METADATA_FILE, 'utf-8'));
+          } catch (e) {
+            // ignore flyer metadata parse error
+          }
+        }
+        console.log(`[Ingestion] Instantly loaded ${vectorStore.chunks.length} chunks from cached Chroma store on disk.`);
+        return true;
+      }
+    }
+  } catch (err) {
+    console.warn('[Ingestion] Could not load vector store from disk, will re-index:', err);
+  }
+  return false;
+}
+
 // Initialize seed data
 async function initializeKnowledgeBase() {
   console.log('[Ingestion] Initializing Chroma vector store from seed documents & flyers...');
@@ -836,8 +861,8 @@ async function startServer() {
   app.use(express.json({ limit: '50mb' }));
   app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
-  // Load and refresh vector store with latest ground truth seeds
-  await initializeKnowledgeBase();
+  // Fast load vector store from disk cache (<5ms, zero network calls on startup)
+  const isLoaded = loadKnowledgeBaseFromDisk();
 
   // --- API ROUTES ---
 
@@ -1559,7 +1584,8 @@ Preserve exact timestamps, names of rituals (Chandi Path, Bodhan, Pushpanjali, K
   });
 
   // --- VITE MIDDLEWARE / STATIC ASSETS ---
-  if (process.env.NODE_ENV !== 'production') {
+  const isProduction = process.env.NODE_ENV === 'production' || fs.existsSync(path.join(__dirname, 'dist'));
+  if (!isProduction) {
     const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
       server: { middlewareMode: true },
@@ -1573,8 +1599,17 @@ Preserve exact timestamps, names of rituals (Chandi Path, Bodhan, Pushpanjali, K
     });
   }
 
+  // Bind to port immediately so TCP probes and health checks pass instantaneously (<50ms)
   app.listen(PORT, '0.0.0.0', () => {
     console.log(`[HDBS 2026 Puja Assistant Server] Running on http://0.0.0.0:${PORT}`);
+
+    // If cache was not available, run initial indexing in background without blocking port
+    if (!isLoaded || vectorStore.chunks.length === 0) {
+      console.log('[Ingestion] Vector store not found on disk, running initial indexing in background...');
+      initializeKnowledgeBase().catch((err) => {
+        console.error('[Ingestion] Background indexing error:', err);
+      });
+    }
   });
 }
 

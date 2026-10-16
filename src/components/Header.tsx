@@ -67,23 +67,23 @@ export const Header: React.FC<HeaderProps> = ({
                 <span>Durga Puja: Oct 16 - 18 & 24, 2026</span>
               </p>
               <p className="text-[11px] sm:text-xs text-red-600 italic mt-0.5 font-medium leading-snug">
-                (Note: This is an AI tool and responses maybe inaccurate or outdated. If required, please verify at{' '}
+                AI-generated responses may contain inaccuracies. Please confirm at{' '}
                 <a
                   href="https://durgabari.org/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-red-700"
                 >
-                  https://durgabari.org/
+                  durgabari.org
                 </a>{' '}
-                or emailing at{' '}
+                or{' '}
                 <a
                   href="mailto:pc@durgabari.org"
                   className="underline hover:text-red-700"
                 >
                   pc@durgabari.org
                 </a>
-                )
+                .
               </p>
             </div>
           </div>
@@ -163,23 +163,23 @@ export const Header: React.FC<HeaderProps> = ({
               <span>Durga Puja: Oct 16 - 18 & 24, 2026</span>
             </p>
             <p className="text-[11px] sm:text-xs text-red-600 italic mt-0.5 font-medium leading-snug">
-              (Note: This is an AI tool and responses maybe inaccurate or outdated. If required, please verify at{' '}
+              AI-generated responses may contain inaccuracies. Please confirm at{' '}
               <a
                 href="https://durgabari.org/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-red-700"
               >
-                https://durgabari.org/
+                durgabari.org
               </a>{' '}
-              or emailing at{' '}
+              or{' '}
               <a
                 href="mailto:pc@durgabari.org"
                 className="underline hover:text-red-700"
               >
                 pc@durgabari.org
               </a>
-              )
+              .
             </p>
           </div>
         </div>

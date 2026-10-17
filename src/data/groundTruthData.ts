@@ -47,41 +47,114 @@ The official schedule contains two distinct columns: "Puja Timings" (for religio
 | 13-Feb-2027 Saturday | **Saraswati Puja** | • 10:00 AM: Haate Khori<br>• 11:00 AM: Puja<br>• 12:30 PM: Pushpanjali, Bhog, Arati<br>• 6:30 PM: Sandhya Arati | • **1:00 PM: Lunch – Traditional Puja Lunch**<br>• Afternoon-Evening: Quiz & Cultural Program<br>• **8:00 PM – 9:00 PM: Dinner** |`
   },
   {
-    title: "Official Durga Puja 2026 Lunch and Dinner Schedules (Program Details)",
-    sourceType: "web_page",
-    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
-    section: "Program Details: Lunch & Dinner Schedules",
-    content: `HDBS 2026 Durga Puja Official Lunch and Dinner Schedules (Source: https://durgabari.org/2026-puja/puja-schedule/ Program Details column):
+    title: "Official HDBS 2026 Puja Food Menu (Lunch & Dinner Dishes)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/2026-puja/2026-puja-food-menu/",
+    flyerImagePath: "/flyers/2026PujaFoodMenu.jpeg",
+    section: "Puja Food Menu",
+    content: `HDBS 2026 PUJA FOOD MENU — LUNCH & DINNER DISHES
+Official Source: https://durgabari.org/2026-puja/2026-puja-food-menu/ (Official Flyer: 2026PujaFoodMenu.jpeg)
 
-CRITICAL GUIDELINE:
-- The lunch and dinner schedules are specifically listed in the "Program Details" column on the official website.
-- When asked about Lunch and Dinner timings, refer to the Program Details column below.
-- Do NOT provide the religious Puja Timings (Bhog, Pushpanjali, and Sandhya Arati) when asked about Lunch and Dinner.
+### 🍽️ COMPLETE PUJA FOOD MENU TABLE:
+| Puja Dates | Lunch / Dinner | Adult / Kids | Source | Food Menu Items |
+| :--- | :--- | :--- | :--- | :--- |
+| **Friday, October 16** | **DINNER** (8:30 PM – 9:30 PM) | **ADULT** | IN HOUSE | Basmati Rice, Masoor Dal, Kurkure, Alubhaja, Sukto, Echorer Dalna, Gulab Jamun |
+| | **DINNER** (8:30 PM – 9:30 PM) | **KIDS** | OUTSOURCED | Chicken / Veg Sandwich, Fries, Chocolate Chips, Cookie, Juice |
+| **Saturday, October 17** | **LUNCH** (1:00 PM – 2:00 PM) | **ADULT** | OUTSOURCED | Basmati Rice, Yellow Dal, Alu Paratha, Navratan Korma, Malai Kofta, Rasmalai |
+| | **LUNCH** (1:00 PM – 2:00 PM) | **KIDS** | OUTSOURCED | Butter Nan, Jeera Rice, Butter Chicken / Butter Paneer, Gulab Jamun, Water |
+| | **DINNER** (8:30 PM – 9:30 PM) | **ADULT** | IN HOUSE | Basanti Pulao, Cholar Daal, Pakora, Alu Potol Rosha, Chilli Paneer, Malpoa |
+| | **DINNER** (8:30 PM – 9:30 PM) | **KIDS** | OUTSOURCED | Noodles, Chilli Chicken / Veg Manchurian, Muffins, Water |
+| **Sunday, October 18** | **LUNCH** (1:00 PM – 2:00 PM) | **ADULT** | IN HOUSE | Khichuri, Badhakopir Tarkari, Beguni, Tomato-Khejur Chutney, Rosogolla |
+| | **LUNCH** (1:00 PM – 2:00 PM) | **KIDS** | OUTSOURCED | Pizza, Pirates Booty (Chips), Knott’s Strawberry Shortbread, Juice |
+| | **DINNER** (8:30 PM – 9:30 PM) | **ADULT & KIDS** | OUTSOURCED | Choley / Bhatura (Onsite Frying), Veg Pulao, Pakora, Veg Diwani Handi, Kesar Halwa |
+| **Saturday, October 24** | **DINNER** (8:30 PM – 9:30 PM) | **ADULT & KIDS (Non-Veg)** | IN HOUSE | Basmati Rice, Goat Curry or Chicken Curry, Kancha Amer Chutney, Ice Cream (Cup) |
+| | **DINNER** (8:30 PM – 9:30 PM) | **ADULT & KIDS (Veg [V])** | IN HOUSE (V) | Basmati Rice, Tok Daal, Dhokar Dalna, Methi Saag (w begun), Alu Beans Posto, Kancha Amer Chutney, Ice Cream (Cup) |
 
-Official Durga Puja Lunch and Dinner Timetable:
-1. **Friday, October 16, 2026 (Maha Shashti)**:
-   - **Lunch**: No lunch scheduled in Program Details.
-   - **Dinner**: **8:30 PM – 9:30 PM: Dinner – Culinary Celebration**
+### 📋 DETAILED DAY-BY-DAY FOOD MENU BREAKDOWN:
 
-2. **Saturday, October 17, 2026 (Maha Saptami)**:
-   - **Lunch**: **1:00 PM – 2:00 PM: Lunch: Bengali cuisine treat**
-   - **Dinner**: **8:30 PM – 9:30 PM: Dinner: Gastronomic experience**
+#### 1. Friday, October 16 (Maha Shashti)
+- **Lunch**: No lunch scheduled.
+- **Adult Dinner (In-House)**:
+  * Basmati Rice
+  * Masoor Dal
+  * Kurkure
+  * Alubhaja (Potato Fry)
+  * Sukto
+  * Echorer Dalna (Raw Jackfruit Curry)
+  * Gulab Jamun
+- **Kids Dinner (Outsourced)**:
+  * Chicken / Veg Sandwich
+  * French Fries
+  * Chocolate Chips & Cookie
+  * Juice
 
-3. **Sunday, October 18, 2026 (Maha Ashtami)**:
-   - **Lunch**: **1:00 PM – 2:00 PM: Lunch: Maha Ashtami traditions on your plate**
-   - **Dinner**: **8:30 PM – 9:30 PM: Dinner: Puja feast continues next weekend**
+#### 2. Saturday, October 17 (Maha Saptami)
+- **Adult Lunch (Outsourced)**:
+  * Basmati Rice
+  * Yellow Dal
+  * Alu Paratha
+  * Navratan Korma
+  * Malai Kofta
+  * Rasmalai
+- **Kids Lunch (Outsourced)**:
+  * Butter Nan
+  * Jeera Rice
+  * Butter Chicken / Butter Paneer
+  * Gulab Jamun
+  * Water
+- **Adult Dinner (In-House)**:
+  * Basanti Pulao
+  * Cholar Daal
+  * Pakora
+  * Alu Potol Rosha
+  * Chilli Paneer
+  * Malpoa
+- **Kids Dinner (Outsourced)**:
+  * Noodles
+  * Chilli Chicken / Veg Manchurian
+  * Muffins
+  * Water
 
-4. **Saturday, October 24, 2026 (Dashami & Bijoya Sammiloni)**:
-   - **Lunch**: No lunch scheduled in Program Details.
-   - **Dinner**: **8:30 PM – 9:30 PM: Dinner: Subho Bijoya gala dinner**
+#### 3. Sunday, October 18 (Maha Ashtami)
+- **Adult Lunch (In-House Traditional Bhog)**:
+  * Khichuri
+  * Badhakopir Tarkari (Cabbage Curry)
+  * Beguni (Eggplant Fritters)
+  * Tomato-Khejur Chutney (Tomato Date Chutney)
+  * Rosogolla
+- **Kids Lunch (Outsourced)**:
+  * Pizza
+  * Pirates Booty (Chips)
+  * Knott’s Strawberry Shortbread
+  * Juice
+- **Adult & Kids Dinner (Outsourced)**:
+  * Choley / Bhatura (Fresh Onsite Frying)
+  * Veg Pulao
+  * Pakora
+  * Veg Diwani Handi
+  * Kesar Halwa
 
-Additional Festival Dining Hours:
-- **Sunday, October 11, 2026 (Mahalaya & Anandamela)**: 12:00 PM – 2:00 PM: Food Fest (Anandamela community food fair).
-- **Saturday, November 7, 2026 (Pre Kali Puja)**: 8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj.
-- **Sunday, November 8, 2026 (Kali Shyama Puja)**: 8:30 PM – 9:30 PM: Dinner: Puja Savory.
-- **Saturday, February 13, 2027 (Saraswati Puja)**: 1:00 PM: Lunch – Traditional Puja Lunch | 8:00 PM – 9:00 PM: Dinner.
+#### 4. Saturday, October 24 (Dashami & Bijoya Sammiloni Dinner)
+- **Lunch**: No lunch scheduled.
+- **Adult & Kids Dinner — Regular / Non-Vegetarian (In-House)**:
+  * Basmati Rice
+  * Goat Curry OR Chicken Curry
+  * Kancha Amer Chutney (Raw Mango Chutney)
+  * Ice Cream (Cup)
+- **Adult & Kids Dinner — Vegetarian (In-House [V])**:
+  * Basmati Rice
+  * Tok Daal (Tangy Lentil Soup)
+  * Dhokar Dalna (Lentil Cake Curry)
+  * Methi Saag with Begun (Fenugreek Greens with Eggplant)
+  * Alu Beans Posto (Potato & Green Beans in Poppy Seed Paste)
+  * Kancha Amer Chutney (Raw Mango Chutney)
+  * Ice Cream (Cup)
 
-*Note: Religious Puja Timings such as Pushpanjali, sacred Bhog offering to Maa Durga, and Sandhya Arati are conducted according to the separate Puja Timings column.*`
+Additional Festive Dining Events:
+- **Sunday, October 11 (Mahalaya & Anandamela)**: 12:00 PM – 2:00 PM: Food Fest (Anandamela community food fair).
+- **Saturday, November 7 (Pre Kali Puja)**: 8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj.
+- **Sunday, November 8 (Kali Shyama Puja)**: 8:30 PM – 9:30 PM: Dinner: Puja Savory.
+- **Saturday, February 13, 2027 (Saraswati Puja)**: 1:00 PM: Lunch – Traditional Puja Lunch | 8:00 PM – 9:00 PM: Dinner.`
   },
   {
     title: "Official Durga Puja 2026 Puja Timings (Bhog, Pushpanjali, and Sandhya Arati)",

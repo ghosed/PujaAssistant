@@ -72,6 +72,7 @@ if (!fs.existsSync(DATA_DIR)) {
 // In-Memory Vector Store matching Chroma DB schema
 interface StoredCollection {
   name: string;
+  version?: string;
   chunks: VectorChunk[];
   lastIndexed: string;
 }
@@ -198,13 +199,20 @@ function splitTextIntoChunks(
   return chunks.filter((c) => c.length > 50);
 }
 
+const KB_VERSION = '2026-10-17-v4-food-menu-committee-passes';
+
 // Fast load cached Chroma vector store from disk (<5ms, instant zero-network startup)
 function loadKnowledgeBaseFromDisk(): boolean {
   try {
     if (fs.existsSync(CHROMA_STORE_FILE)) {
       const data = fs.readFileSync(CHROMA_STORE_FILE, 'utf-8');
       const parsed = JSON.parse(data);
-      if (parsed && Array.isArray(parsed.chunks) && parsed.chunks.length > 0) {
+      if (
+        parsed &&
+        Array.isArray(parsed.chunks) &&
+        parsed.chunks.length > 0 &&
+        parsed.version === KB_VERSION
+      ) {
         vectorStore = parsed;
         if (fs.existsSync(FLYERS_METADATA_FILE)) {
           try {
@@ -213,7 +221,7 @@ function loadKnowledgeBaseFromDisk(): boolean {
             // ignore flyer metadata parse error
           }
         }
-        console.log(`[Ingestion] Instantly loaded ${vectorStore.chunks.length} chunks from cached Chroma store on disk.`);
+        console.log(`[Ingestion] Instantly loaded ${vectorStore.chunks.length} chunks from cached Chroma store on disk (version: ${KB_VERSION}).`);
         return true;
       }
     }
@@ -615,6 +623,34 @@ Source: https://durgabari.org/2026-puja/parking-bus-schedule/
       chunkCount: 3,
       badge: 'Parking & Shuttle Flyer',
     },
+    {
+      id: 'flyer-15',
+      title: 'HDBS 2026 Puja Food Menu Official Flyer (Lunch & Dinner Items)',
+      fileName: '2026PujaFoodMenu.jpeg',
+      url: '/flyers/2026PujaFoodMenu.jpeg',
+      dateAdded: '2026-10-16',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - 2026 PUJA FOOD MENU
+Source: Official Food Menu Portal at https://durgabari.org/2026-puja/2026-puja-food-menu/ (Flyer: 2026PujaFoodMenu.jpeg)
+
+#### Complete Food Menu Table:
+- **Friday, October 16**:
+  * Adult Dinner (In-House): Basmati Rice, Masoor Dal, Kurkure, Alubhaja, Sukto, Echorer Dalna, Gulab Jamun
+  * Kids Dinner (Outsourced): Chicken / Veg Sandwich, Fries, Chocolate Chips, Cookie, Juice
+- **Saturday, October 17**:
+  * Adult Lunch (Outsourced): Basmati Rice, Yellow Dal, Alu Paratha, Navratan Korma, Malai Kofta, Rasmalai
+  * Kids Lunch (Outsourced): Butter Nan, Jeera Rice, Butter Chicken / Butter Paneer, Gulab Jamun, Water
+  * Adult Dinner (In-House): Basanti Pulao, Cholar Daal, Pakora, Alu Potol Rosha, Chilli Paneer, Malpoa
+  * Kids Dinner (Outsourced): Noodles, Chilli Chicken / Veg Manchurian, Muffins, Water
+- **Sunday, October 18**:
+  * Adult Lunch (In-House - Traditional Maha Ashtami Bhog): Khichuri, Badhakopir Tarkari, Beguni, Tomato-Khejur Chutney, Rosogolla
+  * Kids Lunch (Outsourced): Pizza, Pirates Booty (Chips), Knott’s Strawberry Shortbread, Juice
+  * Adult & Kids Dinner (Outsourced): Choley / Bhatura (Onsite Frying), Veg Pulao, Pakora, Veg Diwani Handi, Kesar Halwa
+- **Saturday, October 24 (Bijoya / Post-Puja Dinner)**:
+  * Adult & Kids Dinner — Regular / Non-Vegetarian (In-House): Basmati Rice, Goat Curry or Chicken Curry, Kancha Amer Chutney, Ice Cream (Cup)
+  * Adult & Kids Dinner — Vegetarian (In-House [V]): Basmati Rice, Tok Daal, Dhokar Dalna, Methi Saag (w begun), Alu Beans Posto, Kancha Amer Chutney, Ice Cream (Cup)`,
+      chunkCount: 3,
+      badge: 'Food Menu Flyer',
+    },
   ];
 
   let chunkIdCounter = 1;
@@ -660,6 +696,7 @@ Source: https://durgabari.org/2026-puja/parking-bus-schedule/
 
   vectorStore = {
     name: 'hdbs_2026_puja',
+    version: KB_VERSION,
     chunks: initialChunks,
     lastIndexed: new Date().toISOString(),
   };
@@ -718,10 +755,9 @@ async function retrieveContextChunks(query: string, topK: number = 5): Promise<{
 
   // Check if query is asking for event dates or schedule
   const isScheduleQuery =
-    /\b(dates?|daily|schedule|timings?|when is|calendar|day[- ]by[- ]day|program|hours?)\b/i.test(lowerQuery) &&
-    /\b(puja|durga|sharodotsav|festiv|2026|anandamela|tarpan|ashtami|nabami|saptami|dashami|sandhi)\b/i.test(lowerQuery);
-
-  const isFoodOrMealQuery = /\b(lunch|dinner|meals?|food|eating|dining|bhoj)\b/i.test(lowerQuery);
+    /\b(dates?|daily|schedule|timings?|when is|calendar|day[- ]by[- ]day|program|hours?)\b/i.test(lowerQuery);
+  const isFoodOrMealQuery =
+    /\b(lunch|dinner|meals?|food|eating|dining|bhoj|menus?|dishes|curry|khichuri|pulao|sweets?|veg|non[- ]veg|goat|chicken|paneer|rasmalai|sandwiches?|bhog|kachauri|bhatura)\b/i.test(lowerQuery);
   const isBhogOrAratiQuery = /\b(bhog|pushpanjali|arati|aarti|anjali|sandhi|darpan|visarjan|bodhan)\b/i.test(lowerQuery);
   const isPassOrRegistrationQuery =
     /\b(pass|passes|daypass|day[- ]pass|evening[- ]pass|daily|tickets?|per[- ]day|registration|badges?|decals?|sponsor|sponsorship)\b/i.test(lowerQuery);
@@ -808,6 +844,16 @@ async function retrieveContextChunks(query: string, topK: number = 5): Promise<{
         } else if (lowerText.includes('souvik ghose') || lowerTitle.includes('leadership')) {
           combinedScore += 0.45;
         }
+      } else if (isFoodOrMealQuery) {
+        if (lowerTitle.includes('puja food menu') || lowerSection.includes('food menu') || lowerText.includes('echorer dalna') || lowerText.includes('navratan korma')) {
+          combinedScore += 0.55;
+        } else if (lowerTitle.includes('lunch and dinner') || lowerSection.includes('lunch & dinner')) {
+          combinedScore += 0.45;
+        } else if (lowerTitle.includes('dining') || lowerSection.includes('bhog & dining logistics')) {
+          combinedScore += 0.30;
+        } else if (lowerTitle.includes('master puja schedule')) {
+          combinedScore += 0.20;
+        }
       } else if (isPassOrRegistrationQuery) {
         if (lowerTitle.includes('day passes') || lowerSection.includes('day passes') || lowerText.includes('special processing > day passes')) {
           combinedScore += 0.45;
@@ -818,14 +864,6 @@ async function retrieveContextChunks(query: string, topK: number = 5): Promise<{
         } else if (lowerTitle.includes('sponsorship') || lowerSection.includes('sponsorship')) {
           combinedScore += 0.25;
         } else if (lowerTitle.includes('registration')) {
-          combinedScore += 0.20;
-        }
-      } else if (isFoodOrMealQuery) {
-        if (lowerTitle.includes('lunch and dinner schedules') || lowerSection.includes('lunch & dinner schedules')) {
-          combinedScore += 0.40;
-        } else if (lowerTitle.includes('dining, lunch & dinner') || lowerSection.includes('bhog & dining logistics')) {
-          combinedScore += 0.25;
-        } else if (lowerTitle.includes('master puja schedule')) {
           combinedScore += 0.20;
         }
       } else if (isBhogOrAratiQuery) {
@@ -1080,29 +1118,44 @@ MANDATORY RESPONSE FORMATTING & READABILITY RULES:
      * Uber / Rideshare: Pick-up and drop-off allowed (no waiting) via Schiller Road.
      * City Parking Advisory: City parking on Schiller Rd is NOT managed by HDBS; avoid parking over 1 hour.
 
-4. LUNCH AND DINNER SCHEDULES vs. PUJA TIMINGS (BHOG, PUSHPANJALI, SANDHYA ARATI) - CRITICAL RULE:
-   - When asked about the lunch and dinner schedules (e.g., "What are the lunch and dinner schedules during the Durga Puja this year?"):
-     * You MUST refer strictly to the "Program Details" column shown in https://durgabari.org/2026-puja/puja-schedule/.
-     * DO NOT substitute or confuse Lunch and Dinner with Bhog, Pushpanjali, or Sandhya Arati timings!
-     * State the exact lunch and dinner schedules from Program Details:
-       - **Friday, Oct 16, 2026 (Maha Shashti)**:
-         * Lunch: No lunch scheduled in Program Details
-         * Dinner: **8:30 PM – 9:30 PM: Dinner – Culinary Celebration**
-       - **Saturday, Oct 17, 2026 (Maha Saptami)**:
-         * Lunch: **1:00 PM – 2:00 PM: Lunch: Bengali cuisine treat**
-         * Dinner: **8:30 PM – 9:30 PM: Dinner: Gastronomic experience**
-       - **Sunday, Oct 18, 2026 (Maha Ashtami)**:
-         * Lunch: **1:00 PM – 2:00 PM: Lunch: Maha Ashtami traditions on your plate**
-         * Dinner: **8:30 PM – 9:30 PM: Dinner: Puja feast continues next weekend**
-       - **Saturday, Oct 24, 2026 (Dashami & Bijoya Sammiloni)**:
-         * Lunch: No lunch scheduled in Program Details
-         * Dinner: **8:30 PM – 9:30 PM: Dinner: Subho Bijoya gala dinner**
+4. PUJA FOOD MENU — LUNCH & DINNER DISHES (CRITICAL - OFFICIAL FROM https://durgabari.org/2026-puja/2026-puja-food-menu/):
+   - When asked about the Puja lunch and dinner menus, the food menu, specific dishes, what food/meals are served, or meal menus for any day:
+     * You MUST provide the authentic, official HDBS 2026 Puja Food Menu dishes from https://durgabari.org/2026-puja/2026-puja-food-menu/ (Official Flyer: 2026PujaFoodMenu.jpeg).
+     * DO NOT substitute generic schedule themes (like "Bengali cuisine treat" or "Gastronomic experience") when asked about the food menu! Always provide the actual authentic dishes.
+     * State the complete, accurate day-by-day menu breakdown:
+       - **Friday, October 16, 2026 (Maha Shashti)**:
+         * Lunch: No lunch scheduled.
+         * **Dinner (8:30 PM – 9:30 PM)**:
+           - **Adult (In-House)**: Basmati Rice, Masoor Dal, Kurkure, Alubhaja, Sukto, Echorer Dalna, Gulab Jamun
+           - **Kids (Outsourced)**: Chicken / Veg Sandwich, Fries, Chocolate Chips, Cookie, Juice
+       - **Saturday, October 17, 2026 (Maha Saptami)**:
+         * **Lunch (1:00 PM – 2:00 PM)**:
+           - **Adult (Outsourced)**: Basmati Rice, Yellow Dal, Alu Paratha, Navratan Korma, Malai Kofta, Rasmalai
+           - **Kids (Outsourced)**: Butter Nan, Jeera Rice, Butter Chicken / Butter Paneer, Gulab Jamun, Water
+         * **Dinner (8:30 PM – 9:30 PM)**:
+           - **Adult (In-House)**: Basanti Pulao, Cholar Daal, Pakora, Alu Potol Rosha, Chilli Paneer, Malpoa
+           - **Kids (Outsourced)**: Noodles, Chilli Chicken / Veg Manchurian, Muffins, Water
+       - **Sunday, October 18, 2026 (Maha Ashtami)**:
+         * **Lunch (1:00 PM – 2:00 PM)**:
+           - **Adult (In-House - Traditional Maha Ashtami Bhog)**: Khichuri, Badhakopir Tarkari, Beguni, Tomato-Khejur Chutney, Rosogolla
+           - **Kids (Outsourced)**: Pizza, Pirates Booty (Chips), Knott’s Strawberry Shortbread, Juice
+         * **Dinner (8:30 PM – 9:30 PM)**:
+           - **Adult & Kids (Outsourced)**: Choley / Bhatura (Fresh Onsite Frying), Veg Pulao, Pakora, Veg Diwani Handi, Kesar Halwa
+       - **Saturday, October 24, 2026 (Dashami & Bijoya Sammiloni)**:
+         * Lunch: No lunch scheduled.
+         * **Dinner (8:30 PM – 9:30 PM)**:
+           - **Adult & Kids Non-Vegetarian (In-House)**: Basmati Rice, Goat Curry or Chicken Curry, Kancha Amer Chutney, Ice Cream (Cup)
+           - **Adult & Kids Vegetarian (In-House [V])**: Basmati Rice, Tok Daal, Dhokar Dalna, Methi Saag (w begun), Alu Beans Posto, Kancha Amer Chutney, Ice Cream (Cup)
      * You may mention additional festive dining events if relevant:
-       - Sunday, Oct 11 (Mahalaya/Anandamela): 12:00 PM – 2:00 PM: Food Fest
+       - Sunday, Oct 11 (Mahalaya/Anandamela): 12:00 PM – 2:00 PM: Food Fest with 25+ food stalls (Fish Fry, Phuchka, Kosha Mangsho & Luchi, etc.)
        - Saturday, Nov 7 (Pre Kali Puja): 8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj
        - Sunday, Nov 8 (Kali Puja): 8:30 PM – 9:30 PM: Dinner: Puja Savory
        - Saturday, Feb 13, 2027 (Saraswati Puja): 1:00 PM: Lunch – Traditional Puja Lunch | 8:00 PM – 9:00 PM: Dinner
-   - When asked about Bhog, Pushpanjali, or Sandhya Arati timings:
+     * Official Source Citation:
+       - Document / Flyer: HDBS 2026 Puja Food Menu Official Flyer (2026PujaFoodMenu.jpeg)
+       - Portal URL: https://durgabari.org/2026-puja/2026-puja-food-menu/
+       - Section: Puja Food Menu
+   - When asked about sacred ritual timings (Bhog, Pushpanjali, Sandhya Arati):
      * You MUST refer strictly to the "Puja Timings" column:
        - Friday, Oct 16 (Maha Shashti): 10:30 AM: Maha Shashti Puja; 6:00 PM: Amantran & Adhibas; 7:00 PM: Pushpanjali, Bhog, Sandhya Arati
        - Saturday, Oct 17 (Maha Saptami): 9:00 AM: Kalabou Snan; 10:00 AM: Maha Saptami Puja; 12:00 PM: Balidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 7:00 PM: Sandhya Arati

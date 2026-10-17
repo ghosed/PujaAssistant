@@ -197,24 +197,31 @@ Table columns: Date & Day | Event | Puja Timings (Rituals, Bhog, Arati) | Progra
 - Saraswati Puja (Saturday, Feb 13, 2027): 10:00 AM: Haate Khori; 11:00 AM: Puja; 12:30 PM: Pushpanjali, Bhog, Arati; 1:00 PM: Lunch; 8:00 PM – 9:00 PM: Dinner"""
         },
         {
-            "title": "Official Durga Puja 2026 Lunch & Dinner Schedules (Program Details)",
-            "source_type": "web_page",
-            "source_url": "https://durgabari.org/2026-puja/puja-schedule/",
-            "content": """HDBS 2026 Durga Puja Lunch & Dinner Schedule (Source: https://durgabari.org/2026-puja/puja-schedule/ Program Details column):
-When asked about lunch and dinner schedules, refer strictly to the Program Details column:
-- Friday, Oct 16 (Maha Shashti):
-  * Lunch: No lunch scheduled in Program Details
-  * Dinner: 8:30 PM – 9:30 PM: Dinner – Culinary Celebration
-- Saturday, Oct 17 (Maha Saptami):
-  * Lunch: 1:00 PM – 2:00 PM: Lunch: Bengali cuisine treat
-  * Dinner: 8:30 PM – 9:30 PM: Dinner: Gastronomic experience
-- Sunday, Oct 18 (Maha Ashtami):
-  * Lunch: 1:00 PM – 2:00 PM: Lunch: Maha Ashtami traditions on your plate
-  * Dinner: 8:30 PM – 9:30 PM: Dinner: Puja feast continues next weekend
-- Saturday, Oct 24 (Dashami & Bijoya Sammiloni):
-  * Lunch: No lunch scheduled in Program Details
-  * Dinner: 8:30 PM – 9:30 PM: Dinner: Subho Bijoya gala dinner
-(Note: Puja Timings column lists religious rituals like Bhog and Pushpanjali at 12:00 PM / 12:30 PM and Arati at 6:00 PM / 7:00 PM, which are separate from community Lunch and Dinner hours)."""
+            "title": "Official HDBS 2026 Puja Food Menu (Lunch & Dinner Dishes)",
+            "source_type": "flyer_ocr",
+            "source_url": "https://durgabari.org/2026-puja/2026-puja-food-menu/",
+            "flyer_image_path": "/flyers/2026PujaFoodMenu.jpeg",
+            "content": """HDBS 2026 PUJA FOOD MENU — LUNCH & DINNER DISHES
+Official Source: https://durgabari.org/2026-puja/2026-puja-food-menu/ (Official Flyer: 2026PujaFoodMenu.jpeg)
+
+COMPLETE PUJA FOOD MENU:
+1. Friday, October 16 (Maha Shashti):
+   - Lunch: No lunch scheduled
+   - Adult Dinner (In-House): Basmati Rice, Masoor Dal, Kurkure, Alubhaja, Sukto, Echorer Dalna, Gulab Jamun
+   - Kids Dinner (Outsourced): Chicken / Veg Sandwich, Fries, Chocolate Chips, Cookie, Juice
+2. Saturday, October 17 (Maha Saptami):
+   - Adult Lunch (Outsourced): Basmati Rice, Yellow Dal, Alu Paratha, Navratan Korma, Malai Kofta, Rasmalai
+   - Kids Lunch (Outsourced): Butter Nan, Jeera Rice, Butter Chicken / Butter Paneer, Gulab Jamun, Water
+   - Adult Dinner (In-House): Basanti Pulao, Cholar Daal, Pakora, Alu Potol Rosha, Chilli Paneer, Malpoa
+   - Kids Dinner (Outsourced): Noodles, Chilli Chicken / Veg Manchurian, Muffins, Water
+3. Sunday, October 18 (Maha Ashtami):
+   - Adult Lunch (In-House Traditional Bhog): Khichuri, Badhakopir Tarkari, Beguni, Tomato-Khejur Chutney, Rosogolla
+   - Kids Lunch (Outsourced): Pizza, Pirates Booty (Chips), Knott’s Strawberry Shortbread, Juice
+   - Adult & Kids Dinner (Outsourced): Choley / Bhatura (Onsite Frying), Veg Pulao, Pakora, Veg Diwani Handi, Kesar Halwa
+4. Saturday, October 24 (Bijoya Sammiloni Dinner):
+   - Lunch: No lunch scheduled
+   - Adult & Kids Dinner — Regular / Non-Vegetarian (In-House): Basmati Rice, Goat Curry or Chicken Curry, Kancha Amer Chutney, Ice Cream (Cup)
+   - Adult & Kids Dinner — Vegetarian (In-House [V]): Basmati Rice, Tok Daal, Dhokar Dalna, Methi Saag (w begun), Alu Beans Posto, Kancha Amer Chutney, Ice Cream (Cup)"""
         },
         {
             "title": "Official HDBS 2026 Puja Passes & Day Passes Policy (Limited Passes Available)",

@@ -40,7 +40,7 @@ The official schedule contains two distinct columns: "Puja Timings" (for religio
 | 18-Oct-2026 Sunday | **Maha Ashtami** | • 10:00 AM: Maha Ashtami Puja<br>• 12:00 PM: Bolidaan<br>• 12:30 PM: Pushpanjali, Bhog, Arati<br>• 6:00 PM: Sandhya Arati<br>• **8:56 PM: Maha Sandhi Puja** | • **1:00 PM – 2:00 PM: Lunch: Maha Ashtami traditions on your plate**<br>• 2:45 PM: Alo Amar (Tagore Society Youth Orchestra)<br>• 3:30 PM: Pancho Kobir Monone Rashobodh (Homage to Bengal's 5 Bards)<br>• 4:30 PM: Boroder Adda (Seniors' Reminiscence)<br>• **8:30 PM – 9:30 PM: Dinner: Puja feast continues next weekend** |
 | 19-Oct-2026 Monday | **Maha Nabami (Tithi)** | • 10:30 AM: Maha Nabami Puja<br>• 12:00 PM: Bolidaan<br>• 12:30 PM: Pushpanjali, Bhog, Arati<br>• 7:00 PM: Sandhya Arati | — |
 | 20-Oct-2026 Tuesday | **Maha Dashami (Tithi)** | • 11:00 AM: Puja and Dadhikarma | — |
-| 24-Oct-2026 Saturday | **Dashami & Bijoya Sammiloni** | • 3:30 PM: Aparajita Puja<br>• 4:30 PM: Bhasaan, Sindoor Khela | • 6:30 PM: Dhunuchi Nach<br>• **8:30 PM – 9:30 PM: Dinner: Subho Bijoya gala dinner**<br>• 10:00 PM: Miss Jojo – Musical extravaganza |
+| 24-Oct-2026 Saturday | **Dashami & Bijoya Sammiloni** | • 3:30 PM – 4:30 PM: Aparajita Pujo (Temple)<br>• 4:30 PM – 5:15 PM: Bishorjon Procession and Immersion<br>• 5:30 PM – 6:30 PM: Sindoor Khela | • 6:30 PM: Next Gen Performance (ধুনুচি ও ঢাক / Dhunuchi & Dhaak)<br>• 7:00 PM – 8:00 PM: Dhunuchi Competition (তালে ও ছন্দে ধুনুচি / Taale o Chhonde Dhunuchi)<br>• 6:30 PM – 8:00 PM: Snacks (On Purchase until supplies last)<br>• **8:30 PM – 9:30 PM: Dinner: Subho Bijoya gala dinner**<br>• 9:30 PM: Ms. Jojo & Troupe Musical Extravaganza |
 | 25-Oct-2026 Sunday | **Lokkhi Puja** | • 6:00 PM: Kojagari Lokkhi Puja, Pushpanjali, Bhog, Arati<br>• 7:30 PM: Prasad | — |
 | 07-Nov-2026 Saturday | **Pre Kali Puja** | • 7:00 PM: Sandhya Arati<br>• 7:30 PM: Fireworks | • 6:00 PM: Muktomela (Open Stage for Community Kids)<br>• **8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj**<br>• 9:30 PM: Hilarious Kalipuja Drama |
 | 08-Nov-2026 Sunday | **Kali (Shyama) Puja** | • 6:30 PM: Kali Puja, Bolidaan<br>• 7:30 PM: Pushpanjali, Bhog, Arati | • **8:30 PM – 9:30 PM: Dinner: Puja Savory** |
@@ -200,8 +200,9 @@ Official Ritual & Puja Timings by Day:
 - **Tuesday, October 20, 2026 (Maha Dashami Tithi)**:
   - 11:00 AM: Puja and Dadhikarma
 - **Saturday, October 24, 2026 (Dashami & Bijoya Sammiloni)**:
-  - 3:30 PM: Aparajita Puja
-  - 4:30 PM: Bhasaan, Sindoor Khela
+  - 3:30 PM – 4:30 PM: Aparajita Pujo (Temple)
+  - 4:30 PM – 5:15 PM: Bishorjon Procession and Immersion
+  - 5:30 PM – 6:30 PM: Sindoor Khela
 - **Sunday, October 25, 2026 (Lokkhi Puja)**:
   - **6:00 PM: Kojagari Lokkhi Puja, Pushpanjali, Bhog, Arati**
   - 7:30 PM: Prasad
@@ -336,20 +337,29 @@ Note: In accordance with the official schedule at https://durgabari.org/2026-puj
   },
   {
     title: "Dashami (General) & Bijoya Sammiloni 2026 (Saturday, Oct 24)",
-    sourceType: "web_page",
+    sourceType: "flyer_ocr",
     sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    flyerImagePath: "/assets/aistudio/Oct24_Bijoy_Sammelini_Schedule_996bbe0e.jpeg",
     section: "Dashami & Bijoya Sammiloni",
-    content: `Official Dashami & Bijoya Sammiloni Schedule (Saturday, October 24, 2026 from https://durgabari.org/2026-puja/puja-schedule/):
-Puja Timings:
-- 03:30 PM: Aparajita Puja
-- 04:30 PM: Bhasaan, Sindoor Khela & Devi Boran (Married women offer betel leaves, sweets, and vermilion to Maa Durga, followed by joyous Sindoor Khela with live Dhaak rhythm)
+    content: `Official Dashami & Bijoya Sammiloni Schedule (Saturday, October 24, 2026):
+Source: Official Event Schedule Flyer (Oct24_Bijoy_Sammelini_Schedule_996bbe0e.jpeg) & https://durgabari.org/2026-puja/puja-schedule/
 
-Program Details (Dinner & Cultural Programs):
-- 06:30 PM: Dhunuchi Nach
-- **08:30 PM – 09:30 PM: Dinner: Subho Bijoya gala dinner**
-- 10:00 PM: Miss Jojo Musical Extravaganza (Live concert at Sur Auditorium)
-- *Note on Lunch*: No lunch scheduled in Program Details for Saturday, Oct 24.
-Official Source: https://durgabari.org/2026-puja/puja-schedule/`
+### 🌸 Official Saturday, 24th October Event Schedule:
+- **3:30 PM – 4:30 PM**: **Aparajita Pujo (Temple)** — Concluding puja rituals in the temple.
+- **4:30 PM – 5:15 PM**: **Bishorjon Procession and Immersion** — Sacred Bishorjon procession and idol immersion rituals accompanied by resonant Dhaak rhythms.
+- **5:30 PM – 6:30 PM**: **Sindoor Khela** — Sacred traditional Sindoor Khela ceremony celebrating sisterhood, marital blessings, and victory.
+- **6:30 PM**: **Next Gen Performance (ধুনুচি ও ঢাক / Dhunuchi & Dhaak)** — Youth & Next Gen performance showcasing traditional Dhunuchi dance to beats of Dhaak.
+- **7:00 PM – 8:00 PM**: **Dhunuchi Competition (তালে ও ছন্দে ধুনুচি / Taale o Chhonde Dhunuchi)** — Grand energetic Dhunuchi dance competition celebrating rhythm and devotion.
+- **6:30 PM – 8:00 PM**: **Snacks (On Purchase until supplies last)** — Evening savory refreshments and traditional snacks available on purchase at food stalls.
+- **8:30 PM – 9:30 PM**: **Dinner (Subho Bijoya Gala Dinner)**:
+  * Non-Vegetarian: Basmati Rice, Goat Curry or Chicken Curry, Kancha Amer Chutney, Ice Cream Cup.
+  * Vegetarian: Basmati Rice, Tok Daal, Dhokar Dalna, Methi Saag (w begun), Alu Beans Posto, Kancha Amer Chutney, Ice Cream Cup.
+- **9:30 PM**: **Ms. Jojo & Troupe Musical Extravaganza** — Grand live musical concert in Sur Auditorium featuring Ms. Jojo & Troupe.
+- *Note on Lunch*: No lunch is scheduled in Program Details for Saturday, Oct 24.
+
+### 🚌 Shuttle Service Notice:
+- **Shuttle Service from West Oaks Mall will operate from 2:30 PM onwards till show ends**.
+- Pickup Location: West Oaks Mall (Near Dillard's Clearance Center, 1000 West Oaks Mall #800, Houston, TX 77082). Free parking and continuous air-conditioned bus shuttle directly to/from HDBS temple campus.`
   },
   {
     title: "Kojagori Lokkhi Puja & Maha Kali Puja 2026",
@@ -679,7 +689,7 @@ Shuttle bus transportation is provided FREE to/from Houston Durga Bari Society (
 | Friday, Oct 16, 2026 | Friday | 5:00 pm – 12:30 am | West Oaks Mall (Near Dillard's Clearance Center) |
 | Saturday, Oct 17, 2026 | Saturday | 9:00 am – 12:30 am | West Oaks Mall (Near Dillard's Clearance Center) |
 | Sunday, Oct 18, 2026 | Sunday | 9:00 am – 10:30 pm | West Oaks Mall (Near Dillard's Clearance Center) |
-| Saturday, Oct 24, 2026 | Saturday | 2:00 pm – 12:30 am | West Oaks Mall (Near Dillard's Clearance Center) |
+| Saturday, Oct 24, 2026 | Saturday | 2:30 pm onwards till show ends | West Oaks Mall (Near Dillard's Clearance Center) |
 
 #### Kali Puja Shuttle Timings:
 | Date | Day | Shuttle Operating Hours | Location / Pickup Point |
@@ -834,7 +844,7 @@ For devotees and families traveling from out of town to attend the 2026 Sharodot
 | Best Western Plus Westchase | Westchase District | ~4.6 miles (10–12 min drive) | Budget-friendly suites, hot breakfast, free parking |
 | Courtyard by Marriott Houston West | Energy Corridor | ~5.0 miles (11–13 min drive) | Modern workspace, bistro, outdoor patio |
 
-- **Free Park-and-Ride Shuttle**: Devotees staying along Westheimer Rd or Hwy 6 can park at the official overflow parking at West Oaks Mall (1000 West Oaks Mall #800, near Dillard's Clearance Center) and take the free, air-conditioned HDBS shuttle bus directly to the temple gates. Shuttle Hours: Friday Oct 16 (5:00 pm – 12:30 am), Saturday Oct 17 (9:00 am – 12:30 am), Sunday Oct 18 (9:00 am – 10:30 pm), Saturday Oct 24 (2:00 pm – 12:30 am).
+- **Free Park-and-Ride Shuttle**: Devotees staying along Westheimer Rd or Hwy 6 can park at the official overflow parking at West Oaks Mall (1000 West Oaks Mall #800, near Dillard's Clearance Center) and take the free, air-conditioned HDBS shuttle bus directly to the temple gates. Shuttle Hours: Friday Oct 16 (5:00 pm – 12:30 am), Saturday Oct 17 (9:00 am – 12:30 am), Sunday Oct 18 (9:00 am – 10:30 pm), Saturday Oct 24 (2:30 pm onwards till show ends).
 - **Rideshare Drop-off**: If taking Uber or Lyft from your hotel, direct the driver to Gate 2 on Schiller Road (UBER pick-up and drop-off allowed, no waiting).
 - **Temple Address**: Houston Durga Bari Society, 13944 Schiller Rd, Houston, TX 77082.
 
@@ -843,5 +853,31 @@ For devotees and families traveling from out of town to attend the 2026 Sharodot
 - **Source Portal**: Official HDBS Website (https://durgabari.org/2026-puja/)
 - **Section**: Visitor Logistics, Lodging & Hospitality
 - **Temple Contact**: (281) 530-0304 | lodging@durgabari.org`
+  },
+  {
+    title: "HDBS Saturday, 24th October Event Schedule Flyer (Bijoya Sammiloni Updated)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    flyerImagePath: "/assets/aistudio/Oct24_Bijoy_Sammelini_Schedule_996bbe0e.jpeg",
+    section: "Bijoya Sammiloni Event Schedule",
+    content: `HOUSTON DURGA BARI SOCIETY — SATURDAY, 24TH OCTOBER EVENT SCHEDULE (OFFICIAL FLYER)
+Flyer Asset: Oct24_Bijoy_Sammelini_Schedule_996bbe0e.jpeg
+Header: Saturday, 24th October Event Schedule
+
+### 🌸 Official Schedule of Events:
+- **3:30 PM – 4:30 PM**: **Aparajita Pujo (Temple)** — Concluding sacred puja ritual at the temple sanctum.
+- **4:30 PM – 5:15 PM**: **Bishorjon Procession and Immersion** — Sacred Bishorjon procession and idol immersion rituals accompanied by live Dhaak rhythm.
+- **5:30 PM – 6:30 PM**: **Sindoor Khela** — Sacred traditional Sindoor Khela ceremony celebrating sisterhood, marital blessings, and victory.
+- **6:30 PM**: **Next Gen Performance (ধুনুচি ও ঢাক / Dhunuchi & Dhaak)** — Youth & Next Gen performance showcasing traditional Dhunuchi dance to the beats of Dhaak.
+- **7:00 PM – 8:00 PM**: **Dhunuchi Competition (তালে ও ছন্দে ধুনুচি / Taale o Chhonde Dhunuchi)** — Grand energetic Dhunuchi dance competition celebrating rhythm and devotion.
+- **6:30 PM – 8:00 PM**: **Snacks (On Purchase until supplies last)** — Evening savory refreshments and snacks available on purchase at food stalls.
+- **8:30 PM – 9:30 PM**: **Dinner (Subho Bijoya Gala Dinner)** — Authentic festive Bengali dining:
+  * Non-Vegetarian: Basmati Rice, Goat Curry or Chicken Curry, Kancha Amer Chutney, Ice Cream (Cup)
+  * Vegetarian: Basmati Rice, Tok Daal, Dhokar Dalna, Methi Saag (w begun), Alu Beans Posto, Kancha Amer Chutney, Ice Cream (Cup)
+- **9:30 PM**: **Ms. Jojo & Troupe Musical Extravaganza** — Live musical concert in Sur Auditorium featuring Ms. Jojo & Troupe.
+
+### 🚌 Free Shuttle Service from West Oaks Mall:
+- **SHUTTLE SERVICE FROM WEST OAKS MALL WILL OPERATE FROM 2:30 PM ONWARDS TILL SHOW ENDS**.
+- Free continuous shuttle buses between West Oaks Mall (near Dillard's Clearance Center, 1000 West Oaks Mall #800, Houston, TX 77082) and Houston Durga Bari Society (13944 Schiller Rd).`
   }
 ];

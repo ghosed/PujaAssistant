@@ -42,8 +42,8 @@ The official schedule contains two distinct columns: "Puja Timings" (for religio
 | 20-Oct-2026 Tuesday | **Maha Dashami (Tithi)** | • 11:00 AM: Puja and Dadhikarma | — |
 | 24-Oct-2026 Saturday | **Dashami & Bijoya Sammiloni** | • 3:30 PM – 4:30 PM: Aparajita Pujo (Temple)<br>• 4:30 PM – 5:15 PM: Bishorjon Procession and Immersion<br>• 5:30 PM – 6:30 PM: Sindoor Khela | • 6:30 PM: Next Gen Performance (ধুনুচি ও ঢাক / Dhunuchi & Dhaak)<br>• 7:00 PM – 8:00 PM: Dhunuchi Competition (তালে ও ছন্দে ধুনুচি / Taale o Chhonde Dhunuchi)<br>• 6:30 PM – 8:00 PM: Snacks (On Purchase until supplies last)<br>• **8:30 PM – 9:30 PM: Dinner: Subho Bijoya gala dinner**<br>• 9:30 PM: Ms. Jojo & Troupe Musical Extravaganza |
 | 25-Oct-2026 Sunday | **Lokkhi Puja** | • 6:00 PM: Kojagari Lokkhi Puja, Pushpanjali, Bhog, Arati<br>• 7:30 PM: Prasad | — |
-| 07-Nov-2026 Saturday | **Pre Kali Puja** | • 7:00 PM: Sandhya Arati<br>• 7:30 PM: Fireworks | • 6:00 PM: Muktomela (Open Stage for Community Kids)<br>• **8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj**<br>• 9:30 PM: Hilarious Kalipuja Drama |
-| 08-Nov-2026 Sunday | **Kali (Shyama) Puja** | • 6:30 PM: Kali Puja, Bolidaan<br>• 7:30 PM: Pushpanjali, Bhog, Arati | • **8:30 PM – 9:30 PM: Dinner: Puja Savory** |
+| 07-Nov-2026 Saturday | **Pre Kali Puja** | • 6:00 PM – 6:30 PM: Arati (Temple) | • 6:00 PM – 7:30 PM: Open Mic (Outdoor/Indoor Cultural Event)<br>• 6:00 PM – 8:00 PM: Snacks Sale<br>• 6:00 PM – 9:00 PM: Durga Bari Gift Shop<br>• 6:00 PM – 11:00 PM: Vendors at Kalabhavan<br>• 6:30 PM – 7:30 PM: Fireworks Extravaganza<br>• **8:15 PM – 9:30 PM: Dinner (Adults & Kids)**<br>• 9:30 PM: Bengali Drama (Natok in Auditorium) |
+| 08-Nov-2026 Sunday | **Kali (Shyama) Puja** | • 6:00 PM – 8:00 PM: Tithi Puja (Temple)<br>• 8:00 PM – 9:00 PM: Yagna (Tent/Temple) | • 6:00 PM – 7:30 PM: Open Mic (Outdoor/Indoor Cultural Event)<br>• 6:30 PM – 7:30 PM: Snacks Sale<br>• 6:00 PM – 9:00 PM: Vendors at Kalabhavan<br>• **8:00 PM – 9:15 PM: Dinner (Adults & Kids)** |
 | 13-Feb-2027 Saturday | **Saraswati Puja** | • 10:00 AM: Haate Khori<br>• 11:00 AM: Puja<br>• 12:30 PM: Pushpanjali, Bhog, Arati<br>• 6:30 PM: Sandhya Arati | • **1:00 PM: Lunch – Traditional Puja Lunch**<br>• Afternoon-Evening: Quiz & Cultural Program<br>• **8:00 PM – 9:00 PM: Dinner** |`
   },
   {
@@ -69,6 +69,10 @@ Official Source: https://durgabari.org/2026-puja/2026-puja-food-menu/ (Official 
 | | **DINNER** (8:30 PM – 9:30 PM) | **ADULT & KIDS** | OUTSOURCED | Choley / Bhatura (Onsite Frying), Veg Pulao, Pakora, Veg Diwani Handi, Kesar Halwa |
 | **Saturday, October 24** | **DINNER** (8:30 PM – 9:30 PM) | **ADULT & KIDS (Non-Veg)** | IN HOUSE | Basmati Rice, Goat Curry or Chicken Curry, Kancha Amer Chutney, Ice Cream (Cup) |
 | | **DINNER** (8:30 PM – 9:30 PM) | **ADULT & KIDS (Veg [V])** | IN HOUSE (V) | Basmati Rice, Tok Daal, Dhokar Dalna, Methi Saag (w begun), Alu Beans Posto, Kancha Amer Chutney, Ice Cream (Cup) |
+| **Saturday, November 7** | **DINNER** (8:15 PM – 9:30 PM) | **ADULTS & KIDS (Veg Option)** | OUTSOURCED | Basmati Rice, Matar Dal (w/ Ucchey & Lau), Mochar Ghonto *, Chanar Dalna *, Ice Cream |
+| | **DINNER** (8:15 PM – 9:30 PM) | **ADULTS & KIDS (Non-Veg Option)** | OUTSOURCED | Basmati Rice, Goat Curry / Chicken Curry *, Ice Cream |
+| **Sunday, November 8** | **DINNER** (8:00 PM – 9:15 PM) | **ADULTS & KIDS (Veg Option)** | OUTSOURCED | Pulao, Moong Dal, Beguni, Fulkopir Rosha *, Paneer Jalfrezi *, Gulab Jamun |
+| | **DINNER** (8:00 PM – 9:15 PM) | **ADULTS & KIDS (Non-Veg Option)** | OUTSOURCED | Pulao, Moong Dal, Beguni, Chicken Kosha, Gulab Jamun |
 
 ### 📋 DETAILED DAY-BY-DAY FOOD MENU BREAKDOWN:
 
@@ -150,10 +154,44 @@ Official Source: https://durgabari.org/2026-puja/2026-puja-food-menu/ (Official 
   * Kancha Amer Chutney (Raw Mango Chutney)
   * Ice Cream (Cup)
 
+#### 5. Saturday, November 7 (Pre Kali Puja / Kali Puja Evening)
+- **Lunch**: No lunch scheduled.
+- **Adults & Kids Dinner (8:15 PM – 9:30 PM)**:
+  * **Veg Option (Outsourced)**:
+    - Basmati Rice
+    - Matar Dal (with Ucchey & Lau)
+    - Mochar Ghonto *
+    - Chanar Dalna *
+    - Ice Cream
+  * **Non-Veg Option (Outsourced)**:
+    - Basmati Rice
+    - Goat Curry / Chicken Curry *
+    - Ice Cream
+- **Snacks Sale**: 6:00 PM – 8:00 PM
+- **Durga Bari Gift Shop**: 6:00 PM – 9:00 PM
+- **Vendors at Kalabhavan**: 6:00 PM – 11:00 PM
+
+#### 6. Sunday, November 8 (Kali Shyama Puja / Deepabali)
+- **Lunch**: No lunch scheduled.
+- **Adults & Kids Dinner (8:00 PM – 9:15 PM)**:
+  * **Veg Option (Outsourced)**:
+    - Pulao
+    - Moong Dal
+    - Beguni
+    - Fulkopir Rosha *
+    - Paneer Jalfrezi *
+    - Gulab Jamun
+  * **Non-Veg Option (Outsourced)**:
+    - Pulao
+    - Moong Dal
+    - Beguni
+    - Chicken Kosha
+    - Gulab Jamun
+- **Snacks Sale**: 6:30 PM – 7:30 PM
+- **Vendors at Kalabhavan**: 6:00 PM – 9:00 PM
+
 Additional Festive Dining Events:
 - **Sunday, October 11 (Mahalaya & Anandamela)**: 12:00 PM – 2:00 PM: Food Fest (Anandamela community food fair).
-- **Saturday, November 7 (Pre Kali Puja)**: 8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj.
-- **Sunday, November 8 (Kali Shyama Puja)**: 8:30 PM – 9:30 PM: Dinner: Puja Savory.
 - **Saturday, February 13, 2027 (Saraswati Puja)**: 1:00 PM: Lunch – Traditional Puja Lunch | 8:00 PM – 9:00 PM: Dinner.`
   },
   {
@@ -207,11 +245,11 @@ Official Ritual & Puja Timings by Day:
   - **6:00 PM: Kojagari Lokkhi Puja, Pushpanjali, Bhog, Arati**
   - 7:30 PM: Prasad
 - **Saturday, November 7, 2026 (Pre Kali Puja)**:
-  - **7:00 PM: Sandhya Arati**
-  - 7:30 PM: Fireworks
+  - **6:00 PM – 6:30 PM: Arati (Temple)**
+  - 6:30 PM – 7:30 PM: Fireworks Extravaganza
 - **Sunday, November 8, 2026 (Kali Shyama Puja)**:
-  - 6:30 PM: Kali Puja, Bolidaan
-  - **7:30 PM: Pushpanjali, Bhog, Arati**
+  - **6:00 PM – 8:00 PM: Tithi Puja (Temple)**
+  - **8:00 PM – 9:00 PM: Yagna (Tent/Temple)**
 - **Saturday, February 13, 2027 (Saraswati Puja)**:
   - 10:00 AM: Haate Khori
   - 11:00 AM: Puja
@@ -549,24 +587,84 @@ Source: Official Event Schedule Flyer (Oct24_Bijoy_Sammelini_Schedule_996bbe0e.j
   | 08:00 PM | Anjali, Bhog, Arati & Prasad Distribution | Temple |`
   },
   {
-    title: "Maha Kali Puja Event Flyer (durgabari.org/eventgallery)",
+    title: "Official Kali Puja 2026 Programme Highlights & Event Schedule Flyer",
     sourceType: "flyer_ocr",
-    sourceUrl: "https://durgabari.org/eventgallery/kali-puja-2025/",
-    flyerImagePath: "/flyers/gallery/Kali-Puja-poster.jpg",
-    section: "Event Gallery: Maha Kali Puja",
-    content: `HDBS Maha Kali Puja (Shyama Puja & Deepabali) Official Event Gallery Flyer (https://durgabari.org/eventgallery/kali-puja-2025/):
-- **Venue**: Houston Durga Bari Society Temple & Grounds
-- **Schedule**:
-  | Time | Event | Location |
-  |---|---|---|
-  | 05:30 PM | Puja Sankalpa | Temple |
-  | 06:00 PM | Kali Puja Commencement | Temple |
-  | 06:30 PM – 08:30 PM | Evening Snacks & Chai | Outdoors |
-  | 07:00 PM | Deepabali Fireworks Extravaganza | Outdoors |
-  | 07:30 PM | Balidaan, Anjali, Bhog & Arati | Temple |
-  | 08:30 PM – 09:30 PM | Community Kali Puja Dinner | Food Tent |
-  | 09:30 PM | Bangla Drama (Natok) | Auditorium |
-- **Parking & Shuttles**: Free shuttle buses run between West Oaks Mall and HDBS from 5:00 PM to 1:00 AM.`
+    sourceUrl: "https://durgabari.org/2026-puja/puja-schedule/",
+    flyerImagePath: "/assets/aistudio/Kali_Puja_01_4da7fa97.jpeg",
+    section: "Kali Puja 2026 Programme Highlights",
+    content: `HOUSTON DURGA BARI SOCIETY — KALI PUJA 2026 PROGRAMME HIGHLIGHTS
+Flyer Asset: Kali_Puja_01_4da7fa97.jpeg
+Official Source: https://durgabari.org/2026-puja/puja-schedule/
+
+### 🪔 Saturday, November 7, 2026 (Pre Kali Puja / Kali Puja Evening):
+- **6:00 PM – 6:30 PM**: **Arati** (Temple)
+- **6:30 PM – 7:30 PM**: **Fireworks Extravaganza** (Outdoors)
+- **6:00 PM – 8:00 PM**: **Snacks Sale** (Outdoors / Food Tent)
+- **6:00 PM – 9:00 PM**: **Durga Bari Gift Shop**
+- **6:00 PM – 11:00 PM**: **Vendors at Kalabhavan**
+- **8:15 PM – 9:30 PM**: **Dinner** (Adults & Kids Food Tent)
+- **9:30 PM**: **Bengali Drama (Natok)** (Sur Auditorium)
+
+### 🌺 Sunday, November 8, 2026 (Kali Shyama Puja / Deepabali):
+- **6:00 PM – 8:00 PM**: **Tithi Puja** (Temple)
+- **8:00 PM – 9:00 PM**: **Yagna** (Temple / Tent)
+- **6:00 PM – 7:30 PM**: **Open Mic** (Outdoor / Indoor Cultural Event)
+- **6:30 PM – 7:30 PM**: **Snacks Sale** (Outdoors / Food Tent)
+- **6:00 PM – 9:00 PM**: **Vendors at Kalabhavan**
+- **8:00 PM – 9:15 PM**: **Dinner** (Adults & Kids Food Tent)
+
+### 🚌 Shuttle Bus Service Notice:
+- For **Nov. 7th and 8th, Shuttle buses will operate from West Oaks Mall from 5:00 PM onwards**.
+- Pickup Location: West Oaks Mall (Near Dillard's Clearance Center, 1000 West Oaks Mall #800, Houston, TX 77082).
+- Continuous free air-conditioned bus shuttle service to/from Houston Durga Bari Society (13944 Schiller Rd). Please refer to the Parking Flyer for relevant details.`
+  },
+  {
+    title: "Official Kali Puja 2026 Food Menu Flyer (Dinner Dishes & Vendor Hours)",
+    sourceType: "flyer_ocr",
+    sourceUrl: "https://durgabari.org/2026-puja/2026-puja-food-menu/",
+    flyerImagePath: "/assets/aistudio/Kali_Puja_02_137f6847.jpeg",
+    section: "Kali Puja 2026 Food Menu",
+    content: `HOUSTON DURGA BARI SOCIETY — 2026 PUJA SEASON KALI PUJA FOOD MENU
+Flyer Asset: Kali_Puja_02_137f6847.jpeg
+Official Source: https://durgabari.org/2026-puja/2026-puja-food-menu/
+
+### 🍽️ Saturday, November 7 Dinner Menu (8:15 PM – 9:30 PM):
+- **Meal Time**: 8:15 PM – 9:30 PM | **Target**: Adults & Kids
+- **VEG OPTION**:
+  * Basmati Rice
+  * Matar Dal (with Ucchey & Lau)
+  * Mochar Ghonto *
+  * Chanar Dalna *
+  * Ice Cream
+- **NON-VEG OPTION**:
+  * Basmati Rice
+  * Goat Curry / Chicken Curry *
+  * Ice Cream
+- Note: * OUTSOURCED items.
+
+### 🍽️ Sunday, November 8 Dinner Menu (8:00 PM – 9:15 PM):
+- **Meal Time**: 8:00 PM – 9:15 PM | **Target**: Adults & Kids
+- **VEG OPTION**:
+  * Pulao
+  * Moong Dal
+  * Beguni
+  * Fulkopir Rosha *
+  * Paneer Jalfrezi *
+  * Gulab Jamun
+- **NON-VEG OPTION**:
+  * Pulao
+  * Moong Dal
+  * Beguni
+  * Chicken Kosha
+  * Gulab Jamun
+- Note: * OUTSOURCED items.
+
+### 🎁 Festive Shopping & Vendor Stalls:
+- **Durga Bari Gift Shop**:
+  * Saturday, November 7: 6:00 PM – 9:00 PM
+- **Vendors at Kalabhavan**:
+  * Saturday, November 7: 6:00 PM – 11:00 PM
+  * Sunday, November 8: 6:00 PM – 9:00 PM`
   },
   {
     title: "Official HDBS 2026 Puja Passes & Day Passes Policy (Limited Passes Available)",

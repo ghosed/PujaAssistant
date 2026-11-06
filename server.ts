@@ -199,7 +199,7 @@ function splitTextIntoChunks(
   return chunks.filter((c) => c.length > 50);
 }
 
-const KB_VERSION = '2026-10-24-v6-bijoya-schedule-update';
+const KB_VERSION = '2026-11-05-v7-kali-puja-schedule-update';
 
 // Fast load cached Chroma vector store from disk (<5ms, instant zero-network startup)
 function loadKnowledgeBaseFromDisk(): boolean {
@@ -281,12 +281,14 @@ Table has two distinct columns: "Puja Timings" (rituals, Pushpanjali, Bhog, Arat
   - *Shuttle*: Shuttle service from West Oaks Mall operates from 2:30 PM onwards till show ends
 - **Kojagori Lokkhi Puja**: Sunday, Oct 25, 2026:
   - Puja Timings: 6:00 PM: Kojagari Lokkhi Puja, Pushpanjali, Bhog, Arati; 7:30 PM: Prasad
-- **Pre Kali Puja**: Saturday, Nov 7, 2026:
-  - Puja Timings: 7:00 PM: Sandhya Arati; 7:30 PM: Fireworks
-  - Program Details: 6:00 PM: Muktomela; **8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj**; 9:30 PM: Drama
-- **Kali (Shyama) Puja**: Sunday, Nov 8, 2026:
-  - Puja Timings: 6:30 PM: Kali Puja, Bolidaan; 7:30 PM: Pushpanjali, Bhog, Arati
-  - Program Details: **8:30 PM – 9:30 PM: Dinner: Puja Savory**
+- **Pre Kali Puja**: Saturday, Nov 7, 2026 (Official Updated Schedule):
+  - Puja Timings: 6:00 PM – 6:30 PM: Arati (Temple)
+  - Program Details: 6:00 PM – 7:30 PM: Open Mic (Outdoor/Indoor); 6:00 PM – 8:00 PM: Snacks Sale; 6:00 PM – 9:00 PM: Durga Bari Gift Shop; 6:00 PM – 11:00 PM: Vendors at Kalabhavan; 6:30 PM – 7:30 PM: Fireworks Extravaganza; **8:15 PM – 9:30 PM: Dinner (Adults & Kids)**; 9:30 PM: Bengali Drama (Natok in Auditorium)
+  - *Shuttle*: Free shuttle bus from West Oaks Mall operates from 5:00 PM onwards
+- **Kali (Shyama) Puja & Deepabali**: Sunday, Nov 8, 2026 (Official Updated Schedule):
+  - Puja Timings: 6:00 PM – 8:00 PM: Tithi Puja (Temple); 8:00 PM – 9:00 PM: Yagna (Tent/Temple)
+  - Program Details: 6:00 PM – 7:30 PM: Open Mic; 6:30 PM – 7:30 PM: Snacks Sale; 6:00 PM – 9:00 PM: Vendors at Kalabhavan; **8:00 PM – 9:15 PM: Dinner (Adults & Kids)**
+  - *Shuttle*: Free shuttle bus from West Oaks Mall operates from 5:00 PM onwards
 - **Saraswati Puja**: Saturday, Feb 13, 2027:
   - Puja Timings: 10:00 AM: Haate Khori; 11:00 AM: Puja; 12:30 PM: Pushpanjali, Bhog, Arati; 6:30 PM: Sandhya Arati
   - Program Details: **1:00 PM: Lunch – Traditional Puja Lunch**; **8:00 PM – 9:00 PM: Dinner**`,
@@ -680,6 +682,86 @@ Header: Saturday, 24th October Event Schedule
       chunkCount: 3,
       badge: 'Bijoya Schedule Flyer (Updated)',
     },
+    {
+      id: 'flyer-17',
+      title: 'HDBS Kali Puja 2026 Programme Highlights Official Flyer (Nov 7 & 8)',
+      fileName: 'Kali_Puja_01_4da7fa97.jpeg',
+      url: '/assets/aistudio/Kali_Puja_01_4da7fa97.jpeg',
+      dateAdded: '2026-11-05',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - KALI PUJA 2026 PROGRAMME HIGHLIGHTS
+Source: Official Event Flyer (Kali_Puja_01_4da7fa97.jpeg)
+Event Dates: November 7 (Saturday) & November 8 (Sunday), 2026
+
+#### November 7, Saturday (Pre Kali Puja / Kali Puja Evening):
+- **Arati**: 6:00 PM – 6:30 PM (Temple)
+- **Fireworks**: 6:30 PM – 7:30 PM (Outdoors)
+- **Snacks Sale**: 6:00 PM – 8:00 PM (Outdoors / Food Stalls)
+- **Dinner**: 8:15 PM – 9:30 PM (Food Tent)
+- **Bengali Drama**: 9:30 PM (Sur Auditorium)
+
+#### November 8, Sunday (Kali Shyama Puja / Deepabali):
+- **Tithi Puja**: 6:00 PM – 8:00 PM (Temple)
+- **Yagna**: 8:00 PM – 9:00 PM (Temple / Sacred Tent)
+- **Open Mic (outdoor/indoor cultural event)**: 6:00 PM – 7:30 PM
+- **Snacks Sale**: 6:30 PM – 7:30 PM (Outdoors / Food Stalls)
+- **Dinner**: 8:00 PM – 9:15 PM (Food Tent)
+
+#### Shuttle Bus Transportation Advisory:
+- For **Nov. 7th and 8th, Shuttle buses will operate from West Oaks Mall from 5 PM onwards**.
+- Pickup Location: West Oaks Mall (near Dillard's Clearance Center, 1000 West Oaks Mall #800, Houston, TX 77082).
+- Continuous free transportation directly to/from HDBS temple gates (13944 Schiller Rd). Please refer to the Parking Flyer for relevant details.`,
+      chunkCount: 3,
+      badge: 'Kali Puja Programme Flyer',
+    },
+    {
+      id: 'flyer-18',
+      title: 'HDBS Kali Puja 2026 Official Food Menu & Shopping Flyer (Nov 7 & 8)',
+      fileName: 'Kali_Puja_02_137f6847.jpeg',
+      url: '/assets/aistudio/Kali_Puja_02_137f6847.jpeg',
+      dateAdded: '2026-11-05',
+      extractedMarkdown: `### HOUSTON DURGA BARI SOCIETY - 2026 PUJA SEASON KALI PUJA FOOD MENU
+Source: Official Food Menu Flyer (Kali_Puja_02_137f6847.jpeg)
+
+#### Saturday, November 7 Dinner Menu (8:15 PM – 9:30 PM):
+- **Meal Time**: 8:15 PM – 9:30 PM | **Target**: Adults & Kids
+- **VEG OPTION**:
+  * Basmati Rice
+  * Matar Dal (with Ucchey & Lau)
+  * Mochar Ghonto *
+  * Chanar Dalna *
+  * Ice Cream
+- **NON-VEG OPTION**:
+  * Basmati Rice
+  * Goat Curry / Chicken Curry *
+  * Ice Cream
+- Note: * OUTSOURCED items.
+
+#### Sunday, November 8 Dinner Menu (8:00 PM – 9:15 PM):
+- **Meal Time**: 8:00 PM – 9:15 PM | **Target**: Adults & Kids
+- **VEG OPTION**:
+  * Pulao
+  * Moong Dal
+  * Beguni
+  * Fulkopir Rosha *
+  * Paneer Jalfrezi *
+  * Gulab Jamun
+- **NON-VEG OPTION**:
+  * Pulao
+  * Moong Dal
+  * Beguni
+  * Chicken Kosha
+  * Gulab Jamun
+- Note: * OUTSOURCED items.
+
+#### Durga Bari Gift Shop:
+- **Saturday, November 7**: 6:00 PM – 9:00 PM
+
+#### Vendors at Kalabhavan:
+- **Saturday, November 7**: 6:00 PM – 11:00 PM
+- **Sunday, November 8**: 6:00 PM – 9:00 PM`,
+      chunkCount: 3,
+      badge: 'Kali Puja Food Menu Flyer',
+    },
   ];
 
   let chunkIdCounter = 1;
@@ -874,6 +956,11 @@ async function retrieveContextChunks(query: string, topK: number = 5): Promise<{
           combinedScore += 0.45;
         }
       } else if (isFoodOrMealQuery) {
+        if (lowerQuery.includes('kali') || lowerQuery.includes('nov 7') || lowerQuery.includes('nov 8') || lowerQuery.includes('november 7') || lowerQuery.includes('november 8') || lowerQuery.includes('deepabali')) {
+          if (lowerTitle.includes('kali puja') && lowerTitle.includes('food menu')) {
+            combinedScore += 0.65;
+          }
+        }
         if (lowerTitle.includes('puja food menu') || lowerSection.includes('food menu') || lowerText.includes('echorer dalna') || lowerText.includes('navratan korma')) {
           combinedScore += 0.55;
         } else if (lowerTitle.includes('lunch and dinner') || lowerSection.includes('lunch & dinner')) {
@@ -902,6 +989,28 @@ async function retrieveContextChunks(query: string, topK: number = 5): Promise<{
           combinedScore += 0.20;
         }
       } else if (isScheduleQuery) {
+        if (
+          lowerQuery.includes('kali') ||
+          lowerQuery.includes('shyama') ||
+          lowerQuery.includes('deepabali') ||
+          lowerQuery.includes('nov 7') ||
+          lowerQuery.includes('nov 8') ||
+          lowerQuery.includes('november 7') ||
+          lowerQuery.includes('november 8') ||
+          lowerQuery.includes('fireworks') ||
+          lowerQuery.includes('drama') ||
+          lowerQuery.includes('open mic') ||
+          lowerQuery.includes('yagna')
+        ) {
+          if (
+            lowerTitle.includes('kali puja') ||
+            lowerSection.includes('kali puja') ||
+            lowerText.includes('programme highlights') ||
+            lowerText.includes('fireworks')
+          ) {
+            combinedScore += 0.70;
+          }
+        }
         if (
           lowerQuery.includes('24') ||
           lowerQuery.includes('dashami') ||
@@ -1201,6 +1310,7 @@ For general tourist attractions and city sightseeing across Greater Houston (suc
 
       // 2. Check for Out-of-Towner Lodging / Places to Stay Query
       const isLodgingQuery = /\b(places? to stay|where to stay|hotels?|motels?|lodging|accommodations?|stay during|out[- ]of[- ]towner|out[- ]of[- ]town|staying)\b/i.test(trimmedQuery);
+      const isFoodOrMealQuery = /\b(lunch|dinner|meals?|food|eating|dining|bhoj|menus?|dishes|curry|khichuri|pulao|sweets?|veg|non[- ]veg|goat|chicken|paneer|rasmalai|sandwiches?|bhog|kachauri|bhatura)\b/i.test(trimmedQuery);
 
       // Retrieve top matching chunks from Chroma store (top 5 chunks)
       const retrieved = await retrieveContextChunks(trimmedQuery, 5);
@@ -1244,12 +1354,14 @@ IMPORTANT OFFICIAL SCHEDULE SOURCE & PREFERENCE RULE:
   * Maha Dashami (Tithi): Tuesday, Oct 20, 2026 (11:00 AM Puja and Dadhikarma)
   * Dashami (General) & Bijoya Sammiloni: Saturday, Oct 24, 2026 (Updated Event Schedule from Flyer: 3:30 PM – 4:30 PM: Aparajita Pujo [Temple]; 4:30 PM – 5:15 PM: Bishorjon Procession and Immersion; 5:30 PM – 6:30 PM: Sindoor Khela; 6:30 PM: Next Gen Performance [ধুনুচি ও ঢাক / Dhunuchi & Dhaak]; 7:00 PM – 8:00 PM: Dhunuchi Competition [তালে ও ছন্দে ধুনুচি / Taale o Chhonde Dhunuchi]; 6:30 PM – 8:00 PM: Snacks [On Purchase until supplies last]; 8:30 PM – 9:30 PM: Dinner [Subho Bijoya Gala Dinner]; 9:30 PM: Ms. Jojo & Troupe Musical Extravaganza; Shuttle from West Oaks Mall operates from 2:30 PM onwards till show ends)
   * Kojagori Lokkhi Puja: Sunday, Oct 25, 2026
-  * Maha Kali Puja: Saturday & Sunday, Nov 7 & 8, 2026
+  * Pre Kali Puja & Kali (Shyama) Puja: Saturday, Nov 7 & Sunday, Nov 8, 2026 (Official Updated Schedule from Flyers:
+      - Saturday, Nov 7: 6:00 PM – 6:30 PM Arati [Temple]; 6:30 PM – 7:30 PM Fireworks Extravaganza; 6:00 PM – 8:00 PM Snacks Sale; 6:00 PM – 9:00 PM Durga Bari Gift Shop; 6:00 PM – 11:00 PM Vendors at Kalabhavan; 8:15 PM – 9:30 PM Dinner; 9:30 PM Bengali Drama [Natok in Auditorium]; Shuttle from West Oaks Mall from 5:00 PM onwards
+      - Sunday, Nov 8: 6:00 PM – 8:00 PM Tithi Puja [Temple]; 8:00 PM – 9:00 PM Yagna [Temple/Tent]; 6:00 PM – 7:30 PM Open Mic; 6:30 PM – 7:30 PM Snacks Sale; 6:00 PM – 9:00 PM Vendors at Kalabhavan; 8:00 PM – 9:15 PM Dinner; Shuttle from West Oaks Mall from 5:00 PM onwards)
 
 MANDATORY RESPONSE FORMATTING & READABILITY RULES:
 1. SPECIFIC, PRECISE & CONCISE TARGETED RESPONSES (MANDATORY UNIVERSAL RULE):
    - You MUST respond to all queries in a very specific, direct, precise, and concise manner.
-   - If a devotee asks about a specific day, program, ritual, or meal (e.g. "What is happening on Maha Saptami?", "What are the Ashtami evening programs?", "When is Sandhi Puja?", "What is today's lunch and dinner menu?", "What is the schedule for Saturday, October 24?"):
+   - If a devotee asks about a specific day, program, ritual, or meal (e.g. "What is happening on Maha Saptami?", "What are the Ashtami evening programs?", "When is Sandhi Puja?", "What is today's lunch and dinner menu?", "What is the schedule for Saturday, October 24?", "What is the Kali Puja schedule on Nov 7 & 8?"):
      * Provide ONLY the requested day, session, or meal!
      * NEVER spit out or dump the full multi-day schedule or every day's menu.
      * Only provide the full multi-day schedule or full multi-day food menu if the user explicitly asks for the "entire", "full", or "all days" schedule or menu.
@@ -1258,7 +1370,7 @@ MANDATORY RESPONSE FORMATTING & READABILITY RULES:
 
 2. RELEVANCE & FOCUS (DO NOT DUMP UNRELATED INFORMATION):
    - Answer strictly and directly what the devotee asked.
-   - If asked about a specific ceremony (e.g., Kumari Puja, Sandhi Puja, Sindoor Khela, Anandamela, Pushpanjali), focus solely on that ceremony's exact date, time, and location.
+   - If asked about a specific ceremony (e.g., Kumari Puja, Sandhi Puja, Sindoor Khela, Anandamela, Pushpanjali, Kali Puja, Yagna, Fireworks), focus solely on that ceremony's exact date, time, and location.
    - DO NOT include sponsorship packages, donation rates, booth registration fees, or parking guidelines unless the user explicitly requested them.
 
 3. PARKING & OFFSITE SHUTTLE BUS SCHEDULE ACCURACY (CRITICAL):
@@ -1272,7 +1384,9 @@ MANDATORY RESPONSE FORMATTING & READABILITY RULES:
        | Saturday, Oct 17, 2026 | Saturday | 9:00 am – 12:30 am | West Oaks Mall (Near Dillard's Clearance Center) |
        | Sunday, Oct 18, 2026 | Sunday | 9:00 am – 10:30 pm | West Oaks Mall (Near Dillard's Clearance Center) |
        | Saturday, Oct 24, 2026 | Saturday | 2:30 pm onwards till show ends | West Oaks Mall (Near Dillard's Clearance Center) |
-     * Kali Puja Shuttle Hours: Saturday, Nov 7 (5:00 pm – 12:30 am) & Sunday, Nov 8 (5:00 pm – 10:30 pm).
+       | Saturday, Nov 7, 2026 | Saturday | 5:00 pm – 12:30 am (5 PM onwards) | West Oaks Mall (Near Dillard's Clearance Center) |
+       | Sunday, Nov 8, 2026 | Sunday | 5:00 pm – 10:30 pm (5 PM onwards) | West Oaks Mall (Near Dillard's Clearance Center) |
+     * Kali Puja Shuttle: Free continuous shuttle buses operate from West Oaks Mall from 5:00 PM onwards on both Saturday, Nov 7 and Sunday, Nov 8.
      * On-Premises Parking Rule: "To park on the premises, all cars must have the approved DECAL clearly affixed to the windshield."
      * Accessible / Disabled Parking: Limited per state law on First-Come First-Served basis; once full, drop-offs only. Vehicles with Green Field decals proceed to Green Field.
      * Uber / Rideshare: Pick-up and drop-off allowed (no waiting) via Schiller Road.
@@ -1290,7 +1404,7 @@ MANDATORY RESPONSE FORMATTING & READABILITY RULES:
            - **Adult (In-House)**: Basanti Pulao, Cholar Daal, Pakora, Alu Potol Rosha, Chilli Paneer, Malpoa
            - **Kids (Outsourced)**: Noodles, Chilli Chicken / Veg Manchurian, Muffins, Water
      * DO NOT output Friday, Sunday, or Saturday Oct 24 menu! Outputting every day's menu when asked for today's menu is an error.
-   - If asked for a specific single day (e.g. Sunday / Ashtami, Friday / Shashti, or Saturday Oct 24 / Dashami), output ONLY that requested day's menu.
+   - If asked for a specific single day (e.g. Saturday Nov 7 or Sunday Nov 8 Kali Puja, Sunday / Ashtami, Friday / Shashti, or Saturday Oct 24 / Dashami), output ONLY that requested day's menu.
    - Master Menu Reference (Use ONLY when the user explicitly asks for the full/all-days menu or when a specific other day is requested):
      * **Friday, October 16, 2026 (Maha Shashti)**:
        - Lunch: No lunch scheduled.
@@ -1304,23 +1418,33 @@ MANDATORY RESPONSE FORMATTING & READABILITY RULES:
      * **Saturday, October 24, 2026 (Dashami & Bijoya Sammiloni)**:
        - Lunch: No lunch scheduled.
        - Dinner (8:30 PM – 9:30 PM): Adult & Kids Non-Vegetarian (In-House): Basmati Rice, Goat Curry or Chicken Curry, Kancha Amer Chutney, Ice Cream (Cup) | Adult & Kids Vegetarian (In-House [V]): Basmati Rice, Tok Daal, Dhokar Dalna, Methi Saag (w begun), Alu Beans Posto, Kancha Amer Chutney, Ice Cream (Cup)
+     * **Saturday, November 7, 2026 (Pre Kali Puja / Kali Puja Evening Dinner)**:
+       - Lunch: No lunch scheduled.
+       - Dinner (8:15 PM – 9:30 PM, Adults & Kids, Outsourced):
+         * Veg Option: Basmati Rice, Matar Dal (with Ucchey & Lau), Mochar Ghonto *, Chanar Dalna *, Ice Cream
+         * Non-Veg Option: Basmati Rice, Goat Curry / Chicken Curry *, Ice Cream
+     * **Sunday, November 8, 2026 (Kali Shyama Puja / Deepabali Dinner)**:
+       - Lunch: No lunch scheduled.
+       - Dinner (8:00 PM – 9:15 PM, Adults & Kids, Outsourced):
+         * Veg Option: Pulao, Moong Dal, Beguni, Fulkopir Rosha *, Paneer Jalfrezi *, Gulab Jamun
+         * Non-Veg Option: Pulao, Moong Dal, Beguni, Chicken Kosha, Gulab Jamun
      * Additional festive dining events if specifically requested:
        - Sunday, Oct 11 (Mahalaya/Anandamela): 12:00 PM – 2:00 PM: Food Fest with 25+ food stalls
-       - Saturday, Nov 7 (Pre Kali Puja): 8:30 PM – 9:30 PM: Dinner: Deepabali Sandhyo-Bhoj
-       - Sunday, Nov 8 (Kali Puja): 8:30 PM – 9:30 PM: Dinner: Puja Savory
        - Saturday, Feb 13, 2027 (Saraswati Puja): 1:00 PM: Lunch – Traditional Puja Lunch | 8:00 PM – 9:00 PM: Dinner
      * Official Source Citation:
-       - Document / Flyer: HDBS 2026 Puja Food Menu Official Flyer (2026PujaFoodMenu.jpeg)
+       - Documents / Flyers: HDBS 2026 Puja Food Menu Official Flyer (2026PujaFoodMenu.jpeg) & Kali Puja Food Menu Flyer (Kali_Puja_02_137f6847.jpeg)
        - Portal URL: https://durgabari.org/2026-puja/2026-puja-food-menu/
        - Section: Puja Food Menu
-   - Sacred ritual timings (Bhog, Pushpanjali, Sandhya Arati):
+   - Sacred ritual timings (Bhog, Pushpanjali, Sandhya Arati, Kali Puja, Yagna):
      * Refer strictly to the "Puja Timings" column:
        - Friday, Oct 16 (Maha Shashti): 10:30 AM: Maha Shashti Puja; 6:00 PM: Amantran & Adhibas; 7:00 PM: Pushpanjali, Bhog, Sandhya Arati
        - Saturday, Oct 17 (Maha Saptami): 9:00 AM: Kalabou Snan; 10:00 AM: Maha Saptami Puja; 12:00 PM: Balidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 7:00 PM: Sandhya Arati
        - Sunday, Oct 18 (Maha Ashtami): 10:00 AM: Maha Ashtami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 6:00 PM: Sandhya Arati; 8:56 PM: Maha Sandhi Puja
        - Monday, Oct 19 (Maha Nabami Tithi): 10:30 AM: Maha Nabami Puja; 12:00 PM: Bolidaan; 12:30 PM: Pushpanjali, Bhog, Arati; 7:00 PM: Sandhya Arati
-        - Tuesday, Oct 20 (Maha Dashami Tithi): 11:00 AM: Puja and Dadhikarma
-        - Saturday, Oct 24 (Dashami & Bijoya): 3:30 PM – 4:30 PM: Aparajita Pujo (Temple); 4:30 PM – 5:15 PM: Bishorjon Procession and Immersion; 5:30 PM – 6:30 PM: Sindoor Khela
+       - Tuesday, Oct 20 (Maha Dashami Tithi): 11:00 AM: Puja and Dadhikarma
+       - Saturday, Oct 24 (Dashami & Bijoya): 3:30 PM – 4:30 PM: Aparajita Pujo (Temple); 4:30 PM – 5:15 PM: Bishorjon Procession and Immersion; 5:30 PM – 6:30 PM: Sindoor Khela
+       - Saturday, Nov 7 (Pre Kali Puja): 6:00 PM – 6:30 PM: Arati (Temple)
+       - Sunday, Nov 8 (Kali Shyama Puja): 6:00 PM – 8:00 PM: Tithi Puja (Temple); 8:00 PM – 9:00 PM: Yagna (Temple/Tent)
 
 5. DAY PASSES & REGISTRATION GROUNDING (CRITICAL - OFFICIAL FROM https://durgabari.org/2026-puja/registration/):
    - When asked about Day Passes (e.g., "Are day passes available?", "Can I get a day pass?", "How much are day passes?", "What are day pass rates and privileges?"):
@@ -1561,6 +1685,90 @@ Here is the updated event schedule for **Saturday, October 24, 2026 (Dashami & B
 - **Type**: Processed Event Flyer (Multimodal OCR)
 - **Portal URL**: https://durgabari.org/2026-puja/puja-schedule/
 - **Section**: Bijoya Sammiloni Event Schedule`;
+        } else if (
+          (lowerQ.includes('kali') || lowerQ.includes('shyama') || lowerQ.includes('deepabali') || lowerQ.includes('nov 7') || lowerQ.includes('nov 8') || lowerQ.includes('november 7') || lowerQ.includes('november 8')) &&
+          (lowerQ.includes('schedule') || lowerQ.includes('event') || lowerQ.includes('program') || lowerQ.includes('fireworks') || lowerQ.includes('timing') || lowerQ.includes('drama') || lowerQ.includes('yagna') || lowerQ.includes('when')) &&
+          !lowerQ.includes('menu') && !lowerQ.includes('food')
+        ) {
+          generatedAnswer = `**Joy Maa Durga!** 🙏
+
+Here is the updated official event schedule for **Kali Puja 2026 (November 7 & 8)** at Houston Durga Bari Society:
+
+### 🪔 Saturday, November 7, 2026 (Pre Kali Puja / Kali Puja Evening)
+- **6:00 PM – 6:30 PM**: **Arati** (Temple)
+- **6:30 PM – 7:30 PM**: **Fireworks Extravaganza** (Outdoors)
+- **6:00 PM – 8:00 PM**: **Snacks Sale** (Outdoors / Food Tent)
+- **6:00 PM – 9:00 PM**: **Durga Bari Gift Shop**
+- **6:00 PM – 11:00 PM**: **Vendors at Kalabhavan**
+- **8:15 PM – 9:30 PM**: **Dinner** (Food Tent)
+- **9:30 PM**: **Bengali Drama (Natok)** (Sur Auditorium)
+
+### 🌺 Sunday, November 8, 2026 (Kali Shyama Puja / Deepabali)
+- **6:00 PM – 8:00 PM**: **Tithi Puja** (Temple)
+- **8:00 PM – 9:00 PM**: **Yagna** (Temple / Sacred Tent)
+- **6:00 PM – 7:30 PM**: **Open Mic** (Outdoor / Indoor Cultural Event)
+- **6:30 PM – 7:30 PM**: **Snacks Sale** (Outdoors / Food Tent)
+- **6:00 PM – 9:00 PM**: **Vendors at Kalabhavan**
+- **8:00 PM – 9:15 PM**: **Dinner** (Food Tent)
+
+### 🚌 Free Shuttle Service from West Oaks Mall
+- **Shuttle Operating Hours**: On both **Nov. 7th and 8th, Shuttle buses will operate from West Oaks Mall from 5:00 PM onwards**.
+- **Pickup Location**: West Oaks Mall (Near Dillard's Clearance Center, 1000 West Oaks Mall #800, Houston, TX 77082).
+- Continuous free air-conditioned bus shuttle directly to/from HDBS temple gates (13944 Schiller Rd).
+
+### 📍 Official Source Citation
+- **Document / Flyer**: HDBS Kali Puja 2026 Programme Highlights Official Flyer (Nov 7 & 8)
+- **Type**: Processed Event Flyer (Multimodal OCR)
+- **Portal URL**: https://durgabari.org/2026-puja/puja-schedule/
+- **Section**: Kali Puja 2026 Programme Highlights`;
+        } else if (
+          (lowerQ.includes('kali') || lowerQ.includes('nov 7') || lowerQ.includes('nov 8') || lowerQ.includes('november 7') || lowerQ.includes('november 8')) &&
+          (lowerQ.includes('menu') || lowerQ.includes('food') || lowerQ.includes('dinner') || lowerQ.includes('dish') || lowerQ.includes('dishes') || lowerQ.includes('meal'))
+        ) {
+          generatedAnswer = `**Joy Maa Durga!** 🙏
+
+Here is the official **Kali Puja 2026 Food Menu** for Houston Durga Bari Society (November 7 & 8):
+
+### 🍽️ Saturday, November 7 Dinner Menu (8:15 PM – 9:30 PM)
+- **Meal Time**: 8:15 PM – 9:30 PM | **Target**: Adults & Kids
+- **VEG OPTION (Outsourced)**:
+  - Basmati Rice
+  - Matar Dal (with Ucchey & Lau)
+  - Mochar Ghonto *
+  - Chanar Dalna *
+  - Ice Cream
+- **NON-VEG OPTION (Outsourced)**:
+  - Basmati Rice
+  - Goat Curry / Chicken Curry *
+  - Ice Cream
+
+### 🍽️ Sunday, November 8 Dinner Menu (8:00 PM – 9:15 PM)
+- **Meal Time**: 8:00 PM – 9:15 PM | **Target**: Adults & Kids
+- **VEG OPTION (Outsourced)**:
+  - Pulao
+  - Moong Dal
+  - Beguni
+  - Fulkopir Rosha *
+  - Paneer Jalfrezi *
+  - Gulab Jamun
+- **NON-VEG OPTION (Outsourced)**:
+  - Pulao
+  - Moong Dal
+  - Beguni
+  - Chicken Kosha
+  - Gulab Jamun
+
+*(Note: * indicates outsourced festive dishes).*
+
+### 🎁 Shopping & Stalls
+- **Durga Bari Gift Shop**: Saturday, Nov 7 (6:00 PM – 9:00 PM)
+- **Vendors at Kalabhavan**: Saturday, Nov 7 (6:00 PM – 11:00 PM) & Sunday, Nov 8 (6:00 PM – 9:00 PM)
+
+### 📍 Official Source Citation
+- **Document / Flyer**: HDBS Kali Puja 2026 Official Food Menu & Shopping Flyer (Nov 7 & 8)
+- **Type**: Processed Event Flyer (Multimodal OCR)
+- **Portal URL**: https://durgabari.org/2026-puja/2026-puja-food-menu/
+- **Section**: Kali Puja 2026 Food Menu`;
         } else if (
           isFoodOrMealQuery &&
           (lowerQ.includes('today') || lowerQ.includes('saturday') || lowerQ.includes('saptami'))
